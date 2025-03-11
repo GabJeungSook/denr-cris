@@ -7,7 +7,7 @@
     <title>CHAINSAW REGISTRATION INFORMATION SYSTEM</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url() ?>public/assets/bootstrap/css/bootstrap.min.css">
 
     <!-- FontAwesome CSS (Only include once) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -44,7 +44,7 @@
     <?= $this->renderSection('container') ?>
 
     <!-- Bootstrap JS -->
-    <script src="<?= base_url('public/assets/bootstrap/js/bootstrap.min.js') ?>"></script>
+    <script src="<?= base_url() ?>public/assets/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
