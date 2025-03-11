@@ -19,7 +19,7 @@ class App extends BaseConfig
     // public string $baseURL = 'http://denr12cris.com';
 
     // public string $baseURL = 'http://localhost/cris/';
-    public string $baseURL = 'http://68.183.233.98/denr-cris/';
+    public string $baseURL = 'http://68.183.233.98/';
     
     //public string $baseURL = 'http://192.168.1.133:81/cris/';
     //public string $baseURL = 'http://localhost:81/ivms/';
