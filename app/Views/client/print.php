@@ -96,7 +96,7 @@
                 <div class="col-12">
                     <!-- Title and Add Client Button Container -->
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h4 class="card-title mb-0">Print COR/OC</h4>
+                        <h4 class="card-title mb-0">Print Certificate of Registration</h4>
                     </div>
 
                     <div class="card">
@@ -339,7 +339,7 @@
                     <div class="mb-3 text-center">
                         <label for="QRCode" class="form-label">Please Scan the QR Code</label>
                         <div>
-                            <img src="<?= base_url('assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
+                            <img src="<?= base_url('public/assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
                         </div>
                     </div>
 

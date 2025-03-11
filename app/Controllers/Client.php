@@ -2026,7 +2026,7 @@ class Client extends Controller
     
             // Add the full URL for the image
             if (isset($clientDetails['Image'])) {
-                $clientDetails['Image'] = 'http://192.168.151.33:81/cris/uploads/images/' . $clientDetails['Image'];
+                $clientDetails['Image'] = 'http://68.183.233.98//uploads/images/' . $clientDetails['Image'];
                 //$clientDetails['Image'] = 'http://cris.denr12lrsis.com/uploads/images/' . $clientDetails['Image'];
             }
     

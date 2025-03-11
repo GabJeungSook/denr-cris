@@ -62,7 +62,7 @@
     </div>
      <!-- QR Code / Logo Section -->
      <div class="d-flex flex-column align-items-center" style="margin-left: 50px;">
-            <img src="<?= base_url('assets/images/frame.png') ?>" alt="Scan QR Code" style="width: 300px; height: 300px; border-radius: 10px;">
+            <img src="<?= base_url('assets/images/frame1.png') ?>" alt="Scan QR Code" style="width: 300px; height: 300px; border-radius: 10px;">
             <p class="text-white mt-2">Scan the QR Code to Download the APP</p>
         </div>
     <div>

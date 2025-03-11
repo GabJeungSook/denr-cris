@@ -26,7 +26,7 @@
         </div>
 
         <!-- Welcome Heading -->
-        <h1 class="text-center">Sing Up Here</h1>
+        <h1 class="text-center">Sign Up Here</h1>
         <p class="text-center">Create your account</p>
 
         <!-- Flash Messages -->
