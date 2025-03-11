@@ -1,0 +1,66 @@
+INFO - 2024-12-09 08:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 09:35:26 --> Semaphore API Response: [{"message_id":236857528,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your one-time (OTP) is: 686406","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-09 09:35:30","updated_at":"2024-12-09 09:35:30"}]
+INFO - 2024-12-09 09:37:57 --> Semaphore API Response: [{"message_id":236857646,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your one-time (OTP) is: 689617","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-09 09:38:00","updated_at":"2024-12-09 09:38:00"}]
+INFO - 2024-12-09 09:47:31 --> Semaphore API Response: [{"message_id":236858620,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your one-time (OTP) is: 822347","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-09 09:47:34","updated_at":"2024-12-09 09:47:34"}]
+INFO - 2024-12-09 09:55:47 --> Semaphore API Response: 
+INFO - 2024-12-09 10:14:16 --> Semaphore API Response: [{"message_id":236860961,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your one-time (OTP) is: 646101","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-09 10:14:20","updated_at":"2024-12-09 10:14:20"}]
+INFO - 2024-12-09 14:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 14:57:37 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-09 14:57:37 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '05c245314493f650d9e59489f32860b1'
+ LIMIT 1
+INFO - 2024-12-09 14:57:37 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-09 14:58:13 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-09 14:58:13 --> Received Status: Confirmed
+INFO - 2024-12-09 14:58:13 --> Received Remarks: Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.
+INFO - 2024-12-09 14:58:13 --> Generated UpdatedDate: 2024-12-09 14:58:13
+INFO - 2024-12-09 14:58:13 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-09 14:58:13 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000010
+INFO - 2024-12-09 14:58:13 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-12-09 14:58:13","Remarks":"Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000010"}
+INFO - 2024-12-09 14:58:13 --> User status updated successfully for UserID: 2024USID000000016
+INFO - 2024-12-09 14:58:15 --> Semaphore API response: [{"message_id":236880158,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-09 14:58:18","updated_at":"2024-12-09 14:58:18"}]
+INFO - 2024-12-09 14:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-09 15:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,929 @@
+INFO - 2024-10-01 00:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 00:01:19 --> Validation failed: {"RegsType":"The RegsType field is required.","ProfOwnShip":"ProfOwnShip is not a valid uploaded file.","CertBrgy":"CertBrgy is not a valid uploaded file.","CertRegs":"CertRegs is not a valid uploaded file."}
+INFO - 2024-10-01 00:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 00:14:23 --> Validation failed: {"ProfOwnShip":"ProfOwnShip is not a valid uploaded file.","CertBrgy":"CertBrgy is not a valid uploaded file.","CertRegs":"CertRegs is not a valid uploaded file."}
+ERROR - 2024-10-01 00:16:32 --> Validation failed: {"ProfOwnShip":"ProfOwnShip is not a valid uploaded file.","CertBrgy":"CertBrgy is not a valid uploaded file.","CertRegs":"CertRegs is not a valid uploaded file."}
+INFO - 2024-10-01 00:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:17:21 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2001-05-23","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727713041_8db30363c5a8cf284da6.png","ProfOwnShip":"1727713041_d2f83bad6a8f19d454f4.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713041_d2f83bad6a8f19d454f4.pdf","CertBrgy":"1727713041_a0cb16d6c9a13dc8a7e6.pdf","CertBrgyFilePath":"uploads\/files\/1727713041_a0cb16d6c9a13dc8a7e6.pdf","CertRegs":"1727713041_57ff0a3085ef40189f8b.pdf","CertRegsFilePath":"uploads\/files\/1727713041_57ff0a3085ef40189f8b.pdf"}
+ERROR - 2024-10-01 00:17:21 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(95): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:17:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(95): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:17:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2001-05-23\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713041_8db30363c5a8cf284da6.png\', \'1727713041_d2f83bad6a8f19d454f4.pdf\', \'uploads/files/1727713041_d2f83bad6a8f19d454f4.pdf\', \'1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'uploads/files/1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'1727713041_57ff0a3085ef40189f8b.pdf\', \'uploads/files/1727713041_57ff0a3085ef40189f8b.pdf\', \'2024-10-01 00:17:21\', \'2024-10-01 00:17:21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2001-05-23\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713041_8db30363c5a8cf284da6.png\', \'1727713041_d2f83bad6a8f19d454f4.pdf\', \'uploads/files/1727713041_d2f83bad6a8f19d454f4.pdf\', \'1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'uploads/files/1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'1727713041_57ff0a3085ef40189f8b.pdf\', \'uploads/files/1727713041_57ff0a3085ef40189f8b.pdf\', \'2024-10-01 00:17:21\', \'2024-10-01 00:17:21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(95): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:17:21 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2001-05-23\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713041_8db30363c5a8cf284da6.png\', \'1727713041_d2f83bad6a8f19d454f4.pdf\', \'uploads/files/1727713041_d2f83bad6a8f19d454f4.pdf\', \'1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'uploads/files/1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'1727713041_57ff0a3085ef40189f8b.pdf\', \'uploads/files/1727713041_57ff0a3085ef40189f8b.pdf\', \'2024-10-01 00:17:21\', \'2024-10-01 00:17:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2001-05-23\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713041_8db30363c5a8cf284da6.png\', \'1727713041_d2f83bad6a8f19d454f4.pdf\', \'uploads/files/1727713041_d2f83bad6a8f19d454f4.pdf\', \'1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'uploads/files/1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'1727713041_57ff0a3085ef40189f8b.pdf\', \'uploads/files/1727713041_57ff0a3085ef40189f8b.pdf\', \'2024-10-01 00:17:21\', \'2024-10-01 00:17:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2001-05-23\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713041_8db30363c5a8cf284da6.png\', \'1727713041_d2f83bad6a8f19d454f4.pdf\', \'uploads/files/1727713041_d2f83bad6a8f19d454f4.pdf\', \'1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'uploads/files/1727713041_a0cb16d6c9a13dc8a7e6.pdf\', \'1727713041_57ff0a3085ef40189f8b.pdf\', \'uploads/files/1727713041_57ff0a3085ef40189f8b.pdf\', \'2024-10-01 00:17:21\', \'2024-10-01 00:17:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(95): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:20:42 --> Starting file upload process...
+INFO - 2024-10-01 00:20:42 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-05-13","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegistrationType":"New","Image":"1727713242_fe3b36c55dd933cddee4.png","ProfOwnShip":"1727713242_c38519307a9976c377ea.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713242_c38519307a9976c377ea.pdf","CertBrgy":"1727713242_aca24446f316f6e59768.pdf","CertBrgyFilePath":"uploads\/files\/1727713242_aca24446f316f6e59768.pdf","CertRegs":"1727713242_46920b2c27c09485f74d.pdf","CertRegsFilePath":"uploads\/files\/1727713242_46920b2c27c09485f74d.pdf"}
+ERROR - 2024-10-01 00:20:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(99): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:20:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:20:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'1727713242_fe3b36c55dd933cddee4.png\', \'1727713242_c38519307a9976c377ea.pdf\', \'uploads/files/1727713242_c38519307a9976c377ea.pdf\', \'1727713242_aca24446f316f6e59768.pdf\', \'uploads/files/1727713242_aca24446f316f6e59768.pdf\', \'1727713242_46920b2c27c09485f74d.pdf\', \'uploads/files/1727713242_46920b2c27c09485f74d.pdf\', \'2024-10-01 00:20:42\', \'2024-10-01 00:20:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'1727713242_fe3b36c55dd933cddee4.png\', \'1727713242_c38519307a9976c377ea.pdf\', \'uploads/files/1727713242_c38519307a9976c377ea.pdf\', \'1727713242_aca24446f316f6e59768.pdf\', \'uploads/files/1727713242_aca24446f316f6e59768.pdf\', \'1727713242_46920b2c27c09485f74d.pdf\', \'uploads/files/1727713242_46920b2c27c09485f74d.pdf\', \'2024-10-01 00:20:42\', \'2024-10-01 00:20:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:20:42 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'1727713242_fe3b36c55dd933cddee4.png\', \'1727713242_c38519307a9976c377ea.pdf\', \'uploads/files/1727713242_c38519307a9976c377ea.pdf\', \'1727713242_aca24446f316f6e59768.pdf\', \'uploads/files/1727713242_aca24446f316f6e59768.pdf\', \'1727713242_46920b2c27c09485f74d.pdf\', \'uploads/files/1727713242_46920b2c27c09485f74d.pdf\', \'2024-10-01 00:20:42\', \'2024-10-01 00:20:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'1727713242_fe3b36c55dd933cddee4.png\', \'1727713242_c38519307a9976c377ea.pdf\', \'uploads/files/1727713242_c38519307a9976c377ea.pdf\', \'1727713242_aca24446f316f6e59768.pdf\', \'uploads/files/1727713242_aca24446f316f6e59768.pdf\', \'1727713242_46920b2c27c09485f74d.pdf\', \'uploads/files/1727713242_46920b2c27c09485f74d.pdf\', \'2024-10-01 00:20:42\', \'2024-10-01 00:20:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'1727713242_fe3b36c55dd933cddee4.png\', \'1727713242_c38519307a9976c377ea.pdf\', \'uploads/files/1727713242_c38519307a9976c377ea.pdf\', \'1727713242_aca24446f316f6e59768.pdf\', \'uploads/files/1727713242_aca24446f316f6e59768.pdf\', \'1727713242_46920b2c27c09485f74d.pdf\', \'uploads/files/1727713242_46920b2c27c09485f74d.pdf\', \'2024-10-01 00:20:42\', \'2024-10-01 00:20:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:21:41 --> Starting file upload process...
+INFO - 2024-10-01 00:21:41 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-05-13","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727713301_dcc88a295047770b2b62.png","ProfOwnShip":"1727713301_733722bee01cf73e5e24.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713301_733722bee01cf73e5e24.pdf","CertBrgy":"1727713301_614df96a47228f7d8b78.pdf","CertBrgyFilePath":"uploads\/files\/1727713301_614df96a47228f7d8b78.pdf","CertRegs":"1727713301_0b86fa6411f2a20861b5.pdf","CertRegsFilePath":"uploads\/files\/1727713301_0b86fa6411f2a20861b5.pdf"}
+ERROR - 2024-10-01 00:21:41 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(99): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:21:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:21:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713301_dcc88a295047770b2b62.png\', \'1727713301_733722bee01cf73e5e24.pdf\', \'uploads/files/1727713301_733722bee01cf73e5e24.pdf\', \'1727713301_614df96a47228f7d8b78.pdf\', \'uploads/files/1727713301_614df96a47228f7d8b78.pdf\', \'1727713301_0b86fa6411f2a20861b5.pdf\', \'uploads/files/1727713301_0b86fa6411f2a20861b5.pdf\', \'2024-10-01 00:21:41\', \'2024-10-01 00:21:41\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713301_dcc88a295047770b2b62.png\', \'1727713301_733722bee01cf73e5e24.pdf\', \'uploads/files/1727713301_733722bee01cf73e5e24.pdf\', \'1727713301_614df96a47228f7d8b78.pdf\', \'uploads/files/1727713301_614df96a47228f7d8b78.pdf\', \'1727713301_0b86fa6411f2a20861b5.pdf\', \'uploads/files/1727713301_0b86fa6411f2a20861b5.pdf\', \'2024-10-01 00:21:41\', \'2024-10-01 00:21:41\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:21:41 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713301_dcc88a295047770b2b62.png\', \'1727713301_733722bee01cf73e5e24.pdf\', \'uploads/files/1727713301_733722bee01cf73e5e24.pdf\', \'1727713301_614df96a47228f7d8b78.pdf\', \'uploads/files/1727713301_614df96a47228f7d8b78.pdf\', \'1727713301_0b86fa6411f2a20861b5.pdf\', \'uploads/files/1727713301_0b86fa6411f2a20861b5.pdf\', \'2024-10-01 00:21:41\', \'2024-10-01 00:21:41\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713301_dcc88a295047770b2b62.png\', \'1727713301_733722bee01cf73e5e24.pdf\', \'uploads/files/1727713301_733722bee01cf73e5e24.pdf\', \'1727713301_614df96a47228f7d8b78.pdf\', \'uploads/files/1727713301_614df96a47228f7d8b78.pdf\', \'1727713301_0b86fa6411f2a20861b5.pdf\', \'uploads/files/1727713301_0b86fa6411f2a20861b5.pdf\', \'2024-10-01 00:21:41\', \'2024-10-01 00:21:41\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713301_dcc88a295047770b2b62.png\', \'1727713301_733722bee01cf73e5e24.pdf\', \'uploads/files/1727713301_733722bee01cf73e5e24.pdf\', \'1727713301_614df96a47228f7d8b78.pdf\', \'uploads/files/1727713301_614df96a47228f7d8b78.pdf\', \'1727713301_0b86fa6411f2a20861b5.pdf\', \'uploads/files/1727713301_0b86fa6411f2a20861b5.pdf\', \'2024-10-01 00:21:41\', \'2024-10-01 00:21:41\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:21:42 --> Starting file upload process...
+INFO - 2024-10-01 00:21:42 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-05-13","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727713302_eed326ee540e553f5de9.png","ProfOwnShip":"1727713302_3e7fef9eaa81a53e6422.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713302_3e7fef9eaa81a53e6422.pdf","CertBrgy":"1727713302_5e1f5e973c36777b9d3a.pdf","CertBrgyFilePath":"uploads\/files\/1727713302_5e1f5e973c36777b9d3a.pdf","CertRegs":"1727713302_bb782c10ab3b523485c0.pdf","CertRegsFilePath":"uploads\/files\/1727713302_bb782c10ab3b523485c0.pdf"}
+ERROR - 2024-10-01 00:21:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(99): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:21:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:21:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713302_eed326ee540e553f5de9.png\', \'1727713302_3e7fef9eaa81a53e6422.pdf\', \'uploads/files/1727713302_3e7fef9eaa81a53e6422.pdf\', \'1727713302_5e1f5e973c36777b9d3a.pdf\', \'uploads/files/1727713302_5e1f5e973c36777b9d3a.pdf\', \'1727713302_bb782c10ab3b523485c0.pdf\', \'uploads/files/1727713302_bb782c10ab3b523485c0.pdf\', \'2024-10-01 00:21:42\', \'2024-10-01 00:21:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713302_eed326ee540e553f5de9.png\', \'1727713302_3e7fef9eaa81a53e6422.pdf\', \'uploads/files/1727713302_3e7fef9eaa81a53e6422.pdf\', \'1727713302_5e1f5e973c36777b9d3a.pdf\', \'uploads/files/1727713302_5e1f5e973c36777b9d3a.pdf\', \'1727713302_bb782c10ab3b523485c0.pdf\', \'uploads/files/1727713302_bb782c10ab3b523485c0.pdf\', \'2024-10-01 00:21:42\', \'2024-10-01 00:21:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:21:42 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713302_eed326ee540e553f5de9.png\', \'1727713302_3e7fef9eaa81a53e6422.pdf\', \'uploads/files/1727713302_3e7fef9eaa81a53e6422.pdf\', \'1727713302_5e1f5e973c36777b9d3a.pdf\', \'uploads/files/1727713302_5e1f5e973c36777b9d3a.pdf\', \'1727713302_bb782c10ab3b523485c0.pdf\', \'uploads/files/1727713302_bb782c10ab3b523485c0.pdf\', \'2024-10-01 00:21:42\', \'2024-10-01 00:21:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713302_eed326ee540e553f5de9.png\', \'1727713302_3e7fef9eaa81a53e6422.pdf\', \'uploads/files/1727713302_3e7fef9eaa81a53e6422.pdf\', \'1727713302_5e1f5e973c36777b9d3a.pdf\', \'uploads/files/1727713302_5e1f5e973c36777b9d3a.pdf\', \'1727713302_bb782c10ab3b523485c0.pdf\', \'uploads/files/1727713302_bb782c10ab3b523485c0.pdf\', \'2024-10-01 00:21:42\', \'2024-10-01 00:21:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-05-13\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713302_eed326ee540e553f5de9.png\', \'1727713302_3e7fef9eaa81a53e6422.pdf\', \'uploads/files/1727713302_3e7fef9eaa81a53e6422.pdf\', \'1727713302_5e1f5e973c36777b9d3a.pdf\', \'uploads/files/1727713302_5e1f5e973c36777b9d3a.pdf\', \'1727713302_bb782c10ab3b523485c0.pdf\', \'uploads/files/1727713302_bb782c10ab3b523485c0.pdf\', \'2024-10-01 00:21:42\', \'2024-10-01 00:21:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:22:25 --> Starting file upload process...
+INFO - 2024-10-01 00:22:25 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2002-04-09","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727713345_c4bce4602ccb696a9a45.png","ProfOwnShip":"1727713345_7d723dbfcde24710fdfb.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713345_7d723dbfcde24710fdfb.pdf","CertBrgy":"1727713345_4cc86b84865939f82336.pdf","CertBrgyFilePath":"uploads\/files\/1727713345_4cc86b84865939f82336.pdf","CertRegs":"1727713345_2dee4feee11905ecc888.pdf","CertRegsFilePath":"uploads\/files\/1727713345_2dee4feee11905ecc888.pdf"}
+ERROR - 2024-10-01 00:22:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(99): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:22:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:22:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713345_c4bce4602ccb696a9a45.png\', \'1727713345_7d723dbfcde24710fdfb.pdf\', \'uploads/files/1727713345_7d723dbfcde24710fdfb.pdf\', \'1727713345_4cc86b84865939f82336.pdf\', \'uploads/files/1727713345_4cc86b84865939f82336.pdf\', \'1727713345_2dee4feee11905ecc888.pdf\', \'uploads/files/1727713345_2dee4feee11905ecc888.pdf\', \'2024-10-01 00:22:25\', \'2024-10-01 00:22:25\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713345_c4bce4602ccb696a9a45.png\', \'1727713345_7d723dbfcde24710fdfb.pdf\', \'uploads/files/1727713345_7d723dbfcde24710fdfb.pdf\', \'1727713345_4cc86b84865939f82336.pdf\', \'uploads/files/1727713345_4cc86b84865939f82336.pdf\', \'1727713345_2dee4feee11905ecc888.pdf\', \'uploads/files/1727713345_2dee4feee11905ecc888.pdf\', \'2024-10-01 00:22:25\', \'2024-10-01 00:22:25\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:22:25 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713345_c4bce4602ccb696a9a45.png\', \'1727713345_7d723dbfcde24710fdfb.pdf\', \'uploads/files/1727713345_7d723dbfcde24710fdfb.pdf\', \'1727713345_4cc86b84865939f82336.pdf\', \'uploads/files/1727713345_4cc86b84865939f82336.pdf\', \'1727713345_2dee4feee11905ecc888.pdf\', \'uploads/files/1727713345_2dee4feee11905ecc888.pdf\', \'2024-10-01 00:22:25\', \'2024-10-01 00:22:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713345_c4bce4602ccb696a9a45.png\', \'1727713345_7d723dbfcde24710fdfb.pdf\', \'uploads/files/1727713345_7d723dbfcde24710fdfb.pdf\', \'1727713345_4cc86b84865939f82336.pdf\', \'uploads/files/1727713345_4cc86b84865939f82336.pdf\', \'1727713345_2dee4feee11905ecc888.pdf\', \'uploads/files/1727713345_2dee4feee11905ecc888.pdf\', \'2024-10-01 00:22:25\', \'2024-10-01 00:22:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713345_c4bce4602ccb696a9a45.png\', \'1727713345_7d723dbfcde24710fdfb.pdf\', \'uploads/files/1727713345_7d723dbfcde24710fdfb.pdf\', \'1727713345_4cc86b84865939f82336.pdf\', \'uploads/files/1727713345_4cc86b84865939f82336.pdf\', \'1727713345_2dee4feee11905ecc888.pdf\', \'uploads/files/1727713345_2dee4feee11905ecc888.pdf\', \'2024-10-01 00:22:25\', \'2024-10-01 00:22:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:28:47 --> Starting file upload process...
+INFO - 2024-10-01 00:28:47 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2002-04-09","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727713727_8b8b4cd3a467e58f982c.png","ProfOwnShip":"1727713727_8d404f8cb9805eeff467.pdf","ProfOwnShipFilePath":"uploads\/files\/1727713727_8d404f8cb9805eeff467.pdf","CertBrgy":"1727713727_9960b977069bc5d66d8c.pdf","CertBrgyFilePath":"uploads\/files\/1727713727_9960b977069bc5d66d8c.pdf","CertRegs":"1727713727_9325f39caaa0391e519d.pdf","CertRegsFilePath":"uploads\/files\/1727713727_9325f39caaa0391e519d.pdf"}
+ERROR - 2024-10-01 00:28:47 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(99): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:28:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:28:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713727_8b8b4cd3a467e58f982c.png\', \'1727713727_8d404f8cb9805eeff467.pdf\', \'uploads/files/1727713727_8d404f8cb9805eeff467.pdf\', \'1727713727_9960b977069bc5d66d8c.pdf\', \'uploads/files/1727713727_9960b977069bc5d66d8c.pdf\', \'1727713727_9325f39caaa0391e519d.pdf\', \'uploads/files/1727713727_9325f39caaa0391e519d.pdf\', \'2024-10-01 00:28:47\', \'2024-10-01 00:28:47\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713727_8b8b4cd3a467e58f982c.png\', \'1727713727_8d404f8cb9805eeff467.pdf\', \'uploads/files/1727713727_8d404f8cb9805eeff467.pdf\', \'1727713727_9960b977069bc5d66d8c.pdf\', \'uploads/files/1727713727_9960b977069bc5d66d8c.pdf\', \'1727713727_9325f39caaa0391e519d.pdf\', \'uploads/files/1727713727_9325f39caaa0391e519d.pdf\', \'2024-10-01 00:28:47\', \'2024-10-01 00:28:47\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:28:47 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713727_8b8b4cd3a467e58f982c.png\', \'1727713727_8d404f8cb9805eeff467.pdf\', \'uploads/files/1727713727_8d404f8cb9805eeff467.pdf\', \'1727713727_9960b977069bc5d66d8c.pdf\', \'uploads/files/1727713727_9960b977069bc5d66d8c.pdf\', \'1727713727_9325f39caaa0391e519d.pdf\', \'uploads/files/1727713727_9325f39caaa0391e519d.pdf\', \'2024-10-01 00:28:47\', \'2024-10-01 00:28:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713727_8b8b4cd3a467e58f982c.png\', \'1727713727_8d404f8cb9805eeff467.pdf\', \'uploads/files/1727713727_8d404f8cb9805eeff467.pdf\', \'1727713727_9960b977069bc5d66d8c.pdf\', \'uploads/files/1727713727_9960b977069bc5d66d8c.pdf\', \'1727713727_9325f39caaa0391e519d.pdf\', \'uploads/files/1727713727_9325f39caaa0391e519d.pdf\', \'2024-10-01 00:28:47\', \'2024-10-01 00:28:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2002-04-09\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727713727_8b8b4cd3a467e58f982c.png\', \'1727713727_8d404f8cb9805eeff467.pdf\', \'uploads/files/1727713727_8d404f8cb9805eeff467.pdf\', \'1727713727_9960b977069bc5d66d8c.pdf\', \'uploads/files/1727713727_9960b977069bc5d66d8c.pdf\', \'1727713727_9325f39caaa0391e519d.pdf\', \'uploads/files/1727713727_9325f39caaa0391e519d.pdf\', \'2024-10-01 00:28:47\', \'2024-10-01 00:28:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(99): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:33:34 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727714014_a3a767d7fc986d48481d.png","ProfOwnShip":"1727714014_269e933879a7ab3ae419.pdf","ProfOwnShipFilePath":"uploads\/files\/1727714014_269e933879a7ab3ae419.pdf","CertBrgy":"1727714014_7728c326bce8b4047a70.pdf","CertBrgyFilePath":"uploads\/files\/1727714014_7728c326bce8b4047a70.pdf","CertRegs":"1727714014_e903e69fe22dc3c1a096.pdf","CertRegsFilePath":"uploads\/files\/1727714014_e903e69fe22dc3c1a096.pdf"}
+ERROR - 2024-10-01 00:33:34 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(97): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:33:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:33:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714014_a3a767d7fc986d48481d.png\', \'1727714014_269e933879a7ab3ae419.pdf\', \'uploads/files/1727714014_269e933879a7ab3ae419.pdf\', \'1727714014_7728c326bce8b4047a70.pdf\', \'uploads/files/1727714014_7728c326bce8b4047a70.pdf\', \'1727714014_e903e69fe22dc3c1a096.pdf\', \'uploads/files/1727714014_e903e69fe22dc3c1a096.pdf\', \'2024-10-01 00:33:34\', \'2024-10-01 00:33:34\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714014_a3a767d7fc986d48481d.png\', \'1727714014_269e933879a7ab3ae419.pdf\', \'uploads/files/1727714014_269e933879a7ab3ae419.pdf\', \'1727714014_7728c326bce8b4047a70.pdf\', \'uploads/files/1727714014_7728c326bce8b4047a70.pdf\', \'1727714014_e903e69fe22dc3c1a096.pdf\', \'uploads/files/1727714014_e903e69fe22dc3c1a096.pdf\', \'2024-10-01 00:33:34\', \'2024-10-01 00:33:34\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:33:34 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714014_a3a767d7fc986d48481d.png\', \'1727714014_269e933879a7ab3ae419.pdf\', \'uploads/files/1727714014_269e933879a7ab3ae419.pdf\', \'1727714014_7728c326bce8b4047a70.pdf\', \'uploads/files/1727714014_7728c326bce8b4047a70.pdf\', \'1727714014_e903e69fe22dc3c1a096.pdf\', \'uploads/files/1727714014_e903e69fe22dc3c1a096.pdf\', \'2024-10-01 00:33:34\', \'2024-10-01 00:33:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714014_a3a767d7fc986d48481d.png\', \'1727714014_269e933879a7ab3ae419.pdf\', \'uploads/files/1727714014_269e933879a7ab3ae419.pdf\', \'1727714014_7728c326bce8b4047a70.pdf\', \'uploads/files/1727714014_7728c326bce8b4047a70.pdf\', \'1727714014_e903e69fe22dc3c1a096.pdf\', \'uploads/files/1727714014_e903e69fe22dc3c1a096.pdf\', \'2024-10-01 00:33:34\', \'2024-10-01 00:33:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714014_a3a767d7fc986d48481d.png\', \'1727714014_269e933879a7ab3ae419.pdf\', \'uploads/files/1727714014_269e933879a7ab3ae419.pdf\', \'1727714014_7728c326bce8b4047a70.pdf\', \'uploads/files/1727714014_7728c326bce8b4047a70.pdf\', \'1727714014_e903e69fe22dc3c1a096.pdf\', \'uploads/files/1727714014_e903e69fe22dc3c1a096.pdf\', \'2024-10-01 00:33:34\', \'2024-10-01 00:33:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:39:33 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2006-03-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727714373_d84e1d7244b74825342e.png","ProfOwnShip":"1727714373_ab3dc9848b11512cd3b9.pdf","ProfOwnShipFilePath":"uploads\/files\/1727714373_ab3dc9848b11512cd3b9.pdf","CertBrgy":"1727714373_774e597bba939b74d259.pdf","CertBrgyFilePath":"uploads\/files\/1727714373_774e597bba939b74d259.pdf","CertRegs":"1727714373_e9b4157c0805a8138c11.pdf","CertRegsFilePath":"uploads\/files\/1727714373_e9b4157c0805a8138c11.pdf"}
+ERROR - 2024-10-01 00:39:33 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(97): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:39:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:39:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2006-03-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714373_d84e1d7244b74825342e.png\', \'1727714373_ab3dc9848b11512cd3b9.pdf\', \'uploads/files/1727714373_ab3dc9848b11512cd3b9.pdf\', \'1727714373_774e597bba939b74d259.pdf\', \'uploads/files/1727714373_774e597bba939b74d259.pdf\', \'1727714373_e9b4157c0805a8138c11.pdf\', \'uploads/files/1727714373_e9b4157c0805a8138c11.pdf\', \'2024-10-01 00:39:33\', \'2024-10-01 00:39:33\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2006-03-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714373_d84e1d7244b74825342e.png\', \'1727714373_ab3dc9848b11512cd3b9.pdf\', \'uploads/files/1727714373_ab3dc9848b11512cd3b9.pdf\', \'1727714373_774e597bba939b74d259.pdf\', \'uploads/files/1727714373_774e597bba939b74d259.pdf\', \'1727714373_e9b4157c0805a8138c11.pdf\', \'uploads/files/1727714373_e9b4157c0805a8138c11.pdf\', \'2024-10-01 00:39:33\', \'2024-10-01 00:39:33\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:39:33 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2006-03-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714373_d84e1d7244b74825342e.png\', \'1727714373_ab3dc9848b11512cd3b9.pdf\', \'uploads/files/1727714373_ab3dc9848b11512cd3b9.pdf\', \'1727714373_774e597bba939b74d259.pdf\', \'uploads/files/1727714373_774e597bba939b74d259.pdf\', \'1727714373_e9b4157c0805a8138c11.pdf\', \'uploads/files/1727714373_e9b4157c0805a8138c11.pdf\', \'2024-10-01 00:39:33\', \'2024-10-01 00:39:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2006-03-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714373_d84e1d7244b74825342e.png\', \'1727714373_ab3dc9848b11512cd3b9.pdf\', \'uploads/files/1727714373_ab3dc9848b11512cd3b9.pdf\', \'1727714373_774e597bba939b74d259.pdf\', \'uploads/files/1727714373_774e597bba939b74d259.pdf\', \'1727714373_e9b4157c0805a8138c11.pdf\', \'uploads/files/1727714373_e9b4157c0805a8138c11.pdf\', \'2024-10-01 00:39:33\', \'2024-10-01 00:39:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2006-03-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'New\', \'1727714373_d84e1d7244b74825342e.png\', \'1727714373_ab3dc9848b11512cd3b9.pdf\', \'uploads/files/1727714373_ab3dc9848b11512cd3b9.pdf\', \'1727714373_774e597bba939b74d259.pdf\', \'uploads/files/1727714373_774e597bba939b74d259.pdf\', \'1727714373_e9b4157c0805a8138c11.pdf\', \'uploads/files/1727714373_e9b4157c0805a8138c11.pdf\', \'2024-10-01 00:39:33\', \'2024-10-01 00:39:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:48:40 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2022-03-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","RegsType":"New","Image":"1727714920_c27770af707712e2bdf0.png","ProfOwnShip":"1727714920_4d75a70111567e28f6ec.pdf","ProfOwnShipFilePath":"uploads\/files\/1727714920_4d75a70111567e28f6ec.pdf","CertBrgy":"1727714920_6fbc358778b28844068f.pdf","CertBrgyFilePath":"uploads\/files\/1727714920_6fbc358778b28844068f.pdf","CertRegs":"1727714920_56179e169c0cc07aea9e.pdf","CertRegsFilePath":"uploads\/files\/1727714920_56179e169c0cc07aea9e.pdf"}
+ERROR - 2024-10-01 00:48:40 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(97): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-01 00:48:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:48:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2022-03-03\', \'30\', \'pruning\', \'CENRO Kalamansig\', \'New\', \'1727714920_c27770af707712e2bdf0.png\', \'1727714920_4d75a70111567e28f6ec.pdf\', \'uploads/files/1727714920_4d75a70111567e28f6ec.pdf\', \'1727714920_6fbc358778b28844068f.pdf\', \'uploads/files/1727714920_6fbc358778b28844068f.pdf\', \'1727714920_56179e169c0cc07aea9e.pdf\', \'uploads/files/1727714920_56179e169c0cc07aea9e.pdf\', \'2024-10-01 00:48:40\', \'2024-10-01 00:48:40\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2022-03-03\', \'30\', \'pruning\', \'CENRO Kalamansig\', \'New\', \'1727714920_c27770af707712e2bdf0.png\', \'1727714920_4d75a70111567e28f6ec.pdf\', \'uploads/files/1727714920_4d75a70111567e28f6ec.pdf\', \'1727714920_6fbc358778b28844068f.pdf\', \'uploads/files/1727714920_6fbc358778b28844068f.pdf\', \'1727714920_56179e169c0cc07aea9e.pdf\', \'uploads/files/1727714920_56179e169c0cc07aea9e.pdf\', \'2024-10-01 00:48:40\', \'2024-10-01 00:48:40\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-01 00:48:40 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2022-03-03\', \'30\', \'pruning\', \'CENRO Kalamansig\', \'New\', \'1727714920_c27770af707712e2bdf0.png\', \'1727714920_4d75a70111567e28f6ec.pdf\', \'uploads/files/1727714920_4d75a70111567e28f6ec.pdf\', \'1727714920_6fbc358778b28844068f.pdf\', \'uploads/files/1727714920_6fbc358778b28844068f.pdf\', \'1727714920_56179e169c0cc07aea9e.pdf\', \'uploads/files/1727714920_56179e169c0cc07aea9e.pdf\', \'2024-10-01 00:48:40\', \'2024-10-01 00:48:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2022-03-03\', \'30\', \'pruning\', \'CENRO Kalamansig\', \'New\', \'1727714920_c27770af707712e2bdf0.png\', \'1727714920_4d75a70111567e28f6ec.pdf\', \'uploads/files/1727714920_4d75a70111567e28f6ec.pdf\', \'1727714920_6fbc358778b28844068f.pdf\', \'uploads/files/1727714920_6fbc358778b28844068f.pdf\', \'1727714920_56179e169c0cc07aea9e.pdf\', \'uploads/files/1727714920_56179e169c0cc07aea9e.pdf\', \'2024-10-01 00:48:40\', \'2024-10-01 00:48:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (\'Juan P. Tamad\', \'Bolebak\', \'Lebak\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2022-03-03\', \'30\', \'pruning\', \'CENRO Kalamansig\', \'New\', \'1727714920_c27770af707712e2bdf0.png\', \'1727714920_4d75a70111567e28f6ec.pdf\', \'uploads/files/1727714920_4d75a70111567e28f6ec.pdf\', \'1727714920_6fbc358778b28844068f.pdf\', \'uploads/files/1727714920_6fbc358778b28844068f.pdf\', \'1727714920_56179e169c0cc07aea9e.pdf\', \'uploads/files/1727714920_56179e169c0cc07aea9e.pdf\', \'2024-10-01 00:48:40\', \'2024-10-01 00:48:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `updated_at`) VALUES (:FullName:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :CreatedDate:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(97): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 00:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 00:58:28 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2004-03-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727715508_4107bcd6606c257a0e95.png","ProfOwnShip":"1727715508_3eec8e634703ab24a48b.pdf","ProfOwnShipFilePath":"uploads\/files\/1727715508_3eec8e634703ab24a48b.pdf","CertBrgy":"1727715508_1c174fa6869c269ec145.pdf","CertBrgyFilePath":"uploads\/files\/1727715508_1c174fa6869c269ec145.pdf","CertRegs":"1727715508_97cc5b2234c80a64fbb2.pdf","CertRegsFilePath":"uploads\/files\/1727715508_97cc5b2234c80a64fbb2.pdf"}
+ERROR - 2024-10-01 00:58:28 --> Database insertion failed: []
+INFO - 2024-10-01 01:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 01:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 14:42:53 --> Validation failed: {"CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-10-01 14:43:06 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-08-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727764986_661255be717147446600.png","ProfOwnShip":"1727764986_4f926803b15795c66c41.pdf","ProfOwnShipFilePath":"uploads\/files\/1727764986_4f926803b15795c66c41.pdf","CertBrgy":"1727764986_c227d3e24311224ba939.pdf","CertBrgyFilePath":"uploads\/files\/1727764986_c227d3e24311224ba939.pdf","CertRegs":"1727764986_ffa8c3db24873be72fb5.pdf","CertRegsFilePath":"uploads\/files\/1727764986_ffa8c3db24873be72fb5.pdf"}
+ERROR - 2024-10-01 14:43:07 --> Database insertion failed: []
+INFO - 2024-10-01 14:46:21 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-08-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727765181_e0064076a224eefd0485.png","ProfOwnShip":"1727765181_1104a9d450f86446b131.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765181_1104a9d450f86446b131.pdf","CertBrgy":"1727765181_d0fc0b825384c2fe4625.pdf","CertBrgyFilePath":"uploads\/files\/1727765181_d0fc0b825384c2fe4625.pdf","CertRegs":"1727765181_2255bd87a8be5667561d.pdf","CertRegsFilePath":"uploads\/files\/1727765181_2255bd87a8be5667561d.pdf"}
+ERROR - 2024-10-01 14:46:21 --> Database insertion failed: []
+INFO - 2024-10-01 14:46:23 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-08-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","RegsType":"New","Image":"1727765183_42445460374bcecee548.png","ProfOwnShip":"1727765183_414f4e4278c14214704c.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765183_414f4e4278c14214704c.pdf","CertBrgy":"1727765183_60511de366c93caed86b.pdf","CertBrgyFilePath":"uploads\/files\/1727765183_60511de366c93caed86b.pdf","CertRegs":"1727765183_43a7c90b68557f0cb465.pdf","CertRegsFilePath":"uploads\/files\/1727765183_43a7c90b68557f0cb465.pdf"}
+ERROR - 2024-10-01 14:46:23 --> Database insertion failed: []
+INFO - 2024-10-01 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:47:07 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2002-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","RegsType":"New","Image":"1727765227_7fa58f8f5012feeee9ea.png","ProfOwnShip":"1727765227_1e28b58e0e99920b5b5e.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765227_1e28b58e0e99920b5b5e.pdf","CertBrgy":"1727765227_2941e6f9e502ba38c43e.pdf","CertBrgyFilePath":"uploads\/files\/1727765227_2941e6f9e502ba38c43e.pdf","CertRegs":"1727765227_3ddeacd209f94bc85ed8.pdf","CertRegsFilePath":"uploads\/files\/1727765227_3ddeacd209f94bc85ed8.pdf"}
+ERROR - 2024-10-01 14:47:07 --> Database insertion failed: []
+INFO - 2024-10-01 14:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:53:24 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727765604_b74a1a259afec00823ba.png","ProfOwnShip":"1727765604_ca4053ffe778046e193e.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765604_ca4053ffe778046e193e.pdf","CertBrgy":"1727765604_152f5b89fa68c12fbbc0.pdf","CertBrgyFilePath":"uploads\/files\/1727765604_152f5b89fa68c12fbbc0.pdf","CertRegs":"1727765604_6a1764df163d1978debf.pdf","CertRegsFilePath":"uploads\/files\/1727765604_6a1764df163d1978debf.pdf"}
+ERROR - 2024-10-01 14:53:24 --> Database insertion failed: []
+INFO - 2024-10-01 14:53:55 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727765635_c4ff447980d5627d7c1e.png","ProfOwnShip":"1727765635_a5b6b674c1b828f5318e.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765635_a5b6b674c1b828f5318e.pdf","CertBrgy":"1727765635_3799373415a640dd0630.pdf","CertBrgyFilePath":"uploads\/files\/1727765635_3799373415a640dd0630.pdf","CertRegs":"1727765635_63944f75f152e785b15e.pdf","CertRegsFilePath":"uploads\/files\/1727765635_63944f75f152e785b15e.pdf"}
+ERROR - 2024-10-01 14:53:55 --> Database insertion failed: []
+INFO - 2024-10-01 14:53:56 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727765636_b3a35964f9cd16ee9e35.png","ProfOwnShip":"1727765636_1c444be9d71acc958151.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765636_1c444be9d71acc958151.pdf","CertBrgy":"1727765636_ad798e277738480df102.pdf","CertBrgyFilePath":"uploads\/files\/1727765636_ad798e277738480df102.pdf","CertRegs":"1727765636_c435d1a9c2ef4eef1965.pdf","CertRegsFilePath":"uploads\/files\/1727765636_c435d1a9c2ef4eef1965.pdf"}
+ERROR - 2024-10-01 14:53:56 --> Database insertion failed: []
+INFO - 2024-10-01 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 14:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 14:57:10 --> Validation failed: {"CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-10-01 14:57:25 --> Validation failed: {"CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-10-01 14:57:34 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2002-08-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727765854_631b270c88b0b340f63c.png","ProfOwnShip":"1727765854_128249d616de39719609.pdf","ProfOwnShipFilePath":"uploads\/files\/1727765854_128249d616de39719609.pdf","CertBrgy":"1727765854_0a8b7f999d6d14abf8ff.pdf","CertBrgyFilePath":"uploads\/files\/1727765854_0a8b7f999d6d14abf8ff.pdf","CertRegs":"1727765854_7811c1f3e4269f75ab00.pdf","CertRegsFilePath":"uploads\/files\/1727765854_7811c1f3e4269f75ab00.pdf"}
+ERROR - 2024-10-01 14:57:34 --> Database insertion failed: []
+INFO - 2024-10-01 15:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:04:26 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2022-08-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727766266_7f1839b0ee439c8b118a.png","ProfOwnShip":"1727766266_4fde599e1c7a3b3b80b6.pdf","ProfOwnShipFilePath":"uploads\/files\/1727766266_4fde599e1c7a3b3b80b6.pdf","CertBrgy":"1727766266_87fa885eedae5197b95a.pdf","CertBrgyFilePath":"uploads\/files\/1727766266_87fa885eedae5197b95a.pdf","CertRegs":"1727766266_f2c6746467a0283c3f23.pdf","CertRegsFilePath":"uploads\/files\/1727766266_f2c6746467a0283c3f23.pdf"}
+ERROR - 2024-10-01 15:04:26 --> Database insertion failed: []
+INFO - 2024-10-01 15:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:07:48 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-08-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727766468_1ae9a7a4bfe009dab451.png","ProfOwnShip":"1727766468_8cfd93243ea84a669cd9.pdf","ProfOwnShipFilePath":"uploads\/files\/1727766468_8cfd93243ea84a669cd9.pdf","CertBrgy":"1727766468_95bad31183c881c2e118.pdf","CertBrgyFilePath":"uploads\/files\/1727766468_95bad31183c881c2e118.pdf","CertRegs":"1727766468_e56ec2604c634e2a611c.pdf","CertRegsFilePath":"uploads\/files\/1727766468_e56ec2604c634e2a611c.pdf"}
+ERROR - 2024-10-01 15:07:48 --> Database insertion failed: []
+INFO - 2024-10-01 15:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:11:03 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-03-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727766663_99db7ecb2adbc4cf34c9.png","ProfOwnShip":"1727766663_b245764878a3e9fdf2f1.pdf","ProfOwnShipFilePath":"uploads\/files\/1727766663_b245764878a3e9fdf2f1.pdf","CertBrgy":"1727766663_38148afa3acee9f6db9b.pdf","CertBrgyFilePath":"uploads\/files\/1727766663_38148afa3acee9f6db9b.pdf","CertRegs":"1727766663_76fe463aefcf6a6dab0c.pdf","CertRegsFilePath":"uploads\/files\/1727766663_76fe463aefcf6a6dab0c.pdf"}
+DEBUG - 2024-10-01 15:11:03 --> Prepared client data for insertion: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-03-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727766663_99db7ecb2adbc4cf34c9.png","ProfOwnShip":"1727766663_b245764878a3e9fdf2f1.pdf","ProfOwnShipFilePath":"uploads\/files\/1727766663_b245764878a3e9fdf2f1.pdf","CertBrgy":"1727766663_38148afa3acee9f6db9b.pdf","CertBrgyFilePath":"uploads\/files\/1727766663_38148afa3acee9f6db9b.pdf","CertRegs":"1727766663_76fe463aefcf6a6dab0c.pdf","CertRegsFilePath":"uploads\/files\/1727766663_76fe463aefcf6a6dab0c.pdf"}
+ERROR - 2024-10-01 15:11:03 --> Database insertion failed: []
+DEBUG - 2024-10-01 15:11:03 --> INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `UpdatedDate`) VALUES ('Juan P. Tamad', 'Bolebak', 'Lebak', 'Sultan Kudarat', 'Stihl', 'Poulan 306a', '070', 'HGDSIDSA123', '2023-03-03', '30', 'pruning', 'CENRO Kalamansig', 'Pending', 'For Payment', 'New', '1727766663_99db7ecb2adbc4cf34c9.png', '1727766663_b245764878a3e9fdf2f1.pdf', 'uploads/files/1727766663_b245764878a3e9fdf2f1.pdf', '1727766663_38148afa3acee9f6db9b.pdf', 'uploads/files/1727766663_38148afa3acee9f6db9b.pdf', '1727766663_76fe463aefcf6a6dab0c.pdf', 'uploads/files/1727766663_76fe463aefcf6a6dab0c.pdf', '2024-10-01 15:11:03', '2024-10-01 15:11:03')
+ERROR - 2024-10-01 15:11:03 --> Database error details: {"code":0,"message":""}
+INFO - 2024-10-01 15:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 15:22:05 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-06-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727767325_0de5fa0f57364237dbc6.png","ProfOwnShip":"1727767325_fd434e64a12539bf0dc5.pdf","ProfOwnShipFilePath":"uploads\/files\/1727767325_fd434e64a12539bf0dc5.pdf","CertBrgy":"1727767325_190e3095d8dc3c93612f.pdf","CertBrgyFilePath":"uploads\/files\/1727767325_190e3095d8dc3c93612f.pdf","CertRegs":"1727767325_136669796361796a43c0.pdf","CertRegsFilePath":"uploads\/files\/1727767325_136669796361796a43c0.pdf"}
+DEBUG - 2024-10-01 15:22:05 --> Prepared client data for insertion: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-06-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727767325_0de5fa0f57364237dbc6.png","ProfOwnShip":"1727767325_fd434e64a12539bf0dc5.pdf","ProfOwnShipFilePath":"uploads\/files\/1727767325_fd434e64a12539bf0dc5.pdf","CertBrgy":"1727767325_190e3095d8dc3c93612f.pdf","CertBrgyFilePath":"uploads\/files\/1727767325_190e3095d8dc3c93612f.pdf","CertRegs":"1727767325_136669796361796a43c0.pdf","CertRegsFilePath":"uploads\/files\/1727767325_136669796361796a43c0.pdf"}
+ERROR - 2024-10-01 15:22:05 --> Database insertion failed: []
+DEBUG - 2024-10-01 15:22:05 --> INSERT INTO `tblregistration` (`FullName`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `CreatedDate`, `UpdatedDate`) VALUES ('Juan P. Tamad', 'Bolebak', 'Lebak', 'Sultan Kudarat', 'Stihl', 'Poulan 306a', '070', 'HGDSIDSA123', '2003-06-02', '30', 'pruning', 'CENRO Tacurong', 'Pending', 'For Payment', 'New', '1727767325_0de5fa0f57364237dbc6.png', '1727767325_fd434e64a12539bf0dc5.pdf', 'uploads/files/1727767325_fd434e64a12539bf0dc5.pdf', '1727767325_190e3095d8dc3c93612f.pdf', 'uploads/files/1727767325_190e3095d8dc3c93612f.pdf', '1727767325_136669796361796a43c0.pdf', 'uploads/files/1727767325_136669796361796a43c0.pdf', '2024-10-01 15:22:05', '2024-10-01 15:22:05')
+ERROR - 2024-10-01 15:22:05 --> Database error details: {"code":0,"message":""}
+INFO - 2024-10-01 15:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 15:34:13 --> Validation failed: {"CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-10-01 15:34:24 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2024-10-09","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727768064_21fb93526ee07b075d6e.png","ProfOwnShip":"1727768064_450df54378e96e755326.pdf","ProfOwnShipFilePath":"uploads\/files\/1727768064_450df54378e96e755326.pdf","CertBrgy":"1727768064_61f73137f92f1a0c832a.pdf","CertBrgyFilePath":"uploads\/files\/1727768064_61f73137f92f1a0c832a.pdf","CertRegs":"1727768064_d58dea8599040d555c87.pdf","CertRegsFilePath":"uploads\/files\/1727768064_d58dea8599040d555c87.pdf"}
+DEBUG - 2024-10-01 15:34:24 --> Prepared client data for insertion: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2024-10-09","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727768064_21fb93526ee07b075d6e.png","ProfOwnShip":"1727768064_450df54378e96e755326.pdf","ProfOwnShipFilePath":"uploads\/files\/1727768064_450df54378e96e755326.pdf","CertBrgy":"1727768064_61f73137f92f1a0c832a.pdf","CertBrgyFilePath":"uploads\/files\/1727768064_61f73137f92f1a0c832a.pdf","CertRegs":"1727768064_d58dea8599040d555c87.pdf","CertRegsFilePath":"uploads\/files\/1727768064_d58dea8599040d555c87.pdf"}
+INFO - 2024-10-01 15:34:24 --> Data inserted successfully.
+INFO - 2024-10-01 15:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:11:59 --> Client data to be inserted: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727770319_4585cbfba02537ef3f29.png","ProfOwnShip":"1727770319_4523b6685ca36b0bd6bc.pdf","ProfOwnShipFilePath":"uploads\/files\/1727770319_4523b6685ca36b0bd6bc.pdf","CertBrgy":"1727770319_24d940411ef3eb13ad99.pdf","CertBrgyFilePath":"uploads\/files\/1727770319_24d940411ef3eb13ad99.pdf","CertRegs":"1727770319_9aee34d31589ca621fdb.pdf","CertRegsFilePath":"uploads\/files\/1727770319_9aee34d31589ca621fdb.pdf"}
+DEBUG - 2024-10-01 16:11:59 --> Prepared client data for insertion: {"FullName":"Juan P. Tamad","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2003-08-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727770319_4585cbfba02537ef3f29.png","ProfOwnShip":"1727770319_4523b6685ca36b0bd6bc.pdf","ProfOwnShipFilePath":"uploads\/files\/1727770319_4523b6685ca36b0bd6bc.pdf","CertBrgy":"1727770319_24d940411ef3eb13ad99.pdf","CertBrgyFilePath":"uploads\/files\/1727770319_24d940411ef3eb13ad99.pdf","CertRegs":"1727770319_9aee34d31589ca621fdb.pdf","CertRegsFilePath":"uploads\/files\/1727770319_9aee34d31589ca621fdb.pdf"}
+INFO - 2024-10-01 16:11:59 --> Data inserted successfully.
+INFO - 2024-10-01 16:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:39:27 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:44:27 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:44:29 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:44:34 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:44:57 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:45:00 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:46:47 --> ErrorException: Undefined variable $clientData
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 209.
+ 1 APPPATH\Views\client\confirmation.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientData', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 209)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(181): view('client/confirmation')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:47:40 --> ErrorException: Undefined property: stdClass::$FullName
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 211.
+ 1 APPPATH\Views\client\confirmation.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$FullName', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 211)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:48:14 --> ErrorException: Undefined property: stdClass::$FullName
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 212.
+ 1 APPPATH\Views\client\confirmation.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$FullName', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 212)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-01 16:48:32 --> ErrorException: Undefined property: stdClass::$UserID
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 221.
+ 1 APPPATH\Views\client\confirmation.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$UserID', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 221)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-01 16:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 16:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:36:28 --> Client data to be inserted: {"FullName":"Pedro D. Penduko","Barangay":"Kalawag II","Municipality":"Isulan","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA125","DateOfAcquisition":"2000-03-02","MaxLengthGuideBar":"20","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727793388_f25a12c27c3683544834.png","ProfOwnShip":"1727793388_6fd6ed870f28048527c1.pdf","ProfOwnShipFilePath":"uploads\/files\/1727793388_6fd6ed870f28048527c1.pdf","CertBrgy":"1727793388_360c0a35ca969ca9c469.pdf","CertBrgyFilePath":"uploads\/files\/1727793388_360c0a35ca969ca9c469.pdf","CertRegs":"1727793388_432953f04981fd9881c4.pdf","CertRegsFilePath":"uploads\/files\/1727793388_432953f04981fd9881c4.pdf"}
+DEBUG - 2024-10-01 22:36:28 --> Prepared client data for insertion: {"FullName":"Pedro D. Penduko","Barangay":"Kalawag II","Municipality":"Isulan","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA125","DateOfAcquisition":"2000-03-02","MaxLengthGuideBar":"20","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727793388_f25a12c27c3683544834.png","ProfOwnShip":"1727793388_6fd6ed870f28048527c1.pdf","ProfOwnShipFilePath":"uploads\/files\/1727793388_6fd6ed870f28048527c1.pdf","CertBrgy":"1727793388_360c0a35ca969ca9c469.pdf","CertBrgyFilePath":"uploads\/files\/1727793388_360c0a35ca969ca9c469.pdf","CertRegs":"1727793388_432953f04981fd9881c4.pdf","CertRegsFilePath":"uploads\/files\/1727793388_432953f04981fd9881c4.pdf"}
+INFO - 2024-10-01 22:36:28 --> Data inserted successfully.
+INFO - 2024-10-01 22:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 22:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-01 23:03:34 --> Validation failed: {"ProfOwnShip":"ProfOwnShip does not have a valid mime type.","CertRegs":"CertRegs does not have a valid mime type."}
+INFO - 2024-10-01 23:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:10:33 --> Client data to be inserted: {"FullName":"Bryan M. Manansala","Barangay":"Poblacion","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"080","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2002-04-02","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727795433_49e8ba1794837d53db9e.png","ProfOwnShip":"1727795433_027df4f2064aad007077.jpg","ProfOwnShipFilePath":"uploads\/files\/1727795433_027df4f2064aad007077.jpg","CertBrgy":"1727795433_e6d81680799cf7eddefc.pdf","CertBrgyFilePath":"uploads\/files\/1727795433_e6d81680799cf7eddefc.pdf","CertRegs":"1727795433_879a937a2930ff24f280.png","CertRegsFilePath":"uploads\/files\/1727795433_879a937a2930ff24f280.png"}
+DEBUG - 2024-10-01 23:10:33 --> Prepared client data for insertion: {"FullName":"Bryan M. Manansala","Barangay":"Poblacion","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"080","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2002-04-02","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1727795433_49e8ba1794837d53db9e.png","ProfOwnShip":"1727795433_027df4f2064aad007077.jpg","ProfOwnShipFilePath":"uploads\/files\/1727795433_027df4f2064aad007077.jpg","CertBrgy":"1727795433_e6d81680799cf7eddefc.pdf","CertBrgyFilePath":"uploads\/files\/1727795433_e6d81680799cf7eddefc.pdf","CertRegs":"1727795433_879a937a2930ff24f280.png","CertRegsFilePath":"uploads\/files\/1727795433_879a937a2930ff24f280.png"}
+INFO - 2024-10-01 23:10:33 --> Data inserted successfully.
+INFO - 2024-10-01 23:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-01 23:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

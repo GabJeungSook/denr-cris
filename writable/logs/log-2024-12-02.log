@@ -1,0 +1,1395 @@
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 08:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 08:58:29 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 08:58:39 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 08:58:54 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 08:59:53 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 09:00:08 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:12 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:26 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:27 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:27 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:36 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:36 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:37 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:37 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:37 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:00:37 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:00:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:03 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:03 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:03 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:04 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:04 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-02 09:01:04 --> Error connecting to the database: mysqli_sql_exception: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('192.168.1.30', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'MSI' is not allowed to connect to this MySQL server in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->loginF()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 09:01:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'MSI' is not allowed to connect to this MySQL server
+[Method: POST, Route: loginF]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Username` = :Username:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(99): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->loginF()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 09:10:55 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 09:11:09 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:53:09 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-02 09:53:09 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '05c245314493f650d9e59489f32860b1'
+ LIMIT 1
+INFO - 2024-12-02 09:53:09 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-02 09:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:04:17 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-12-02 10:04:17 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-12-02 10:04:17 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-12-02 10:06:21 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-02 10:06:22 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '05c245314493f650d9e59489f32860b1'
+ LIMIT 1
+INFO - 2024-12-02 10:06:22 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-02 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:14:20 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-02 10:14:20 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '05c245314493f650d9e59489f32860b1'
+ LIMIT 1
+INFO - 2024-12-02 10:14:20 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-02 10:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 10:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-02 15:52:36 --> ErrorException: unlink(D:\xampp\htdocs\cris\writable\debugbar/debugbar_1733105386.477095.json): Permission denied
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xampp\\htdocs\\cris\\writable\\debugbar/debugbar_1733105386.477095.json): Permission denied', 'D:\\xampp\\htdocs\\cris\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('D:\\xampp\\htdocs\\cris\\writable\\debugbar/debugbar_1733105386.477095.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1733125954.719078', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 15:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 15:58:27 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-02 15:58:27 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '05c245314493f650d9e59489f32860b1'
+ LIMIT 1
+INFO - 2024-12-02 15:58:27 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-02 15:58:54 --> Received RegistrationNo: 05c245314493f650d9e59489f32860b1
+INFO - 2024-12-02 15:58:54 --> Received Status: Confirmed
+INFO - 2024-12-02 15:58:54 --> Received Remarks: Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.
+INFO - 2024-12-02 15:58:54 --> Generated UpdatedDate: 2024-12-02 15:58:54
+INFO - 2024-12-02 15:58:54 --> Client found for RegistrationNo: 2024REGS0000000010
+INFO - 2024-12-02 15:58:54 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000010
+INFO - 2024-12-02 15:58:54 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-12-02 15:58:54","Remarks":"Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000010"}
+INFO - 2024-12-02 15:58:54 --> User status updated successfully for UserID: 2024USID000000016
+INFO - 2024-12-02 15:58:57 --> Semaphore API response: [{"message_id":236409565,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! This is DENR XII - CENRO Tacurong. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-12-02 15:59:27","updated_at":"2024-12-02 15:59:27"}]
+INFO - 2024-12-02 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:08:58 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:13:27 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:14:11 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xampp\\htdocs...', 186)
+#1 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 16:14:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `UserRole` = :UserRole:
+AND `OfficeName` = :OfficeName:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 16:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:14:31 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xampp\\htdocs...', 186)
+#1 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 16:14:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `UserRole` = :UserRole:
+AND `OfficeName` = :OfficeName:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 16:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:14:44 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xampp\\htdocs...', 186)
+#1 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 16:14:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `UserRole` = :UserRole:
+AND `OfficeName` = :OfficeName:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 16:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:14:54 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xampp\\htdocs...', 186)
+#1 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 16:14:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `UserRole` = :UserRole:
+AND `OfficeName` = :OfficeName:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 16:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:15:08 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xampp\\htdocs...', 186)
+#1 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('http://192.168....', 'root', Object(SensitiveParameterValue), 'cris_db', 3306, '', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\cris\app\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\User->dashboard()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-02 16:15:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `UserRole` = :UserRole:
+AND `OfficeName` = :OfficeName:
+AND `tblusers`.`DeletedDate` IS NULL
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(632): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-02 16:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:16:27 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-12-02 16:16:27 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-12-02 16:16:27 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-12-02 16:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:18:34 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 16:27:42 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:32:08 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:36:55 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 16:38:59 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 16:39:37 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-02 16:49:58 --> Validation Errors: {"ProfOwnShip":"ProfOwnShip is too large of a file.","CertBrgy":"CertBrgy is too large of a file."}
+ERROR - 2024-12-02 16:50:24 --> Validation Errors: {"CertBrgy":"CertBrgy is too large of a file.","CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 16:50:44 --> Validation Errors: {"CertRegs":"CertRegs is too large of a file."}
+ERROR - 2024-12-02 16:51:11 --> Validation Errors: {"CertRegs":"CertRegs is too large of a file."}
+INFO - 2024-12-02 16:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 16:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

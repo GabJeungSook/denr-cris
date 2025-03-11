@@ -1,0 +1,495 @@
+INFO - 2024-10-09 10:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:18:39 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:18:39 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:18:39 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:19:29 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:19:29 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:19:29 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:19:34 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-09 10:19:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-09 10:19:35 --> Client found for ApplicationNo: 22
+INFO - 2024-10-09 10:19:47 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:19:47 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:19:47 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:28:46 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:28:46 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:28:46 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:29:48 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:29:48 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:29:48 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:30:26 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:30:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:30:26 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:30:44 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:30:44 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:30:44 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:31:26 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:31:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:31:26 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:32:10 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:32:10 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:32:10 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:32:54 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:32:54 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:32:54 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:33:05 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:33:05 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:33:05 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:33:09 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:33:09 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:33:09 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:34:26 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:34:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:34:26 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:34:56 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:34:56 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:34:56 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:35:18 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:35:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:35:18 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:35:42 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:35:42 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:35:42 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:36:07 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:36:07 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:36:07 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:37:00 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:37:00 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:37:00 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:37:34 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:37:34 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:37:34 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:38:36 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:38:36 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:38:36 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:39:47 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:39:47 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:39:47 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:40:39 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:40:39 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:40:39 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:40:55 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:40:55 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:40:55 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:41:12 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:41:12 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:41:12 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:42:37 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-09 10:42:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-09 10:42:37 --> Client found for ApplicationNo: 22
+INFO - 2024-10-09 10:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:42:45 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-09 10:42:45 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-09 10:42:45 --> Client found for ApplicationNo: 22
+INFO - 2024-10-09 10:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:46:20 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-09 10:46:20 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-09 10:46:20 --> Client found for ApplicationNo: 22
+INFO - 2024-10-09 10:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:46:50 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:46:50 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:46:50 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:47:12 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:47:12 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:47:12 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:51:14 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 10:51:14 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 10:51:14 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 10:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 10:52:06 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 10:52:06 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 10:52:06 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 10:53:35 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-09 10:53:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-09 10:53:35 --> Client found for ApplicationNo: 17
+INFO - 2024-10-09 10:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:08:56 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA352","DateOfAcquisition":"2023-06-02","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728443336_ba3ec17e20cefa7f2844.png","ProfOwnShip":"1728443336_86cf8f67cc48bbad62ba.pdf","ProfOwnShipFilePath":"uploads\/files\/1728443336_86cf8f67cc48bbad62ba.pdf","CertBrgy":"1728443336_980dcbcdabbcb6c0fc26.pdf","CertBrgyFilePath":"uploads\/files\/1728443336_980dcbcdabbcb6c0fc26.pdf","CertRegs":"1728443336_f19ac0ed85e5c05093f4.pdf","CertRegsFilePath":"uploads\/files\/1728443336_f19ac0ed85e5c05093f4.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-09","CreatedDate":"2026-10-09 11:08:56"}
+INFO - 2024-10-09 11:08:56 --> Data inserted successfully.
+INFO - 2024-10-09 11:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:09:57 --> Received ApplicationNo: 0b7f687ebb64f777f3c1079d17411f06
+INFO - 2024-10-09 11:09:57 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '0b7f687ebb64f777f3c1079d17411f06'
+ LIMIT 1
+INFO - 2024-10-09 11:09:57 --> Client found for ApplicationNo: 25
+INFO - 2024-10-09 11:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:14:22 --> Received ApplicationNo: 0b7f687ebb64f777f3c1079d17411f06
+INFO - 2024-10-09 11:14:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '0b7f687ebb64f777f3c1079d17411f06'
+ LIMIT 1
+INFO - 2024-10-09 11:14:22 --> Client found for ApplicationNo: 25
+CRITICAL - 2024-10-09 11:18:41 --> ErrorException: Undefined array key "contactNo"
+[Method: POST, Route: client/sendSms]
+in APPPATH\Controllers\Client.php on line 429.
+ 1 APPPATH\Controllers\Client.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contactNo"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 429)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->sendSms()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-09 11:30:00 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:30:00 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:30:00 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:36:14 --> Received ApplicationNo: 0b7f687ebb64f777f3c1079d17411f06
+INFO - 2024-10-09 11:36:14 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '0b7f687ebb64f777f3c1079d17411f06'
+ LIMIT 1
+INFO - 2024-10-09 11:36:14 --> Client found for ApplicationNo: 25
+INFO - 2024-10-09 11:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:41:23 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:41:23 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:41:23 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:41:34 --> Semaphore API response: [{"message_id":232647323,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:41:41","updated_at":"2024-10-09 11:41:41"}]
+INFO - 2024-10-09 11:41:34 --> Decoded response: [{"message_id":232647323,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:41:41","updated_at":"2024-10-09 11:41:41"}]
+ERROR - 2024-10-09 11:41:34 --> SMS sending failed: [{"message_id":232647323,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:41:41","updated_at":"2024-10-09 11:41:41"}]
+CRITICAL - 2024-10-09 11:41:34 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: client/sendSms]
+in APPPATH\Controllers\Client.php on line 348.
+ 1 APPPATH\Controllers\Client.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 348)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->sendSms()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-09 11:42:26 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:42:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:42:26 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:42:29 --> Semaphore API response: [{"message_id":232647340,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+INFO - 2024-10-09 11:42:29 --> Decoded response: [{"message_id":232647340,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+INFO - 2024-10-09 11:42:29 --> Semaphore API response: [{"message_id":232647341,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+ERROR - 2024-10-09 11:42:29 --> SMS sending failed: [{"message_id":232647340,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+INFO - 2024-10-09 11:42:29 --> Decoded response: [{"message_id":232647341,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+ERROR - 2024-10-09 11:42:29 --> SMS sending failed: [{"message_id":232647341,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:42:36","updated_at":"2024-10-09 11:42:36"}]
+CRITICAL - 2024-10-09 11:42:29 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: client/sendSms]
+in APPPATH\Controllers\Client.php on line 348.
+ 1 APPPATH\Controllers\Client.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 348)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->sendSms()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-09 11:42:29 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: client/sendSms]
+in APPPATH\Controllers\Client.php on line 348.
+ 1 APPPATH\Controllers\Client.php(348): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 348)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->sendSms()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-09 11:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:43:30 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:43:30 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:43:30 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:43:47 --> Semaphore API response: [{"message_id":232647416,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Registration apporved","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:43:53","updated_at":"2024-10-09 11:43:53"}]
+INFO - 2024-10-09 11:43:47 --> Decoded response: [{"message_id":232647416,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Registration apporved","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:43:53","updated_at":"2024-10-09 11:43:53"}]
+ERROR - 2024-10-09 11:43:47 --> SMS sending failed: [{"message_id":232647416,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Registration apporved","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:43:53","updated_at":"2024-10-09 11:43:53"}]
+INFO - 2024-10-09 11:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:48:15 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 11:48:15 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 11:48:15 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 11:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:49:35 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:49:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:49:35 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:49:38 --> Semaphore API response: [{"message_id":232647639,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Your registration has been confirmed. Remarks: Good day, your application was approved.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:49:45","updated_at":"2024-10-09 11:49:45"}]
+INFO - 2024-10-09 11:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:50:19 --> Received ApplicationNo: 0b7f687ebb64f777f3c1079d17411f06
+INFO - 2024-10-09 11:50:19 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '0b7f687ebb64f777f3c1079d17411f06'
+ LIMIT 1
+INFO - 2024-10-09 11:50:19 --> Client found for ApplicationNo: 25
+INFO - 2024-10-09 11:50:23 --> Semaphore API response: [{"message_id":232647669,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day, your application was approved.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:50:30","updated_at":"2024-10-09 11:50:30"}]
+INFO - 2024-10-09 11:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:53:21 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:53:21 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:53:21 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 11:53:45 --> Semaphore API Response: [{"message_id":232647867,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please process to the Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:53:51","updated_at":"2024-10-09 11:53:51"}]
+ERROR - 2024-10-09 11:53:45 --> SMS sending failed: [{"message_id":232647867,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please process to the Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 11:53:51","updated_at":"2024-10-09 11:53:51"}]
+INFO - 2024-10-09 11:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 11:59:29 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 11:59:29 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 11:59:29 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 12:00:24 --> Semaphore API response: [{"message_id":232648122,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day, your application is approved. Please proceed to Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 12:00:31","updated_at":"2024-10-09 12:00:31"}]
+INFO - 2024-10-09 12:02:55 --> Semaphore API response: [{"message_id":232648204,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day, your application is approved. Please proceed to Payment Transaction. God Bless.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 12:03:02","updated_at":"2024-10-09 12:03:02"}]
+INFO - 2024-10-09 12:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 12:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 12:25:43 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 12:25:43 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 12:25:43 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 12:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 12:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 12:58:33 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 12:58:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 12:58:33 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 13:06:56 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-09 13:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:07:18 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 13:07:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 13:07:18 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 13:07:21 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-09 13:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:10:03 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 13:10:03 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 13:10:03 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 13:10:05 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-09 13:10:11 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-09 13:10:24 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-09 13:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:15:02 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 13:15:02 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 13:15:02 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 13:15:41 --> Semaphore API response: [{"message_id":232651867,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to the transaction payment.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 13:15:47","updated_at":"2024-10-09 13:15:47"}]
+INFO - 2024-10-09 13:16:22 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 13:16:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 13:16:22 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 13:16:33 --> Semaphore API response: [{"message_id":232651902,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to the transaction payment. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 13:16:39","updated_at":"2024-10-09 13:16:39"}]
+INFO - 2024-10-09 13:16:33 --> Semaphore API response: [{"message_id":232651903,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to the transaction payment. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-09 13:16:39","updated_at":"2024-10-09 13:16:39"}]
+INFO - 2024-10-09 13:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:16:55 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 13:16:55 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 13:16:55 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 13:19:17 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 13:19:17 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 13:19:17 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 14:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:54:32 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-09 14:54:32 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-09 14:54:32 --> Client found for ApplicationNo: 24
+INFO - 2024-10-09 14:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:55:26 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 14:55:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 14:55:26 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 14:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:57:41 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-09 14:57:41 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-09 14:57:41 --> Client found for ApplicationNo: 23
+INFO - 2024-10-09 14:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 14:58:51 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-09 14:58:51 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-09 14:58:51 --> Client found for ApplicationNo: 22
+INFO - 2024-10-09 14:59:11 --> Semaphore API response: 
+INFO - 2024-10-09 14:59:27 --> Semaphore API response: 
+INFO - 2024-10-09 14:59:32 --> Semaphore API response: 
+INFO - 2024-10-09 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-09 15:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,878 @@
+INFO - 2024-10-16 08:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:29 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 08:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:31:47 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 08:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:32:02 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 08:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:32:32 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 10:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:21:40 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:21:49 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:21:56 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:22:12 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:22:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:22:49 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:24:03 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:30:02 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:35:28 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 11:36:27 --> ErrorException: Undefined variable $user
+[Method: GET, Route: user]
+in APPPATH\Views\user\index.php on line 215.
+ 1 APPPATH\Views\user\index.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\index.php', 215)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/index', [], true)
+ 5 APPPATH\Controllers\User.php(14): view('user/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:36:44 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:36:46 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:38:00 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:38:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:39:26 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:39:30 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 11:39:35 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 11:39:48 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:41:52 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:42:39 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:42:47 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('21', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 11:42:52 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(512): CodeIgniter\Model->update('19', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:43:24 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+DEBUG - 2024-10-16 11:43:29 --> Received UserID: 21
+CRITICAL - 2024-10-16 11:43:29 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: user/delete]
+in APPPATH\Controllers\User.php on line 524.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:44:16 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+CRITICAL - 2024-10-16 11:44:22 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(529): CodeIgniter\Model->update('22', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 11:44:31 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: user/delete]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\User.php(529): CodeIgniter\Model->update('19', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->delete()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 11:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:46:43 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:47:34 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+DEBUG - 2024-10-16 11:47:42 --> User data: stdClass Object
+(
+    [UserID] => 21
+    [LastName] => Abduladzis
+    [FirstName] => Morphy
+    [ContactNo] => 09153045318
+    [UserRole] => RPS Chief
+    [OfficeName] => CENRO Tacurong
+    [HeadOfOffice] => 
+    [Position] => 
+    [Status] => Confirmed
+    [Username] => Morphy1
+    [Password] => $2y$10$eg5TzP/lDFZ76Ll2Vtf9COfyI3tBB/PkzKdUoSBv/7Yi7ZkqEhvYW
+    [CreatedDate] => 2024-10-15 14:16:26
+    [UpdatedDate] => 2024-10-15 14:16:26
+    [DeletedDate] => 
+)
+
+DEBUG - 2024-10-16 11:47:48 --> User data: stdClass Object
+(
+    [UserID] => 21
+    [LastName] => Abduladzis
+    [FirstName] => Morphy
+    [ContactNo] => 09153045318
+    [UserRole] => RPS Chief
+    [OfficeName] => CENRO Tacurong
+    [HeadOfOffice] => 
+    [Position] => 
+    [Status] => Confirmed
+    [Username] => Morphy1
+    [Password] => $2y$10$eg5TzP/lDFZ76Ll2Vtf9COfyI3tBB/PkzKdUoSBv/7Yi7ZkqEhvYW
+    [CreatedDate] => 2024-10-15 14:16:26
+    [UpdatedDate] => 2024-10-16 11:47:42
+    [DeletedDate] => 2024-10-16 11:47:42
+)
+
+INFO - 2024-10-16 11:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:50:38 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+DEBUG - 2024-10-16 11:50:46 --> User data: stdClass Object
+(
+    [UserID] => 4
+    [LastName] => Paclarin
+    [FirstName] => Christian James
+    [ContactNo] => 09157839778
+    [UserRole] => RPS Chief
+    [OfficeName] => 
+    [HeadOfOffice] => 
+    [Position] => 
+    [Status] => Confirmed
+    [Username] => James
+    [Password] => $2y$10$yOIkS6UhnHCkxdrqMY8yY.2Isi9ogembperBcXxM93NopkS/eaLNu
+    [CreatedDate] => 2024-09-17 22:08:13
+    [UpdatedDate] => 2024-09-17 22:08:13
+    [DeletedDate] => 
+)
+
+INFO - 2024-10-16 11:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:51:09 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:52:40 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:55:23 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:55:29 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+DEBUG - 2024-10-16 11:55:33 --> User data: stdClass Object
+(
+    [UserID] => 3
+    [LastName] => Manansala
+    [FirstName] => Byran
+    [ContactNo] => 09301298345
+    [UserRole] => Patroller
+    [OfficeName] => 
+    [HeadOfOffice] => 
+    [Position] => 
+    [Status] => 
+    [Username] => Bryan
+    [Password] => $2y$10$FMzibQP6vzF0sZjsmJoLue5Ws1fSuqMPeta9B6SjO7mw0DjW21fTq
+    [CreatedDate] => 2024-09-17 22:04:33
+    [UpdatedDate] => 2024-09-17 22:04:33
+    [DeletedDate] => 
+)
+
+DEBUG - 2024-10-16 11:55:33 --> User data: stdClass Object
+(
+    [UserID] => 3
+    [LastName] => Manansala
+    [FirstName] => Byran
+    [ContactNo] => 09301298345
+    [UserRole] => Patroller
+    [OfficeName] => 
+    [HeadOfOffice] => 
+    [Position] => 
+    [Status] => 
+    [Username] => Bryan
+    [Password] => $2y$10$FMzibQP6vzF0sZjsmJoLue5Ws1fSuqMPeta9B6SjO7mw0DjW21fTq
+    [CreatedDate] => 2024-09-17 22:04:33
+    [UpdatedDate] => 2024-09-17 22:04:33
+    [DeletedDate] => 
+)
+
+INFO - 2024-10-16 11:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:56:42 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+DEBUG - 2024-10-16 11:56:52 --> User data: stdClass Object
+(
+    [UserID] => 20
+    [LastName] => Alquiza
+    [FirstName] => Ryan
+    [ContactNo] => 09488913013
+    [UserRole] => Client
+    [OfficeName] => CENRO Kalamansig
+    [HeadOfOffice] => ROGIE H. HAGORILES
+    [Position] => OIC-CENR Officer
+    [Status] => Pending
+    [Username] => Ryan
+    [Password] => $2y$10$Y7xP84jzeunkI1CRKiZyDuRiC3lig2IW4wThbf459MW.y8xXBLfG.
+    [CreatedDate] => 2024-10-15 11:17:15
+    [UpdatedDate] => 2024-10-15 11:17:15
+    [DeletedDate] => 
+)
+
+DEBUG - 2024-10-16 11:56:52 --> User data: stdClass Object
+(
+    [UserID] => 20
+    [LastName] => Alquiza
+    [FirstName] => Ryan
+    [ContactNo] => 09488913013
+    [UserRole] => Client
+    [OfficeName] => CENRO Kalamansig
+    [HeadOfOffice] => ROGIE H. HAGORILES
+    [Position] => OIC-CENR Officer
+    [Status] => Pending
+    [Username] => Ryan
+    [Password] => $2y$10$Y7xP84jzeunkI1CRKiZyDuRiC3lig2IW4wThbf459MW.y8xXBLfG.
+    [CreatedDate] => 2024-10-15 11:17:15
+    [UpdatedDate] => 2024-10-16 11:56:52
+    [DeletedDate] => 2024-10-16 11:56:52
+)
+
+INFO - 2024-10-16 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:56:54 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:01 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:12 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:17 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 11:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 11:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:06:11 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:06:17 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:06 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:11 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:26 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:31 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:31:56 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:32:03 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:32:57 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-10-16 12:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 12:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 13:27:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "your_view_file.php"
+[Method: GET, Route: releasing]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('your_view_file.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('your_view_file', [], true)
+ 3 APPPATH\Controllers\Client.php(311): view('your_view_file', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->releasing()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 13:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:29:28 --> Received RegistrationNo: baf7c6763f81d938954cc7eeb84a19bd
+INFO - 2024-10-16 13:29:28 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'baf7c6763f81d938954cc7eeb84a19bd'
+ LIMIT 1
+INFO - 2024-10-16 13:29:28 --> Client found for RegistrationNo: 2024REGS0000000003
+INFO - 2024-10-16 13:30:03 --> Received RegistrationNo: baf7c6763f81d938954cc7eeb84a19bd
+INFO - 2024-10-16 13:30:03 --> Received Status: Confirmed
+INFO - 2024-10-16 13:30:03 --> Received Remarks: Good day! Please proceed to the payment transaction. Thank you.
+INFO - 2024-10-16 13:30:03 --> Generated UpdatedDate: 2024-10-16 13:30:03
+INFO - 2024-10-16 13:30:03 --> Client found for RegistrationNo: 2024REGS0000000003
+INFO - 2024-10-16 13:30:03 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA125
+INFO - 2024-10-16 13:30:03 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-16 13:30:03","Remarks":"Good day! Please proceed to the payment transaction. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA125"}
+INFO - 2024-10-16 13:30:03 --> User status updated successfully for UserID: 19
+INFO - 2024-10-16 13:30:05 --> Semaphore API response: [{"message_id":233233174,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day! Please proceed to the payment transaction. Thank you.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-16 13:30:25","updated_at":"2024-10-16 13:30:25"}]
+INFO - 2024-10-16 13:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 13:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 13:57:19 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 101.
+ 1 APPPATH\Views\user\dashboard.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 101)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(131): view('user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 14:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:39:18 --> Received RegistrationNo: c1b002b0dc5532f23f88d421f5a7dcc4
+INFO - 2024-10-16 14:39:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'c1b002b0dc5532f23f88d421f5a7dcc4'
+ LIMIT 1
+INFO - 2024-10-16 14:39:18 --> Client found for RegistrationNo: 2024REGS0000000004
+INFO - 2024-10-16 14:39:33 --> Received RegistrationNo: c1b002b0dc5532f23f88d421f5a7dcc4
+INFO - 2024-10-16 14:39:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'c1b002b0dc5532f23f88d421f5a7dcc4'
+ LIMIT 1
+INFO - 2024-10-16 14:39:33 --> Client found for RegistrationNo: 2024REGS0000000004
+INFO - 2024-10-16 14:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 14:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 14:58:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "client/printCOR.php"
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/printCOR.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 3 APPPATH\Controllers\Client.php(714): view('client/printCOR', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 15:00:30 --> ErrorException: Undefined property: stdClass::$ApprovedBy
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 40.
+ 1 APPPATH\Views\client\printCOR.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ApprovedBy', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(714): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 15:14:31 --> ErrorException: Undefined variable $RegistrationNo
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 90.
+ 1 APPPATH\Views\client\printCOR.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $RegistrationNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 90)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(714): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-16 15:15:59 --> mysqli_sql_exception: Unknown column 'ClientID' in 'where clause' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\Client.php(726): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000...')
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-16 15:15:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ClientID' in 'where clause'
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = :ClientID:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Client.php(726): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:15:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ClientID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = \'2024REGS0000000001\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = \'2024REGS0000000001\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = :ClientID:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Client.php(726): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:15:59 --> [Caused by] mysqli_sql_exception: Unknown column 'ClientID' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = \'2024REGS0000000001\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = \'2024REGS0000000001\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = \'2024REGS0000000001\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+WHERE `ClientID` = :ClientID:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Client.php(726): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 15:16:25 --> ErrorException: Undefined property: stdClass::$IssuedOn
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 741.
+ 1 APPPATH\Controllers\Client.php(741): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IssuedOn', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 741)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 15:17:02 --> ErrorException: Undefined property: stdClass::$IssuedOn
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 741.
+ 1 APPPATH\Controllers\Client.php(741): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IssuedOn', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 741)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:17:21 --> ErrorException: Undefined property: stdClass::$Expiry
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 741.
+ 1 APPPATH\Controllers\Client.php(741): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Expiry', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 741)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:17:32 --> ErrorException: Undefined property: stdClass::$ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 741.
+ 1 APPPATH\Controllers\Client.php(741): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 741)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:21:16 --> ErrorException: Undefined property: stdClass::$IssuedOn
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 741.
+ 1 APPPATH\Controllers\Client.php(741): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IssuedOn', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 741)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:21:25 --> ErrorException: Undefined property: stdClass::$ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 743.
+ 1 APPPATH\Controllers\Client.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:21:40 --> ErrorException: Undefined variable $Expiry
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 107.
+ 1 APPPATH\Views\client\printCOR.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Expiry', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 107)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:22:10 --> ErrorException: Undefined variable $ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 133)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:38:05 --> ErrorException: Undefined variable $ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 133)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:38:20 --> ErrorException: Undefined variable $ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 133)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-16 15:38:28 --> ErrorException: Undefined variable $ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 133)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 15:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 15:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 15:45:14 --> ErrorException: Undefined variable $IssuedDate
+[Method: GET, Route: client/printCOR/2024REGS0000000003]
+in APPPATH\Views\client\printCOR.php on line 135.
+ 1 APPPATH\Views\client\printCOR.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $IssuedDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000003')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-16 16:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:42:40 --> Received RegistrationNo: c1b002b0dc5532f23f88d421f5a7dcc4
+INFO - 2024-10-16 16:42:40 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'c1b002b0dc5532f23f88d421f5a7dcc4'
+ LIMIT 1
+INFO - 2024-10-16 16:42:40 --> Client found for RegistrationNo: 2024REGS0000000004
+INFO - 2024-10-16 16:43:23 --> Received RegistrationNo: c1b002b0dc5532f23f88d421f5a7dcc4
+INFO - 2024-10-16 16:43:23 --> Received Status: Confirmed
+INFO - 2024-10-16 16:43:23 --> Received Remarks: Good day! Please proceed to payment transaction. Thank you.
+INFO - 2024-10-16 16:43:23 --> Generated UpdatedDate: 2024-10-16 16:43:23
+INFO - 2024-10-16 16:43:23 --> Client found for RegistrationNo: 2024REGS0000000004
+INFO - 2024-10-16 16:43:23 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA126
+INFO - 2024-10-16 16:43:23 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-16 16:43:23","Remarks":"Good day! Please proceed to payment transaction. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA126"}
+INFO - 2024-10-16 16:43:26 --> Semaphore API response: [{"message_id":233270145,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day! Please proceed to payment transaction. Thank you.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-16 16:43:47","updated_at":"2024-10-16 16:43:47"}]
+INFO - 2024-10-16 16:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 16:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

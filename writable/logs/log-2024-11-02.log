@@ -1,0 +1,1237 @@
+INFO - 2024-11-02 09:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 10:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:24 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 11:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:48 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 11:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:31:58 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 11:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:32:11 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 11:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:32:58 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 11:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:39:20 --> Image saved to uploads/images/1730518760_248be1ec045565545d9a.png
+INFO - 2024-11-02 11:39:20 --> ProfOwnShip saved to uploads/files/1730518760_8c4304476a6b2004d8d5.pdf
+INFO - 2024-11-02 11:39:20 --> CertBrgy saved to uploads/files/1730518760_c47d51a44a0219b35c6d.pdf
+INFO - 2024-11-02 11:39:20 --> CertRegs saved to uploads/files/1730518760_bc2b0e171bbd1cd1088d.pdf
+ERROR - 2024-11-02 11:42:29 --> Validation Errors: {"Image":"Image is not a valid uploaded file.","ProfOwnShip":"ProfOwnShip is not a valid uploaded file.","CertBrgy":"CertBrgy is not a valid uploaded file.","CertRegs":"CertRegs is not a valid uploaded file."}
+INFO - 2024-11-02 11:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:43:13 --> Image saved to uploads/images/1730518993_a3d884055e30891b6b75.png
+INFO - 2024-11-02 11:43:13 --> ProfOwnShip saved to uploads/files/1730518993_ae40ca77053e9a527093.pdf
+INFO - 2024-11-02 11:43:13 --> CertBrgy saved to uploads/files/1730518993_52a55977e3ff24edc74d.pdf
+INFO - 2024-11-02 11:43:13 --> CertRegs saved to uploads/files/1730518993_eaf698fbe9c40c185e4b.pdf
+INFO - 2024-11-02 11:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:50:24 --> Image saved to uploads/images/1730519424_df5cd8faa45ab7204ed4.png
+INFO - 2024-11-02 11:50:24 --> ProfOwnShip saved to uploads/files/1730519424_f0a99f6eede71852f95c.pdf
+INFO - 2024-11-02 11:50:24 --> CertBrgy saved to uploads/files/1730519424_72f980c493a2130e863f.pdf
+INFO - 2024-11-02 11:50:24 --> CertRegs saved to uploads/files/1730519424_11f3f0bec6066c05c4cf.pdf
+INFO - 2024-11-02 11:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 11:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:04:44 --> Image saved to uploads/images/1730520284_b35608dd82fc80b54e62.png
+INFO - 2024-11-02 12:04:44 --> ProfOwnShip saved to uploads/files/1730520284_f29bdb17bedde671f584.pdf
+INFO - 2024-11-02 12:04:44 --> CertBrgy saved to uploads/files/1730520284_9bbb52bd9edd67b68cd1.pdf
+INFO - 2024-11-02 12:04:44 --> CertRegs saved to uploads/files/1730520284_d1986788a34f5e277d5f.pdf
+CRITICAL - 2024-11-02 12:04:44 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 12:05:47 --> Image saved to uploads/images/1730520347_53e7a4d196634a8d0777.png
+INFO - 2024-11-02 12:05:47 --> ProfOwnShip saved to uploads/files/1730520347_82e425ae1ac13cd9907d.pdf
+INFO - 2024-11-02 12:05:47 --> CertBrgy saved to uploads/files/1730520347_194af32decf28b8967c0.pdf
+INFO - 2024-11-02 12:05:47 --> CertRegs saved to uploads/files/1730520347_cba4cc7d7cdf0bccbd26.pdf
+CRITICAL - 2024-11-02 12:05:47 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 12:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:07:52 --> Image saved to uploads/images/1730520472_c1854c9e2930a6015f52.png
+INFO - 2024-11-02 12:07:52 --> ProfOwnShip saved to uploads/files/1730520472_c3e907d9fd22fd7aca09.pdf
+INFO - 2024-11-02 12:07:52 --> CertBrgy saved to uploads/files/1730520472_5f4b91684ddbc7ab2a45.pdf
+INFO - 2024-11-02 12:07:52 --> CertRegs saved to uploads/files/1730520472_1360c29e95038b29ef8f.pdf
+CRITICAL - 2024-11-02 12:07:52 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 13:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 13:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 13:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 13:56:30 --> Image saved to uploads/images/1730526990_7ee506a3ea4c9f25fc59.png
+INFO - 2024-11-02 13:56:30 --> ProfOwnShip saved to uploads/files/1730526990_c275dfadcbaa50b7a877.pdf
+INFO - 2024-11-02 13:56:30 --> CertBrgy saved to uploads/files/1730526990_d66198828f63cd5c49f2.pdf
+INFO - 2024-11-02 13:56:30 --> CertRegs saved to uploads/files/1730526990_22b9b0de4dd444c8cd05.pdf
+CRITICAL - 2024-11-02 13:56:30 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:01:41 --> Image saved to uploads/images/1730527301_78d0d2f603e4bce2a975.png
+INFO - 2024-11-02 14:01:41 --> ProfOwnShip saved to uploads/files/1730527301_aa07264d085d23dc34ad.pdf
+INFO - 2024-11-02 14:01:41 --> CertBrgy saved to uploads/files/1730527301_44fe53652f9ef7d01c3f.pdf
+INFO - 2024-11-02 14:01:41 --> CertRegs saved to uploads/files/1730527301_b4ecffd424ae57443df9.pdf
+CRITICAL - 2024-11-02 14:01:41 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:04:10 --> Image saved to uploads/images/1730527450_8542f9c9ecb02d7bf434.png
+INFO - 2024-11-02 14:04:10 --> ProfOwnShip saved to uploads/files/1730527450_251952842ce21f50d04d.pdf
+INFO - 2024-11-02 14:04:10 --> CertBrgy saved to uploads/files/1730527450_32dce8b80ef8ad2deb85.pdf
+INFO - 2024-11-02 14:04:10 --> CertRegs saved to uploads/files/1730527450_844314b2beb69af6e435.pdf
+CRITICAL - 2024-11-02 14:04:10 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:06:22 --> Image saved to uploads/images/1730527582_9e90567cc87d1a3912f0.png
+INFO - 2024-11-02 14:06:22 --> ProfOwnShip saved to uploads/files/1730527582_f3eaa2870efffddb8187.pdf
+INFO - 2024-11-02 14:06:22 --> CertBrgy saved to uploads/files/1730527582_2b7f066cfc6c30d583f2.pdf
+INFO - 2024-11-02 14:06:22 --> CertRegs saved to uploads/files/1730527582_32ab7fb94e671cb0583e.pdf
+CRITICAL - 2024-11-02 14:06:22 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:10:38 --> Image saved to uploads/images/1730527838_ce4f80b80e12f64c5c64.png
+INFO - 2024-11-02 14:10:38 --> ProfOwnShip saved to uploads/files/1730527838_e10768865293db03aebd.pdf
+INFO - 2024-11-02 14:10:38 --> CertBrgy saved to uploads/files/1730527838_d2c6dd69ef47cbf2fde8.pdf
+INFO - 2024-11-02 14:10:38 --> CertRegs saved to uploads/files/1730527838_bf4d365b9a7a26ea0326.pdf
+CRITICAL - 2024-11-02 14:10:38 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:15:11 --> Image saved to uploads/images/1730528111_e4c1a77b44d3b3ea5312.png
+INFO - 2024-11-02 14:15:11 --> ProfOwnShip saved to uploads/files/1730528111_e31e9fe80f9a6f0c1134.pdf
+INFO - 2024-11-02 14:15:11 --> CertBrgy saved to uploads/files/1730528111_c1663858a4e11bfb2f35.pdf
+INFO - 2024-11-02 14:15:11 --> CertRegs saved to uploads/files/1730528111_9ad5b6c7c09e023fa33c.pdf
+CRITICAL - 2024-11-02 14:15:11 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:15:33 --> Image saved to uploads/images/1730528133_35a9e5a2afc1181d4bcf.png
+INFO - 2024-11-02 14:15:33 --> ProfOwnShip saved to uploads/files/1730528133_2510a82e06c89222da4a.pdf
+INFO - 2024-11-02 14:15:33 --> CertBrgy saved to uploads/files/1730528133_a938099c099de97a1b45.pdf
+INFO - 2024-11-02 14:15:33 --> CertRegs saved to uploads/files/1730528133_bf3c54c0a499cccfbfa4.pdf
+CRITICAL - 2024-11-02 14:15:33 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:15:49 --> Image saved to uploads/images/1730528149_c13616fa01a4791e340d.png
+INFO - 2024-11-02 14:15:49 --> ProfOwnShip saved to uploads/files/1730528149_80593405596d630ca680.pdf
+INFO - 2024-11-02 14:15:49 --> CertBrgy saved to uploads/files/1730528149_98b94a5ce6186e1f8083.pdf
+INFO - 2024-11-02 14:15:49 --> CertRegs saved to uploads/files/1730528149_5ac3b0ae8dc6ec91904a.pdf
+CRITICAL - 2024-11-02 14:15:49 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:17:19 --> Image saved to uploads/images/1730528239_3e2066418d01edbefb82.png
+INFO - 2024-11-02 14:17:19 --> ProfOwnShip saved to uploads/files/1730528239_c7a3949fea90a102f65f.pdf
+INFO - 2024-11-02 14:17:19 --> CertBrgy saved to uploads/files/1730528239_ee4f5b6443bbeaf295c6.pdf
+INFO - 2024-11-02 14:17:19 --> CertRegs saved to uploads/files/1730528239_e181e76fd1dccac5eab6.pdf
+CRITICAL - 2024-11-02 14:17:19 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 14:19:27 --> Image saved to uploads/images/1730528367_f5a508a9a92b9057317f.png
+INFO - 2024-11-02 14:19:27 --> ProfOwnShip saved to uploads/files/1730528367_fe5a5a6c743a049753ae.pdf
+INFO - 2024-11-02 14:19:27 --> CertBrgy saved to uploads/files/1730528367_ba85453530e7844aabd8.pdf
+INFO - 2024-11-02 14:19:27 --> CertRegs saved to uploads/files/1730528367_14714f39b6d91653d9cf.png
+CRITICAL - 2024-11-02 14:19:27 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:20:13 --> Image saved to uploads/images/1730528413_f22e235543ec346b3ef5.png
+INFO - 2024-11-02 14:20:13 --> ProfOwnShip saved to uploads/files/1730528413_0ad373caccb09a3705d2.pdf
+INFO - 2024-11-02 14:20:13 --> CertBrgy saved to uploads/files/1730528413_db3f98a5fadc0fcbf39f.pdf
+INFO - 2024-11-02 14:20:13 --> CertRegs saved to uploads/files/1730528413_b98e5da094e4c7862256.png
+CRITICAL - 2024-11-02 14:20:13 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:20:39 --> Image saved to uploads/images/1730528439_72c968789f93af107437.png
+INFO - 2024-11-02 14:20:39 --> ProfOwnShip saved to uploads/files/1730528439_0e7f786a76b5c0a98676.pdf
+INFO - 2024-11-02 14:20:39 --> CertBrgy saved to uploads/files/1730528439_1dfce48c63978bb44d22.pdf
+INFO - 2024-11-02 14:20:39 --> CertRegs saved to uploads/files/1730528439_4c07dd0d7633bb60ea54.png
+CRITICAL - 2024-11-02 14:20:39 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:28:15 --> Image saved to uploads/images/1730528895_066edfa59913200e3870.png
+INFO - 2024-11-02 14:28:15 --> ProfOwnShip saved to uploads/files/1730528895_9fadf06d7bfc36a13ffd.pdf
+INFO - 2024-11-02 14:28:15 --> CertBrgy saved to uploads/files/1730528895_46a3fdec3f51b73dea7f.pdf
+INFO - 2024-11-02 14:28:15 --> CertRegs saved to uploads/files/1730528895_1ccab6844a52fbc249d5.pdf
+CRITICAL - 2024-11-02 14:28:15 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:33:02 --> Image saved to uploads/images/1730529182_43195f4d6472ceb0eb64.png
+INFO - 2024-11-02 14:33:02 --> ProfOwnShip saved to uploads/files/1730529182_03e6082294f05c9fb300.pdf
+INFO - 2024-11-02 14:33:02 --> CertBrgy saved to uploads/files/1730529182_a4ed62f06c9fa653992e.pdf
+INFO - 2024-11-02 14:33:02 --> CertRegs saved to uploads/files/1730529182_5d921147113891f60fd4.pdf
+CRITICAL - 2024-11-02 14:33:02 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:34:20 --> Image saved to uploads/images/1730529260_ad94e14288dba55fc1f2.png
+INFO - 2024-11-02 14:34:20 --> ProfOwnShip saved to uploads/files/1730529260_33b776d1d38825b0ae1d.pdf
+INFO - 2024-11-02 14:34:20 --> CertBrgy saved to uploads/files/1730529260_d501034ab4a9839138fc.pdf
+INFO - 2024-11-02 14:34:20 --> CertRegs saved to uploads/files/1730529260_ed9d86c65c504475feed.pdf
+CRITICAL - 2024-11-02 14:34:20 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 14:36:49 --> Image saved to uploads/images/1730529409_a160b5689ff87a7ad9a8.png
+INFO - 2024-11-02 14:36:49 --> ProfOwnShip saved to uploads/files/1730529409_1a339236e86ae76ffd08.pdf
+INFO - 2024-11-02 14:36:49 --> CertBrgy saved to uploads/files/1730529409_64b310a547077e54594d.pdf
+INFO - 2024-11-02 14:36:49 --> CertRegs saved to uploads/files/1730529409_bf8ca47c2de36111dbd7.pdf
+CRITICAL - 2024-11-02 14:36:49 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:37:08 --> Image saved to uploads/images/1730529428_2f069d2ea696fcf958a4.png
+INFO - 2024-11-02 14:37:08 --> ProfOwnShip saved to uploads/files/1730529428_67f9ce9033c1091cf1fd.pdf
+INFO - 2024-11-02 14:37:08 --> CertBrgy saved to uploads/files/1730529428_ea18b417bf326e673288.pdf
+INFO - 2024-11-02 14:37:08 --> CertRegs saved to uploads/files/1730529428_4832ea11c0f726d50bf1.pdf
+CRITICAL - 2024-11-02 14:37:08 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 215.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 14:43:51 --> Validation Errors: {"Fullname":"The Fullname field is required.","Barangay":"The Barangay field is required.","Municipality":"The Municipality field is required.","Province":"The Province field is required.","Brand":"The Brand field is required.","Model":"The Model field is required.","EngineCapacity":"The EngineCapacity field is required.","SerialNo":"The SerialNo field is required.","DateOfAcquisition":"The DateOfAcquisition field is required.","MaxLengthGuideBar":"The MaxLengthGuideBar field is required.","Horsepower":"The Horsepower field is required.","Purpose":"The Purpose field is required.","RegsType":"The RegsType field is required.","Image":"Image is not a valid uploaded file.","ProfOwnShip":"ProfOwnShip is not a valid uploaded file.","CertBrgy":"CertBrgy is not a valid uploaded file.","CertRegs":"CertRegs is not a valid uploaded file."}
+INFO - 2024-11-02 14:44:37 --> Image saved to uploads/images/1730529877_afb80bc21b52ff608236.png
+INFO - 2024-11-02 14:44:37 --> ProfOwnShip saved to uploads/files/1730529877_74454faaed7e3c18b138.pdf
+INFO - 2024-11-02 14:44:37 --> CertBrgy saved to uploads/files/1730529877_49db8532cb8507cfe923.pdf
+INFO - 2024-11-02 14:44:37 --> CertRegs saved to uploads/files/1730529877_69452a3860a9e39ca408.pdf
+CRITICAL - 2024-11-02 14:44:37 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:45:03 --> Image saved to uploads/images/1730529903_1a18025aa536fe1c5bcc.png
+INFO - 2024-11-02 14:45:03 --> ProfOwnShip saved to uploads/files/1730529903_a851284da968d9533739.pdf
+INFO - 2024-11-02 14:45:03 --> CertBrgy saved to uploads/files/1730529903_6ff8670497075bdb53dc.pdf
+INFO - 2024-11-02 14:45:03 --> CertRegs saved to uploads/files/1730529903_9450227b2a27e0d63613.pdf
+CRITICAL - 2024-11-02 14:45:03 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:45:11 --> Image saved to uploads/images/1730529911_4742c22cfd2eeab40c46.png
+INFO - 2024-11-02 14:45:11 --> ProfOwnShip saved to uploads/files/1730529911_923b0f9e539eb1ea6181.pdf
+INFO - 2024-11-02 14:45:11 --> CertBrgy saved to uploads/files/1730529911_90f02ed234833f6dba26.pdf
+INFO - 2024-11-02 14:45:11 --> CertRegs saved to uploads/files/1730529911_333197f9ebb2dbf17c84.pdf
+CRITICAL - 2024-11-02 14:45:11 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:45:13 --> Image saved to uploads/images/1730529913_1520884df39e2bcd2669.png
+INFO - 2024-11-02 14:45:13 --> ProfOwnShip saved to uploads/files/1730529913_e1754d572cad36d6ae3d.pdf
+INFO - 2024-11-02 14:45:13 --> CertBrgy saved to uploads/files/1730529913_5e0d088719d8fb83bbb7.pdf
+INFO - 2024-11-02 14:45:13 --> CertRegs saved to uploads/files/1730529913_31865c1e058b51b527e7.pdf
+CRITICAL - 2024-11-02 14:45:13 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 14:48:08 --> Database insertion failed: []
+INFO - 2024-11-02 14:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-02 14:49:14 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(188): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->registerC()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-02 14:49:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/registerC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:49:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530154_b07c1d429c3f1c609039.png\', \'uploads/files/1730530154_8f024cc2a0787b879022.pdf\', \'uploads/files/1730530154_30115ae41b24a336b885.pdf\', \'uploads/files/1730530154_d9948c4099566c94f71d.pdf\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530154_b07c1d429c3f1c609039.png\', \'uploads/files/1730530154_8f024cc2a0787b879022.pdf\', \'uploads/files/1730530154_30115ae41b24a336b885.pdf\', \'uploads/files/1730530154_d9948c4099566c94f71d.pdf\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:49:14 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530154_b07c1d429c3f1c609039.png\', \'uploads/files/1730530154_8f024cc2a0787b879022.pdf\', \'uploads/files/1730530154_30115ae41b24a336b885.pdf\', \'uploads/files/1730530154_d9948c4099566c94f71d.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530154_b07c1d429c3f1c609039.png\', \'uploads/files/1730530154_8f024cc2a0787b879022.pdf\', \'uploads/files/1730530154_30115ae41b24a336b885.pdf\', \'uploads/files/1730530154_d9948c4099566c94f71d.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530154_b07c1d429c3f1c609039.png\', \'uploads/files/1730530154_8f024cc2a0787b879022.pdf\', \'uploads/files/1730530154_30115ae41b24a336b885.pdf\', \'uploads/files/1730530154_d9948c4099566c94f71d.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 14:49:48 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(188): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->registerC()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-02 14:49:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/registerC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:49:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530188_e0a4c56f8b2587a3a863.png\', \'uploads/files/1730530188_557d3186ea2762204ca1.pdf\', \'uploads/files/1730530188_15ae9ac08568e2ed4020.pdf\', \'uploads/files/1730530188_db42743e48626e71459b.pdf\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530188_e0a4c56f8b2587a3a863.png\', \'uploads/files/1730530188_557d3186ea2762204ca1.pdf\', \'uploads/files/1730530188_15ae9ac08568e2ed4020.pdf\', \'uploads/files/1730530188_db42743e48626e71459b.pdf\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:49:48 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530188_e0a4c56f8b2587a3a863.png\', \'uploads/files/1730530188_557d3186ea2762204ca1.pdf\', \'uploads/files/1730530188_15ae9ac08568e2ed4020.pdf\', \'uploads/files/1730530188_db42743e48626e71459b.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530188_e0a4c56f8b2587a3a863.png\', \'uploads/files/1730530188_557d3186ea2762204ca1.pdf\', \'uploads/files/1730530188_15ae9ac08568e2ed4020.pdf\', \'uploads/files/1730530188_db42743e48626e71459b.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530188_e0a4c56f8b2587a3a863.png\', \'uploads/files/1730530188_557d3186ea2762204ca1.pdf\', \'uploads/files/1730530188_15ae9ac08568e2ed4020.pdf\', \'uploads/files/1730530188_db42743e48626e71459b.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 14:50:10 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(188): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->registerC()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-02 14:50:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/registerC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:50:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530210_ce9adeadfeef2e2152e4.png\', \'uploads/files/1730530210_cb914129fb8ab3a0c20e.pdf\', \'uploads/files/1730530210_8b3692302a1a4a1ffb42.pdf\', \'uploads/files/1730530210_f0434ab735ef840bee3e.pdf\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530210_ce9adeadfeef2e2152e4.png\', \'uploads/files/1730530210_cb914129fb8ab3a0c20e.pdf\', \'uploads/files/1730530210_8b3692302a1a4a1ffb42.pdf\', \'uploads/files/1730530210_f0434ab735ef840bee3e.pdf\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:50:10 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530210_ce9adeadfeef2e2152e4.png\', \'uploads/files/1730530210_cb914129fb8ab3a0c20e.pdf\', \'uploads/files/1730530210_8b3692302a1a4a1ffb42.pdf\', \'uploads/files/1730530210_f0434ab735ef840bee3e.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530210_ce9adeadfeef2e2152e4.png\', \'uploads/files/1730530210_cb914129fb8ab3a0c20e.pdf\', \'uploads/files/1730530210_8b3692302a1a4a1ffb42.pdf\', \'uploads/files/1730530210_f0434ab735ef840bee3e.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530210_ce9adeadfeef2e2152e4.png\', \'uploads/files/1730530210_cb914129fb8ab3a0c20e.pdf\', \'uploads/files/1730530210_8b3692302a1a4a1ffb42.pdf\', \'uploads/files/1730530210_f0434ab735ef840bee3e.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 14:50:24 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(188): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->registerC()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-02 14:50:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/registerC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:50:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530224_0dfa57e7eceb25629113.png\', \'uploads/files/1730530224_a1ccd48482bb4abebcde.pdf\', \'uploads/files/1730530224_cfa849279d5170b739cf.pdf\', \'uploads/files/1730530224_b74b9992ca07e0f5b01c.pdf\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530224_0dfa57e7eceb25629113.png\', \'uploads/files/1730530224_a1ccd48482bb4abebcde.pdf\', \'uploads/files/1730530224_cfa849279d5170b739cf.pdf\', \'uploads/files/1730530224_b74b9992ca07e0f5b01c.pdf\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 14:50:24 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530224_0dfa57e7eceb25629113.png\', \'uploads/files/1730530224_a1ccd48482bb4abebcde.pdf\', \'uploads/files/1730530224_cfa849279d5170b739cf.pdf\', \'uploads/files/1730530224_b74b9992ca07e0f5b01c.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530224_0dfa57e7eceb25629113.png\', \'uploads/files/1730530224_a1ccd48482bb4abebcde.pdf\', \'uploads/files/1730530224_cfa849279d5170b739cf.pdf\', \'uploads/files/1730530224_b74b9992ca07e0f5b01c.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'fsdf\', \'dasd\', \'adas\', \'Sultan Kudarat\', \'ad\', \'ada\', \'30\', \'asdas2423\', \'2024-11-02\', \'080\', \'6.5\', \'ad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730530224_0dfa57e7eceb25629113.png\', \'uploads/files/1730530224_a1ccd48482bb4abebcde.pdf\', \'uploads/files/1730530224_cfa849279d5170b739cf.pdf\', \'uploads/files/1730530224_b74b9992ca07e0f5b01c.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:50:39 --> Image saved to uploads/images/1730530239_3c4da11337500a8572be.png
+INFO - 2024-11-02 14:50:39 --> ProfOwnShip saved to uploads/files/1730530239_65a83d9409f0d421b2d3.pdf
+INFO - 2024-11-02 14:50:39 --> CertBrgy saved to uploads/files/1730530239_c3a71fddaa2a614ff258.pdf
+INFO - 2024-11-02 14:50:39 --> CertRegs saved to uploads/files/1730530239_f99a04a95ed736b3c1bc.pdf
+CRITICAL - 2024-11-02 14:50:39 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 14:56:26 --> Image saved to uploads/images/1730530586_d45006e00a8d4a1b0d92.png
+INFO - 2024-11-02 14:56:26 --> ProfOwnShip saved to uploads/files/1730530586_e0494e3b18d95f549d68.pdf
+INFO - 2024-11-02 14:56:26 --> CertBrgy saved to uploads/files/1730530586_947f11f9fab8a8beac85.pdf
+INFO - 2024-11-02 14:56:26 --> CertRegs saved to uploads/files/1730530586_e26abcb0e3c7bfdc62bf.pdf
+CRITICAL - 2024-11-02 14:56:26 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:56:57 --> Image saved to uploads/images/1730530617_7a6d3c51584c749384b2.png
+INFO - 2024-11-02 14:56:57 --> ProfOwnShip saved to uploads/files/1730530617_b33ff45c00daca231893.pdf
+INFO - 2024-11-02 14:56:57 --> CertBrgy saved to uploads/files/1730530617_6bbafd2ba7434f26f832.pdf
+INFO - 2024-11-02 14:56:57 --> CertRegs saved to uploads/files/1730530617_9e92c2d2544005564677.pdf
+CRITICAL - 2024-11-02 14:56:57 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:57:06 --> Image saved to uploads/images/1730530626_4864d162be03d8538ee2.png
+INFO - 2024-11-02 14:57:06 --> ProfOwnShip saved to uploads/files/1730530626_0d5b33abc616d6875d10.pdf
+INFO - 2024-11-02 14:57:06 --> CertBrgy saved to uploads/files/1730530626_47b4f74cbdde8128af3a.pdf
+INFO - 2024-11-02 14:57:06 --> CertRegs saved to uploads/files/1730530626_6e55efb976aef85fac11.pdf
+CRITICAL - 2024-11-02 14:57:06 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:57:09 --> Image saved to uploads/images/1730530629_6f38924b70669f04ccdb.png
+INFO - 2024-11-02 14:57:09 --> ProfOwnShip saved to uploads/files/1730530629_2826743e6970259342ea.pdf
+INFO - 2024-11-02 14:57:09 --> CertBrgy saved to uploads/files/1730530629_206340ebe383673b06a7.pdf
+INFO - 2024-11-02 14:57:09 --> CertRegs saved to uploads/files/1730530629_0b86c74b1b66c970e0e7.pdf
+CRITICAL - 2024-11-02 14:57:10 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:59:24 --> Image saved to uploads/images/1730530764_d15ebc5e16721b0de5e7.png
+INFO - 2024-11-02 14:59:24 --> ProfOwnShip saved to uploads/files/1730530764_114d3aa7dc7b3de0318a.pdf
+INFO - 2024-11-02 14:59:24 --> CertBrgy saved to uploads/files/1730530764_be84ea461a86d5f5678b.pdf
+INFO - 2024-11-02 14:59:24 --> CertRegs saved to uploads/files/1730530764_fc8e0d495232b26c4851.pdf
+CRITICAL - 2024-11-02 14:59:24 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:59:36 --> Image saved to uploads/images/1730530776_c53d2724bad5037196a5.png
+INFO - 2024-11-02 14:59:36 --> ProfOwnShip saved to uploads/files/1730530776_863be688e28f123129d0.pdf
+INFO - 2024-11-02 14:59:36 --> CertBrgy saved to uploads/files/1730530776_67de8167f5ced741dfea.pdf
+INFO - 2024-11-02 14:59:36 --> CertRegs saved to uploads/files/1730530776_043b9ac9338cb10db453.pdf
+CRITICAL - 2024-11-02 14:59:36 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 14:59:53 --> Image saved to uploads/images/1730530793_c4e7eda784ac34a94b52.png
+INFO - 2024-11-02 14:59:53 --> ProfOwnShip saved to uploads/files/1730530793_f507256eb151bca11290.pdf
+INFO - 2024-11-02 14:59:53 --> CertBrgy saved to uploads/files/1730530793_464a79f78df71d4a4ce3.pdf
+INFO - 2024-11-02 14:59:53 --> CertRegs saved to uploads/files/1730530793_cd43e25d4cd09de360be.pdf
+CRITICAL - 2024-11-02 14:59:53 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:02:15 --> Image saved to uploads/images/1730530935_8d729b74a1b329e4fb91.png
+INFO - 2024-11-02 15:02:15 --> ProfOwnShip saved to uploads/files/1730530935_f10c8b01569e53741441.pdf
+INFO - 2024-11-02 15:02:15 --> CertBrgy saved to uploads/files/1730530935_e920ba8a9cc8f98a5345.pdf
+INFO - 2024-11-02 15:02:15 --> CertRegs saved to uploads/files/1730530935_6a029e7d5cfadc1ff381.pdf
+CRITICAL - 2024-11-02 15:02:15 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:02:28 --> Image saved to uploads/images/1730530948_a0cde9a0dd611cb84fbc.png
+INFO - 2024-11-02 15:02:28 --> ProfOwnShip saved to uploads/files/1730530948_807810952a5d50593fc6.pdf
+INFO - 2024-11-02 15:02:28 --> CertBrgy saved to uploads/files/1730530948_74abeadaba3fcf94863b.pdf
+INFO - 2024-11-02 15:02:28 --> CertRegs saved to uploads/files/1730530948_8bc6f3849eb7e5b2f598.pdf
+CRITICAL - 2024-11-02 15:02:28 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-02 15:05:53 --> Database insertion failed: []
+ERROR - 2024-11-02 15:06:37 --> Database insertion failed: []
+ERROR - 2024-11-02 15:08:34 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(188): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->registerC()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-02 15:08:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/registerC]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:08:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'ss\', \'eqwe\', \'qwe\', \'Sultan Kudarat\', \'qwe\', \'qwe\', \'qwe\', \'qe242\', \'2024-11-02\', \'080\', \'6.5\', \'dad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730531314_4113bffb357d6ea399f3.png\', \'uploads/files/1730531314_32f6f26407ccae1475dd.pdf\', \'uploads/files/1730531314_5239344d22aa54d38940.pdf\', \'uploads/files/1730531314_363988c64d89cf6632a7.pdf\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'ss\', \'eqwe\', \'qwe\', \'Sultan Kudarat\', \'qwe\', \'qwe\', \'qwe\', \'qe242\', \'2024-11-02\', \'080\', \'6.5\', \'dad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730531314_4113bffb357d6ea399f3.png\', \'uploads/files/1730531314_32f6f26407ccae1475dd.pdf\', \'uploads/files/1730531314_5239344d22aa54d38940.pdf\', \'uploads/files/1730531314_363988c64d89cf6632a7.pdf\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:08:34 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'ss\', \'eqwe\', \'qwe\', \'Sultan Kudarat\', \'qwe\', \'qwe\', \'qwe\', \'qe242\', \'2024-11-02\', \'080\', \'6.5\', \'dad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730531314_4113bffb357d6ea399f3.png\', \'uploads/files/1730531314_32f6f26407ccae1475dd.pdf\', \'uploads/files/1730531314_5239344d22aa54d38940.pdf\', \'uploads/files/1730531314_363988c64d89cf6632a7.pdf\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'ss\', \'eqwe\', \'qwe\', \'Sultan Kudarat\', \'qwe\', \'qwe\', \'qwe\', \'qe242\', \'2024-11-02\', \'080\', \'6.5\', \'dad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730531314_4113bffb357d6ea399f3.png\', \'uploads/files/1730531314_32f6f26407ccae1475dd.pdf\', \'uploads/files/1730531314_5239344d22aa54d38940.pdf\', \'uploads/files/1730531314_363988c64d89cf6632a7.pdf\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (\'ss\', \'eqwe\', \'qwe\', \'Sultan Kudarat\', \'qwe\', \'qwe\', \'qwe\', \'qe242\', \'2024-11-02\', \'080\', \'6.5\', \'dad\', \'Pending\', \'For Payment\', \'New\', \'uploads/images/1730531314_4113bffb357d6ea399f3.png\', \'uploads/files/1730531314_32f6f26407ccae1475dd.pdf\', \'uploads/files/1730531314_5239344d22aa54d38940.pdf\', \'uploads/files/1730531314_363988c64d89cf6632a7.pdf\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`Fullname`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Horsepower`, `Purpose`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `CertBrgy`, `CertRegs`) VALUES (:Fullname:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Horsepower:, :Purpose:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :CertBrgy:, :CertRegs:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(188): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:10:16 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:10:27 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 15:11:46 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:13:33 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 196.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:17:20 --> Image saved to uploads/images/1730531840_67f049da6f43612c6cda.png
+INFO - 2024-11-02 15:17:20 --> ProfOwnShip saved to uploads/files/1730531840_b93e6ee55b9a751601ef.pdf
+INFO - 2024-11-02 15:17:20 --> CertBrgy saved to uploads/files/1730531840_a646f7b03ba1be1f1341.pdf
+INFO - 2024-11-02 15:17:20 --> CertRegs saved to uploads/files/1730531840_fbf414f4137ebeea16b0.pdf
+CRITICAL - 2024-11-02 15:17:20 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 15:18:51 --> Image saved to uploads/images/1730531931_a080af14188bf74b1258.png
+INFO - 2024-11-02 15:18:51 --> ProfOwnShip saved to uploads/files/1730531931_16dfc7d16e68bde2fb52.pdf
+INFO - 2024-11-02 15:18:51 --> CertBrgy saved to uploads/files/1730531931_0b3f58538603fe62f8e2.pdf
+INFO - 2024-11-02 15:18:51 --> CertRegs saved to uploads/files/1730531931_ce6e8a12944d60122e90.pdf
+CRITICAL - 2024-11-02 15:18:51 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:20:14 --> Image saved to uploads/images/1730532014_2c20d491f980f185a790.png
+INFO - 2024-11-02 15:20:14 --> ProfOwnShip saved to uploads/files/1730532014_dba16d10ae12fb09625f.pdf
+INFO - 2024-11-02 15:20:14 --> CertBrgy saved to uploads/files/1730532014_58fdd81b6454205dc554.pdf
+INFO - 2024-11-02 15:20:14 --> CertRegs saved to uploads/files/1730532014_a9b78f5352e703531dcf.pdf
+CRITICAL - 2024-11-02 15:20:14 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:21:06 --> Image saved to uploads/images/1730532066_f2aa1a643a10456bf189.png
+INFO - 2024-11-02 15:21:06 --> ProfOwnShip saved to uploads/files/1730532066_5e2916681f86edbd8046.pdf
+INFO - 2024-11-02 15:21:06 --> CertBrgy saved to uploads/files/1730532066_b7671aea168beb629905.pdf
+INFO - 2024-11-02 15:21:06 --> CertRegs saved to uploads/files/1730532066_e36d0bc54dfa2f981d02.pdf
+CRITICAL - 2024-11-02 15:21:06 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 211.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 15:21:46 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 164.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:22:04 --> Image saved to uploads/images/1730532124_d6e9e59474ff5f27450c.png
+INFO - 2024-11-02 15:22:04 --> ProfOwnShip saved to uploads/files/1730532124_7d9e788e2a047fe0b8bc.pdf
+INFO - 2024-11-02 15:22:04 --> CertBrgy saved to uploads/files/1730532124_2ff1ad8eec615b1de32a.pdf
+INFO - 2024-11-02 15:22:04 --> CertRegs saved to uploads/files/1730532124_0ee7bcce4bfabcea0180.pdf
+CRITICAL - 2024-11-02 15:22:04 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 15:22:18 --> Image saved to uploads/images/1730532138_abf487d162fce35fea76.png
+INFO - 2024-11-02 15:22:18 --> ProfOwnShip saved to uploads/files/1730532138_17dab5fe4d95a5e3721a.pdf
+INFO - 2024-11-02 15:22:18 --> CertBrgy saved to uploads/files/1730532138_c5ab69ab718ebbfa6987.pdf
+INFO - 2024-11-02 15:22:18 --> CertRegs saved to uploads/files/1730532138_b89ac7a100d81177bb89.pdf
+CRITICAL - 2024-11-02 15:22:18 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:36 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 22:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:20:46 --> Image saved to uploads/images/1730557246_42cd1f87e7730bd050d2.png
+INFO - 2024-11-02 22:20:46 --> ProfOwnShip saved to uploads/files/1730557246_e424393459155af9934a.pdf
+INFO - 2024-11-02 22:20:46 --> CertBrgy saved to uploads/files/1730557246_c7b687abfe39e7fd8287.pdf
+INFO - 2024-11-02 22:20:46 --> CertRegs saved to uploads/files/1730557246_749ca600943a34836a98.pdf
+CRITICAL - 2024-11-02 22:20:46 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:22:03 --> Image saved to uploads/images/1730557323_dbb4318aedc73d14cf34.png
+INFO - 2024-11-02 22:22:03 --> ProfOwnShip saved to uploads/files/1730557323_6c86b1b4b1c67180edde.pdf
+INFO - 2024-11-02 22:22:03 --> CertBrgy saved to uploads/files/1730557323_172f3d984672ce0a91e6.pdf
+INFO - 2024-11-02 22:22:03 --> CertRegs saved to uploads/files/1730557323_18f9813e27fc3fda0e3e.pdf
+CRITICAL - 2024-11-02 22:22:03 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:22:41 --> Image saved to uploads/images/1730557361_9b20c6ac4d461b72f007.png
+INFO - 2024-11-02 22:22:41 --> Image saved to uploads/images/1730557361_dbf02f189a2c76955568.png
+INFO - 2024-11-02 22:22:42 --> ProfOwnShip saved to uploads/files/1730557361_635f4cc54182b3596657.pdf
+INFO - 2024-11-02 22:22:42 --> ProfOwnShip saved to uploads/files/1730557361_d29d704c0ef0c164ac92.pdf
+INFO - 2024-11-02 22:22:42 --> CertBrgy saved to uploads/files/1730557362_334c39f92b1a717b2b9f.pdf
+INFO - 2024-11-02 22:22:42 --> CertBrgy saved to uploads/files/1730557362_c9c6786f39e73cb1eeb7.pdf
+INFO - 2024-11-02 22:22:42 --> CertRegs saved to uploads/files/1730557362_db313c78a4f95aae1ac4.pdf
+INFO - 2024-11-02 22:22:42 --> CertRegs saved to uploads/files/1730557362_efd0a4db1a0e2982b2d3.pdf
+CRITICAL - 2024-11-02 22:22:42 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-02 22:22:42 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:23:37 --> Image saved to uploads/images/1730557417_8feb6b3e255c32900cec.png
+INFO - 2024-11-02 22:23:37 --> ProfOwnShip saved to uploads/files/1730557417_fadebeb9264ac8718932.pdf
+INFO - 2024-11-02 22:23:37 --> CertBrgy saved to uploads/files/1730557417_63017bb26df68eb9cc4a.pdf
+INFO - 2024-11-02 22:23:37 --> CertRegs saved to uploads/files/1730557417_f459d2721152177e319d.pdf
+CRITICAL - 2024-11-02 22:23:37 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:26:08 --> Image saved to uploads/images/1730557568_dc0cd1ef3cbb75296669.png
+INFO - 2024-11-02 22:26:08 --> ProfOwnShip saved to uploads/files/1730557568_c8e97d0416b65df9fbe8.pdf
+INFO - 2024-11-02 22:26:08 --> CertBrgy saved to uploads/files/1730557568_fcc8e643c3c88b3ead17.pdf
+INFO - 2024-11-02 22:26:08 --> CertRegs saved to uploads/files/1730557568_9f20a37eaa88ab4674ac.pdf
+CRITICAL - 2024-11-02 22:26:08 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 213.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:26:43 --> Image saved to uploads/images/1730557603_3f7897f39be8a84a1485.png
+INFO - 2024-11-02 22:26:43 --> ProfOwnShip saved to uploads/files/1730557603_80c08d4941ef243dd485.pdf
+INFO - 2024-11-02 22:26:43 --> CertBrgy saved to uploads/files/1730557603_796e66e19a1b2cca6c2c.pdf
+INFO - 2024-11-02 22:26:43 --> CertRegs saved to uploads/files/1730557603_0190f0d42806511dc5f9.pdf
+CRITICAL - 2024-11-02 22:26:43 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 213.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:29:28 --> Image saved to uploads/images/1730557768_f4011345589fdc38d4a1.png
+INFO - 2024-11-02 22:29:28 --> ProfOwnShip saved to uploads/files/1730557768_246ecd44e72dac79ddf3.pdf
+INFO - 2024-11-02 22:29:28 --> CertBrgy saved to uploads/files/1730557768_0b38ac3407ae41394f9f.pdf
+INFO - 2024-11-02 22:29:28 --> CertRegs saved to uploads/files/1730557768_68e21ecc00e36dc85a8e.pdf
+CRITICAL - 2024-11-02 22:29:28 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:32:48 --> Image saved to uploads/images/1730557968_5b1d4b9a4c7586ccf50e.png
+INFO - 2024-11-02 22:32:48 --> ProfOwnShip saved to uploads/files/1730557968_ff9158e75f48b1450999.pdf
+INFO - 2024-11-02 22:32:48 --> CertBrgy saved to uploads/files/1730557968_d028803312a9892d6dd6.pdf
+INFO - 2024-11-02 22:32:48 --> CertRegs saved to uploads/files/1730557968_2232bc5c31045e1a2a7a.pdf
+CRITICAL - 2024-11-02 22:32:48 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:34:00 --> Image saved to uploads/images/1730558040_88c2eff13765492b3d7c.png
+INFO - 2024-11-02 22:34:00 --> ProfOwnShip saved to uploads/files/1730558040_20dd42ab2e95420ba752.pdf
+INFO - 2024-11-02 22:34:00 --> CertBrgy saved to uploads/files/1730558040_553abcd846603ec13de2.pdf
+INFO - 2024-11-02 22:34:00 --> CertRegs saved to uploads/files/1730558040_f4191e73edbcc95a3e8d.pdf
+CRITICAL - 2024-11-02 22:34:00 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:42:23 --> Image saved to uploads/images/1730558543_b06b877c8783649cac09.png
+INFO - 2024-11-02 22:42:23 --> ProfOwnShip saved to uploads/files/1730558543_ceb277a099be10784258.pdf
+INFO - 2024-11-02 22:42:23 --> CertBrgy saved to uploads/files/1730558543_0ab720ec3025cc6bbb56.pdf
+INFO - 2024-11-02 22:42:23 --> CertRegs saved to uploads/files/1730558543_479195ec9f1d656cd47c.pdf
+CRITICAL - 2024-11-02 22:42:23 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 22:44:26 --> Image saved to uploads/images/1730558666_5065453dc4e6f9eced94.png
+INFO - 2024-11-02 22:44:26 --> ProfOwnShip saved to uploads/files/1730558666_7ac5bc47a1b132a642fd.pdf
+INFO - 2024-11-02 22:44:26 --> CertBrgy saved to uploads/files/1730558666_c6a4fd82f9740127705c.pdf
+INFO - 2024-11-02 22:44:26 --> CertRegs saved to uploads/files/1730558666_31b5da556882bb99cf59.pdf
+CRITICAL - 2024-11-02 22:44:26 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:44:43 --> Image saved to uploads/images/1730558683_5c1ceceea7c1844880a1.png
+INFO - 2024-11-02 22:44:43 --> ProfOwnShip saved to uploads/files/1730558683_5bbec9dbb1436ae033a5.pdf
+INFO - 2024-11-02 22:44:43 --> CertBrgy saved to uploads/files/1730558683_f3d219d2b5a646cdba1d.pdf
+INFO - 2024-11-02 22:44:43 --> CertRegs saved to uploads/files/1730558683_7fdcc98a1762e22b0955.pdf
+CRITICAL - 2024-11-02 22:44:43 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:47:06 --> Image saved to uploads/images/1730558826_65abc8e7875b091b449c.png
+INFO - 2024-11-02 22:47:06 --> ProfOwnShip saved to uploads/files/1730558826_ed3c006558855ab3fa4d.pdf
+INFO - 2024-11-02 22:47:06 --> CertBrgy saved to uploads/files/1730558826_d9f86de84022a41172b6.pdf
+INFO - 2024-11-02 22:47:06 --> CertRegs saved to uploads/files/1730558826_65749514c8475b656dd7.pdf
+CRITICAL - 2024-11-02 22:47:06 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:48:17 --> Image saved to uploads/images/1730558897_4eeff7027aa122cf750c.png
+INFO - 2024-11-02 22:48:17 --> ProfOwnShip saved to uploads/files/1730558897_19c3512558dbdd2292cc.pdf
+INFO - 2024-11-02 22:48:17 --> CertBrgy saved to uploads/files/1730558897_2de527e2e30ae460f719.pdf
+INFO - 2024-11-02 22:48:17 --> CertRegs saved to uploads/files/1730558897_35686aa460e63a8926a9.pdf
+CRITICAL - 2024-11-02 22:48:17 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 212.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:52:17 --> Image saved to uploads/images/1730559137_38585ff2504ece459932.png
+INFO - 2024-11-02 22:52:17 --> ProfOwnShip saved to uploads/files/1730559137_42f19aea3827e6728698.pdf
+INFO - 2024-11-02 22:52:17 --> CertBrgy saved to uploads/files/1730559137_618381355936a7230539.pdf
+INFO - 2024-11-02 22:52:17 --> CertRegs saved to uploads/files/1730559137_aab42b38029cadb99725.pdf
+CRITICAL - 2024-11-02 22:52:17 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 216.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:52:24 --> Image saved to uploads/images/1730559144_1905c746164319674516.png
+INFO - 2024-11-02 22:52:24 --> ProfOwnShip saved to uploads/files/1730559144_f8ad754254e75cb2b40d.pdf
+INFO - 2024-11-02 22:52:24 --> CertBrgy saved to uploads/files/1730559144_0d3d238526879c68214b.pdf
+INFO - 2024-11-02 22:52:24 --> CertRegs saved to uploads/files/1730559144_6d70ab78095960a85f35.pdf
+CRITICAL - 2024-11-02 22:52:24 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 216.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:53:07 --> Image saved to uploads/images/1730559187_40c691263946947f44ff.png
+INFO - 2024-11-02 22:53:07 --> ProfOwnShip saved to uploads/files/1730559187_01b1b051c2ff5dceb56a.pdf
+INFO - 2024-11-02 22:53:07 --> CertBrgy saved to uploads/files/1730559187_ba5127794f5dd2f93865.pdf
+INFO - 2024-11-02 22:53:07 --> CertRegs saved to uploads/files/1730559187_c3d3d762c0fbef829cb6.pdf
+CRITICAL - 2024-11-02 22:53:07 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 216.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 22:54:37 --> Image saved to uploads/images/1730559277_4eb664f2bb7f6613d2f5.png
+INFO - 2024-11-02 22:54:37 --> ProfOwnShip saved to uploads/files/1730559277_92943e9336db026a9dd1.pdf
+INFO - 2024-11-02 22:54:37 --> CertBrgy saved to uploads/files/1730559277_4f748b912ccd3e757599.pdf
+INFO - 2024-11-02 22:54:37 --> CertRegs saved to uploads/files/1730559277_250aa0d55a4f3a2122dc.pdf
+INFO - 2024-11-02 22:54:37 --> Files uploaded successfully: Image - 1730559277_4eb664f2bb7f6613d2f5.png, ProfOwnShip - 1730559277_92943e9336db026a9dd1.pdf, CertBrgy - 1730559277_4f748b912ccd3e757599.pdf, CertRegs - 1730559277_250aa0d55a4f3a2122dc.pdf
+CRITICAL - 2024-11-02 22:54:37 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 23:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 23:00:36 --> ErrorException: unlink(D:\xampp\htdocs\cris\writable\debugbar/debugbar_1730530114.454638.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xampp\\htdocs\\cris\\writable\\debugbar/debugbar_1730530114.454638.json): No such file or directory', 'D:\\xampp\\htdocs\\cris\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('D:\\xampp\\htdocs\\cris\\writable\\debugbar/debugbar_1730530114.454638.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1730559634.802886', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-02 23:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:39 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 23:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:01:50 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-02 23:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 23:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

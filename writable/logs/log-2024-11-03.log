@@ -1,0 +1,272 @@
+INFO - 2024-11-03 09:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 09:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 09:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 10:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 10:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 10:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:15:40 --> Image saved to uploads/images/1730610940_e054f30f69aea81b0727.png
+INFO - 2024-11-03 13:15:40 --> ProfOwnShip saved to uploads/files/1730610940_674347bc1d29551744a5.pdf
+INFO - 2024-11-03 13:15:40 --> CertBrgy saved to uploads/files/1730610940_e3a2d4b0ef31a72e06fd.pdf
+INFO - 2024-11-03 13:15:40 --> CertRegs saved to uploads/files/1730610940_7d1c92c930e58618ea46.pdf
+INFO - 2024-11-03 13:15:40 --> Files uploaded successfully: Image - 1730610940_e054f30f69aea81b0727.png, ProfOwnShip - 1730610940_674347bc1d29551744a5.pdf, CertBrgy - 1730610940_e3a2d4b0ef31a72e06fd.pdf, CertRegs - 1730610940_7d1c92c930e58618ea46.pdf
+CRITICAL - 2024-11-03 13:15:40 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:17:52 --> Image saved to uploads/images/1730611072_647ebf594a816d92aa4c.png
+INFO - 2024-11-03 13:17:52 --> ProfOwnShip saved to uploads/files/1730611072_b1bacace892512104aad.pdf
+INFO - 2024-11-03 13:17:52 --> CertBrgy saved to uploads/files/1730611072_0337416847dd8fb90936.pdf
+INFO - 2024-11-03 13:17:52 --> CertRegs saved to uploads/files/1730611072_78816a9ea8fb201886b1.pdf
+INFO - 2024-11-03 13:17:52 --> Files uploaded successfully: Image - 1730611072_647ebf594a816d92aa4c.png, ProfOwnShip - 1730611072_b1bacace892512104aad.pdf, CertBrgy - 1730611072_0337416847dd8fb90936.pdf, CertRegs - 1730611072_78816a9ea8fb201886b1.pdf
+CRITICAL - 2024-11-03 13:17:52 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:19:18 --> Image saved to uploads/images/1730611158_f823e8c9f09e9e6dcdf7.png
+INFO - 2024-11-03 13:19:18 --> ProfOwnShip saved to uploads/files/1730611158_f0186909ffff7257836c.pdf
+INFO - 2024-11-03 13:19:18 --> CertBrgy saved to uploads/files/1730611158_b8663d73f29ff6cfa914.png
+INFO - 2024-11-03 13:19:18 --> CertRegs saved to uploads/files/1730611158_06b82c8c06289a0a587d.pdf
+INFO - 2024-11-03 13:19:18 --> Files uploaded successfully: Image - 1730611158_f823e8c9f09e9e6dcdf7.png, ProfOwnShip - 1730611158_f0186909ffff7257836c.pdf, CertBrgy - 1730611158_b8663d73f29ff6cfa914.png, CertRegs - 1730611158_06b82c8c06289a0a587d.pdf
+CRITICAL - 2024-11-03 13:19:18 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:20:20 --> Image saved to uploads/images/1730611220_170dc40d5136e93b6bf9.png
+INFO - 2024-11-03 13:20:20 --> ProfOwnShip saved to uploads/files/1730611220_c84178f14400f01a1d3f.pdf
+INFO - 2024-11-03 13:20:20 --> CertBrgy saved to uploads/files/1730611220_38a5e000b5d016f9d7a4.png
+INFO - 2024-11-03 13:20:20 --> CertRegs saved to uploads/files/1730611220_bb998e331f0f363d687b.pdf
+INFO - 2024-11-03 13:20:20 --> Files uploaded successfully: Image - 1730611220_170dc40d5136e93b6bf9.png, ProfOwnShip - 1730611220_c84178f14400f01a1d3f.pdf, CertBrgy - 1730611220_38a5e000b5d016f9d7a4.png, CertRegs - 1730611220_bb998e331f0f363d687b.pdf
+CRITICAL - 2024-11-03 13:20:20 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:20:56 --> Image saved to uploads/images/1730611256_8718a7971167ae980aa1.png
+INFO - 2024-11-03 13:20:56 --> ProfOwnShip saved to uploads/files/1730611256_8fa9898b388bab2fb1f3.pdf
+INFO - 2024-11-03 13:20:56 --> CertBrgy saved to uploads/files/1730611256_f50ae7677244cb205adb.png
+INFO - 2024-11-03 13:20:56 --> CertRegs saved to uploads/files/1730611256_31a4980ef7954552d7a3.pdf
+INFO - 2024-11-03 13:20:56 --> Files uploaded successfully: Image - 1730611256_8718a7971167ae980aa1.png, ProfOwnShip - 1730611256_8fa9898b388bab2fb1f3.pdf, CertBrgy - 1730611256_f50ae7677244cb205adb.png, CertRegs - 1730611256_31a4980ef7954552d7a3.pdf
+CRITICAL - 2024-11-03 13:20:56 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:21:12 --> Image saved to uploads/images/1730611272_caf639fe3b56c6a06807.png
+INFO - 2024-11-03 13:21:12 --> ProfOwnShip saved to uploads/files/1730611272_f42eb9e1ca972f273855.pdf
+INFO - 2024-11-03 13:21:12 --> CertBrgy saved to uploads/files/1730611272_8a80d2f4fc568708ce54.png
+INFO - 2024-11-03 13:21:12 --> CertRegs saved to uploads/files/1730611272_2e1c26b8617fb77c896e.pdf
+INFO - 2024-11-03 13:21:12 --> Files uploaded successfully: Image - 1730611272_caf639fe3b56c6a06807.png, ProfOwnShip - 1730611272_f42eb9e1ca972f273855.pdf, CertBrgy - 1730611272_8a80d2f4fc568708ce54.png, CertRegs - 1730611272_2e1c26b8617fb77c896e.pdf
+CRITICAL - 2024-11-03 13:21:12 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:21:30 --> Image saved to uploads/images/1730611290_9893f301fb30037a54bb.png
+INFO - 2024-11-03 13:21:30 --> ProfOwnShip saved to uploads/files/1730611290_f56bb73222436f07085d.pdf
+INFO - 2024-11-03 13:21:30 --> CertBrgy saved to uploads/files/1730611290_87acd228535dbdd9d584.png
+INFO - 2024-11-03 13:21:30 --> CertRegs saved to uploads/files/1730611290_712c87a4b32456255132.pdf
+INFO - 2024-11-03 13:21:30 --> Files uploaded successfully: Image - 1730611290_9893f301fb30037a54bb.png, ProfOwnShip - 1730611290_f56bb73222436f07085d.pdf, CertBrgy - 1730611290_87acd228535dbdd9d584.png, CertRegs - 1730611290_712c87a4b32456255132.pdf
+CRITICAL - 2024-11-03 13:21:30 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:24:22 --> Image saved to uploads/images/1730611462_28e1dc092d45f6929436.png
+INFO - 2024-11-03 13:24:22 --> ProfOwnShip saved to uploads/files/1730611462_c207eaecb25283d83eff.pdf
+INFO - 2024-11-03 13:24:22 --> CertBrgy saved to uploads/files/1730611462_ffa594443f4f06ee11a0.png
+INFO - 2024-11-03 13:24:22 --> CertRegs saved to uploads/files/1730611462_2e1d4263e5ef769f9f44.pdf
+INFO - 2024-11-03 13:24:22 --> Files uploaded successfully: Image - 1730611462_28e1dc092d45f6929436.png, ProfOwnShip - 1730611462_c207eaecb25283d83eff.pdf, CertBrgy - 1730611462_ffa594443f4f06ee11a0.png, CertRegs - 1730611462_2e1d4263e5ef769f9f44.pdf
+CRITICAL - 2024-11-03 13:24:22 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: client/registerC]
+in APPPATH\Controllers\Client.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:40:48 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-03 13:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-03 13:41:18 --> Client not found or not confirmed for UserID: 2024USID000000003
+INFO - 2024-11-03 13:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:43:42 --> Image saved to uploads/images/1730612622_c28e9c5ed76040eccb34.png
+INFO - 2024-11-03 13:43:42 --> ProfOwnShip saved to uploads/files/1730612622_01dc465cb394a85b4bdf.pdf
+INFO - 2024-11-03 13:43:42 --> CertBrgy saved to uploads/files/1730612622_c499b6a80e0c1df5513a.png
+INFO - 2024-11-03 13:43:42 --> CertRegs saved to uploads/files/1730612622_cf76f2647dabade956cc.pdf
+INFO - 2024-11-03 13:43:42 --> Files uploaded successfully: Image - 1730612622_c28e9c5ed76040eccb34.png, ProfOwnShip - 1730612622_01dc465cb394a85b4bdf.pdf, CertBrgy - 1730612622_c499b6a80e0c1df5513a.png, CertRegs - 1730612622_cf76f2647dabade956cc.pdf
+CRITICAL - 2024-11-03 13:43:42 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:44:21 --> Image saved to uploads/images/1730612661_55451ad51dcc7aecc15a.png
+INFO - 2024-11-03 13:44:21 --> ProfOwnShip saved to uploads/files/1730612661_0f9d9fb8390abe1612f0.pdf
+INFO - 2024-11-03 13:44:21 --> CertBrgy saved to uploads/files/1730612661_78bd9ec6a3e3ee4651c4.png
+INFO - 2024-11-03 13:44:21 --> CertRegs saved to uploads/files/1730612661_1031b5dd0a6b394bc47c.pdf
+INFO - 2024-11-03 13:44:21 --> Files uploaded successfully: Image - 1730612661_55451ad51dcc7aecc15a.png, ProfOwnShip - 1730612661_0f9d9fb8390abe1612f0.pdf, CertBrgy - 1730612661_78bd9ec6a3e3ee4651c4.png, CertRegs - 1730612661_1031b5dd0a6b394bc47c.pdf
+CRITICAL - 2024-11-03 13:44:21 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 13:45:20 --> Image saved to uploads/images/1730612720_5ea1b929907edd955bd1.png
+INFO - 2024-11-03 13:45:20 --> ProfOwnShip saved to uploads/files/1730612720_45ef24b26eda8a8f4563.pdf
+INFO - 2024-11-03 13:45:20 --> CertBrgy saved to uploads/files/1730612720_821916e37a81eabab7ca.png
+INFO - 2024-11-03 13:45:20 --> CertRegs saved to uploads/files/1730612720_a9af588dbe598c6df865.pdf
+INFO - 2024-11-03 13:45:20 --> Files uploaded successfully: Image - 1730612720_5ea1b929907edd955bd1.png, ProfOwnShip - 1730612720_45ef24b26eda8a8f4563.pdf, CertBrgy - 1730612720_821916e37a81eabab7ca.png, CertRegs - 1730612720_a9af588dbe598c6df865.pdf
+CRITICAL - 2024-11-03 13:45:20 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 232.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:49:09 --> Image saved to uploads/images/1730612949_abb0164fe0354a16d26e.png
+INFO - 2024-11-03 13:49:09 --> ProfOwnShip saved to uploads/files/1730612949_a38f91d3b09563abf7dc.pdf
+INFO - 2024-11-03 13:49:09 --> CertBrgy saved to uploads/files/1730612949_8407ec846c6176ff7299.png
+INFO - 2024-11-03 13:49:09 --> CertRegs saved to uploads/files/1730612949_dd2307eedad86ca4e858.pdf
+CRITICAL - 2024-11-03 13:49:09 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:49:36 --> Image saved to uploads/images/1730612976_28413520bba91172486c.png
+INFO - 2024-11-03 13:49:36 --> ProfOwnShip saved to uploads/files/1730612976_79e26b19c5e33c161193.pdf
+INFO - 2024-11-03 13:49:36 --> CertBrgy saved to uploads/files/1730612976_7a37bed53b56a0c86f90.png
+INFO - 2024-11-03 13:49:36 --> CertRegs saved to uploads/files/1730612976_48bb67dcefe4aa03c2b3.pdf
+CRITICAL - 2024-11-03 13:49:36 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 13:54:19 --> Image saved to uploads/images/1730613259_a93cbdbfb1422040016e.png
+INFO - 2024-11-03 13:54:19 --> ProfOwnShip saved to uploads/files/1730613259_8bc31956b4aa12bc8131.pdf
+INFO - 2024-11-03 13:54:19 --> CertBrgy saved to uploads/files/1730613259_cab84baf0d076b1774f1.png
+INFO - 2024-11-03 13:54:19 --> CertRegs saved to uploads/files/1730613259_32b1f2db43f01711ed07.pdf
+INFO - 2024-11-03 13:54:19 --> Files uploaded: Image - 1730613259_a93cbdbfb1422040016e.png, ProfOwnShip - 1730613259_8bc31956b4aa12bc8131.pdf, CertBrgy - 1730613259_cab84baf0d076b1774f1.png, CertRegs - 1730613259_32b1f2db43f01711ed07.pdf
+CRITICAL - 2024-11-03 13:54:19 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 14:02:52 --> Image saved to uploads/images/1730613772_29829d71a206e04a7560.png
+INFO - 2024-11-03 14:02:52 --> ProfOwnShip saved to uploads/files/1730613772_c2939354650bcaca6be8.pdf
+INFO - 2024-11-03 14:02:52 --> CertBrgy saved to uploads/files/1730613772_5876c594105ab290ce11.png
+INFO - 2024-11-03 14:02:52 --> CertRegs saved to uploads/files/1730613772_11b09226eaff5f921721.pdf
+INFO - 2024-11-03 14:02:52 --> Files uploaded: Image - 1730613772_29829d71a206e04a7560.png, ProfOwnShip - 1730613772_c2939354650bcaca6be8.pdf, CertBrgy - 1730613772_5876c594105ab290ce11.png, CertRegs - 1730613772_11b09226eaff5f921721.pdf
+CRITICAL - 2024-11-03 14:02:52 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 230.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 14:05:10 --> Image saved to uploads/images/1730613910_52feae1623450018239e.png
+INFO - 2024-11-03 14:05:10 --> ProfOwnShip saved to uploads/files/1730613910_992686f03995adbb7e8f.pdf
+INFO - 2024-11-03 14:05:10 --> CertBrgy saved to uploads/files/1730613910_4613da6e8a77e5a9da25.png
+INFO - 2024-11-03 14:05:10 --> CertRegs saved to uploads/files/1730613910_184fe6e4b6bc8736141b.pdf
+INFO - 2024-11-03 14:05:10 --> Files uploaded successfully: Image - 1730613910_52feae1623450018239e.png, ProfOwnShip - 1730613910_992686f03995adbb7e8f.pdf, CertBrgy - 1730613910_4613da6e8a77e5a9da25.png, CertRegs - 1730613910_184fe6e4b6bc8736141b.pdf
+CRITICAL - 2024-11-03 14:05:10 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 14:05:28 --> Image saved to uploads/images/1730613928_a6edbcb48b660fccee7c.png
+INFO - 2024-11-03 14:05:28 --> ProfOwnShip saved to uploads/files/1730613928_8421b6fa014e323f38e0.pdf
+INFO - 2024-11-03 14:05:28 --> CertBrgy saved to uploads/files/1730613928_cd34d0f7c1086b5cf5e8.png
+INFO - 2024-11-03 14:05:28 --> CertRegs saved to uploads/files/1730613928_cdd2f464bbb349b9f496.pdf
+INFO - 2024-11-03 14:05:28 --> Files uploaded successfully: Image - 1730613928_a6edbcb48b660fccee7c.png, ProfOwnShip - 1730613928_8421b6fa014e323f38e0.pdf, CertBrgy - 1730613928_cd34d0f7c1086b5cf5e8.png, CertRegs - 1730613928_cdd2f464bbb349b9f496.pdf
+CRITICAL - 2024-11-03 14:05:28 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: registerC]
+in APPPATH\Controllers\Client.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->registerC()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-03 14:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 14:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 15:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 15:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-03 15:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

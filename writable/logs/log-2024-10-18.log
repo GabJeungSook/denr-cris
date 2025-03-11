@@ -1,0 +1,345 @@
+INFO - 2024-10-18 15:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 15:33:03 --> ErrorException: Undefined variable $IssuedDate
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 135.
+ 1 APPPATH\Views\client\printCOR.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $IssuedDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 15:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 15:46:55 --> ErrorException: Undefined variable $IssuedDate
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 135.
+ 1 APPPATH\Views\client\printCOR.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $IssuedDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 15:47:09 --> ErrorException: Undefined variable $photo
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $photo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 15:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 15:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 15:51:15 --> ErrorException: Undefined variable $image
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 15:51:26 --> ErrorException: Undefined variable $images
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 16:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 16:12:02 --> ErrorException: Undefined variable $images
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 16:13:09 --> ErrorException: Undefined variable $images
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 16:13:51 --> ErrorException: Undefined variable $images
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $images', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 16:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 16:15:27 --> ErrorException: Undefined variable $image
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Views\client\printCOR.php on line 169.
+ 1 APPPATH\Views\client\printCOR.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $image', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 169)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(731): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 16:20:06 --> ErrorException: Undefined property: stdClass::$ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000001]
+in APPPATH\Controllers\Client.php on line 743.
+ 1 APPPATH\Controllers\Client.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 16:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 16:20:27 --> ErrorException: Undefined property: stdClass::$ClientPhoto
+[Method: GET, Route: client/printCOR/2024REGS0000000003]
+in APPPATH\Controllers\Client.php on line 743.
+ 1 APPPATH\Controllers\Client.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ClientPhoto', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('2024REGS0000000003')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 16:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-18 16:40:34 --> Client not found or not confirmed for UserID: 14
+ERROR - 2024-10-18 16:40:38 --> Client not found or not confirmed for UserID: 14
+ERROR - 2024-10-18 16:40:41 --> Client not found or not confirmed for UserID: 14
+INFO - 2024-10-18 16:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 16:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 22:15:17 --> ErrorException: Undefined property: stdClass::$Address
+[Method: GET, Route: client/printCOR/ad30b15c26a97674ee02794ab4a3425d]
+in APPPATH\Controllers\Client.php on line 743.
+ 1 APPPATH\Controllers\Client.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Address', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('ad30b15c26a97674ee02794ab4a3425d')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 22:15:50 --> ErrorException: Undefined variable $client
+[Method: GET, Route: client/printCOR/ad30b15c26a97674ee02794ab4a3425d]
+in APPPATH\Controllers\Client.php on line 743.
+ 1 APPPATH\Controllers\Client.php(743): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $client', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 743)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('ad30b15c26a97674ee02794ab4a3425d')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 22:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 22:27:27 --> ErrorException: Undefined variable $IssuedDate
+[Method: GET, Route: client/printCOR/987af0e6bb34936929679c4224f8bbf4]
+in APPPATH\Views\client\printCOR.php on line 144.
+ 1 APPPATH\Views\client\printCOR.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $IssuedDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 144)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(740): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('987af0e6bb34936929679c4224f8bbf4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-18 22:28:13 --> ErrorException: Undefined variable $CreatedDate
+[Method: GET, Route: client/printCOR/987af0e6bb34936929679c4224f8bbf4]
+in APPPATH\Views\client\printCOR.php on line 144.
+ 1 APPPATH\Views\client\printCOR.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CreatedDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 144)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(740): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('987af0e6bb34936929679c4224f8bbf4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 22:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 22:34:48 --> ErrorException: Undefined variable $Barangay
+[Method: GET, Route: client/printCOR/987af0e6bb34936929679c4224f8bbf4]
+in APPPATH\Views\client\printCOR.php on line 123.
+ 1 APPPATH\Views\client\printCOR.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Barangay', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php', 123)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(740): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('987af0e6bb34936929679c4224f8bbf4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 22:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-18 22:50:38 --> ErrorException: Undefined property: stdClass::$IssuedDate
+[Method: GET, Route: client/printCOR/987af0e6bb34936929679c4224f8bbf4]
+in APPPATH\Controllers\Client.php on line 780.
+ 1 APPPATH\Controllers\Client.php(780): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IssuedDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 780)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('987af0e6bb34936929679c4224f8bbf4')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-18 22:51:40 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(816): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('987af0e6bb34936929679c4224f8bbf4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-10-18 22:51:55 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\client\printCOR.php on line 133.
+ 1 APPPATH\Views\client\printCOR.php(133): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(816): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('57f2cc7100efa32a5dd565cf95d36aa6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 22:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 22:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-18 23:02:44 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\client\printCOR.php on line 179.
+ 1 APPPATH\Views\client\printCOR.php(179): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(816): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('57f2cc7100efa32a5dd565cf95d36aa6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 23:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-10-18 23:14:55 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\client\printCOR.php on line 207.
+ 1 APPPATH\Views\client\printCOR.php(207): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\printCOR.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/printCOR', [], true)
+ 5 APPPATH\Controllers\Client.php(816): view('client/printCOR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->printCOR('57f2cc7100efa32a5dd565cf95d36aa6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-18 23:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-18 23:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

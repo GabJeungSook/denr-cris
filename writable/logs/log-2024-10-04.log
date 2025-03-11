@@ -1,0 +1,1070 @@
+INFO - 2024-10-04 10:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:43:19 --> Received ApplicationNo: 15Confirm
+INFO - 2024-10-04 10:43:19 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '15Confirm'
+ LIMIT 1
+INFO - 2024-10-04 10:43:19 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 10:43:19 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/15Confirm]
+in APPPATH\Controllers\Client.php on line 240.
+ 1 APPPATH\Controllers\Client.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('15Confirm')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:43:25 --> Received ApplicationNo: 16Confirm
+INFO - 2024-10-04 10:43:25 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '16Confirm'
+ LIMIT 1
+INFO - 2024-10-04 10:43:25 --> Client found for ApplicationNo: 16
+CRITICAL - 2024-10-04 10:43:25 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/16Confirm]
+in APPPATH\Controllers\Client.php on line 240.
+ 1 APPPATH\Controllers\Client.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('16Confirm')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:43:28 --> Received ApplicationNo: 17Confirm
+INFO - 2024-10-04 10:43:28 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '17Confirm'
+ LIMIT 1
+INFO - 2024-10-04 10:43:28 --> Client found for ApplicationNo: 17
+CRITICAL - 2024-10-04 10:43:28 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/17Confirm]
+in APPPATH\Controllers\Client.php on line 240.
+ 1 APPPATH\Controllers\Client.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('17Confirm')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:43:37 --> Received ApplicationNo: 15Confirm
+INFO - 2024-10-04 10:43:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '15Confirm'
+ LIMIT 1
+INFO - 2024-10-04 10:43:37 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 10:43:37 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/15Confirm]
+in APPPATH\Controllers\Client.php on line 240.
+ 1 APPPATH\Controllers\Client.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 240)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('15Confirm')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:44:47 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:44:47 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 10:44:47 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:44:50 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 10:44:50 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+ERROR - 2024-10-04 10:44:50 --> Client not found for ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:22 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:46:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 10:46:22 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:46:26 --> Received ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 10:46:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = 'ca75ac253c433f45a42a81bd3d57efe1'
+ LIMIT 1
+ERROR - 2024-10-04 10:46:26 --> Client not found for ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 10:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 10:46:36 --> ErrorException: Undefined property: stdClass::$MiddleName
+[Method: GET, Route: user/edit]
+in APPPATH\Controllers\User.php on line 440.
+ 1 APPPATH\Controllers\User.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$MiddleName', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 440)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:46:46 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:46:46 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 10:46:46 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:48:42 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:48:42 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 10:48:42 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 10:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '15'
+ LIMIT 1
+INFO - 2024-10-04 10:59:33 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 10:59:33 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/15]
+in APPPATH\Controllers\Client.php on line 241.
+ 1 APPPATH\Controllers\Client.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('15')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:59:36 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '16'
+ LIMIT 1
+INFO - 2024-10-04 10:59:36 --> Client found for ApplicationNo: 16
+CRITICAL - 2024-10-04 10:59:36 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/16]
+in APPPATH\Controllers\Client.php on line 241.
+ 1 APPPATH\Controllers\Client.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('16')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 10:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 10:59:47 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '15'
+ LIMIT 1
+INFO - 2024-10-04 10:59:47 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 10:59:47 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/15]
+in APPPATH\Controllers\Client.php on line 241.
+ 1 APPPATH\Controllers\Client.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 241)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('15')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:03:04 --> ApplicationNo: 15 | Hashed: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:03:04 --> ApplicationNo: 16 | Hashed: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:03:04 --> ApplicationNo: 17 | Hashed: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:03:06 --> ApplicationNo: 15 | Hashed: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:03:06 --> ApplicationNo: 16 | Hashed: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:03:06 --> ApplicationNo: 17 | Hashed: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:03:07 --> Received hashed ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:03:07 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(ApplicationNo, "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 11:03:07 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 11:03:07 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/4b506335a4e2732d1e8ff231b4f17f85]
+in APPPATH\Controllers\Client.php on line 243.
+ 1 APPPATH\Controllers\Client.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 243)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('4b506335a4e2732d1e8ff231b4f17f85')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 11:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:04:16 --> ApplicationNo: 15 | Hashed: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:04:16 --> ApplicationNo: 16 | Hashed: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:04:16 --> ApplicationNo: 17 | Hashed: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:04:17 --> ApplicationNo: 15 | Hashed: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:04:17 --> ApplicationNo: 16 | Hashed: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:04:17 --> ApplicationNo: 17 | Hashed: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:04:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 11:04:18 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:04:36 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = 'ca75ac253c433f45a42a81bd3d57efe1'
+ LIMIT 1
+ERROR - 2024-10-04 11:04:36 --> Client not found for ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:09:23 --> View: ApplicationNo: 15 | Hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:09:23 --> View: ApplicationNo: 16 | Hash: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:09:23 --> View: ApplicationNo: 17 | Hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:09:24 --> Controller: Received hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:09:24 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 11:09:24 --> Client found for ApplicationNo: 15
+CRITICAL - 2024-10-04 11:09:24 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/4b506335a4e2732d1e8ff231b4f17f85]
+in APPPATH\Controllers\Client.php on line 242.
+ 1 APPPATH\Controllers\Client.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 242)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('4b506335a4e2732d1e8ff231b4f17f85')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 11:09:31 --> Controller: Received hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:09:31 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-04 11:09:31 --> Client found for ApplicationNo: 17
+CRITICAL - 2024-10-04 11:09:31 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: client/getClientInfo/d18b4daed73da0cf12ac7d7da9e713ed]
+in APPPATH\Controllers\Client.php on line 242.
+ 1 APPPATH\Controllers\Client.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 242)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('d18b4daed73da0cf12ac7d7da9e713ed')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 11:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:10:04 --> View: ApplicationNo: 15 | Hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:10:04 --> View: ApplicationNo: 16 | Hash: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:10:04 --> View: ApplicationNo: 17 | Hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:10:05 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 11:10:05 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:10:09 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+ERROR - 2024-10-04 11:10:09 --> Client not found for ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:11:36 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE `ApplicationNo` = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+ERROR - 2024-10-04 11:11:36 --> Client not found for ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:21:59 --> View: ApplicationNo: 15 | Hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:21:59 --> View: ApplicationNo: 16 | Hash: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:21:59 --> View: ApplicationNo: 17 | Hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:25:34 --> View: ApplicationNo: 15 | Hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:25:34 --> View: ApplicationNo: 16 | Hash: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:25:34 --> View: ApplicationNo: 17 | Hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:25:36 --> View: ApplicationNo: 15 | Hash: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 11:25:36 --> View: ApplicationNo: 16 | Hash: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 11:25:36 --> View: ApplicationNo: 17 | Hash: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 11:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 11:55:32 --> ErrorException: Undefined array key "contactNo"
+[Method: POST, Route: client/sendSms]
+in APPPATH\Controllers\Client.php on line 251.
+ 1 APPPATH\Controllers\Client.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contactNo"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 251)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->sendSms()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 11:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 12:09:40 --> ErrorException: Cannot redeclare App\Controllers\Client::getClientInfo()
+[Method: GET, Route: confirmation]
+in APPPATH\Controllers\Client.php on line 224.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-10-04 12:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 12:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 13:25:10 --> ErrorException: Undefined property: stdClass::$CreateDate
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 149.
+ 1 APPPATH\Views\client\confirmation.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreateDate', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 149)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 13:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 13:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 14:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 18:56:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 73.
+ 1 APPPATH\Views\client\confirmation.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 18:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 18:57:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 73.
+ 1 APPPATH\Views\client\confirmation.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(185): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 18:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 18:58:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 72.
+ 1 APPPATH\Views\user\dashboard.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(206): view('user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 18:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 18:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:26:32 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:26:32 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:26:32 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 19:28:51 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:28:52 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:28:52 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 19:28:58 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 19:28:58 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-04 19:28:58 --> Client found for ApplicationNo: 17
+INFO - 2024-10-04 19:29:01 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:29:01 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:29:01 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 19:29:02 --> Received ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 19:29:02 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'ca75ac253c433f45a42a81bd3d57efe1'
+ LIMIT 1
+INFO - 2024-10-04 19:29:02 --> Client found for ApplicationNo: 16
+INFO - 2024-10-04 19:32:19 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:32:19 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:32:19 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 19:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 19:57:02 --> ErrorException: Undefined property: stdClass::$UserID
+[Method: GET, Route: client/getClientInfo/4b506335a4e2732d1e8ff231b4f17f85]
+in APPPATH\Controllers\Client.php on line 263.
+ 1 APPPATH\Controllers\Client.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$UserID', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 263)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('4b506335a4e2732d1e8ff231b4f17f85')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 19:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 19:57:37 --> ErrorException: Undefined property: stdClass::$UserID
+[Method: GET, Route: client/getClientInfo/4b506335a4e2732d1e8ff231b4f17f85]
+in APPPATH\Controllers\Client.php on line 263.
+ 1 APPPATH\Controllers\Client.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$UserID', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 263)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('4b506335a4e2732d1e8ff231b4f17f85')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 19:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 19:57:49 --> ErrorException: Undefined property: stdClass::$UserID
+[Method: GET, Route: client/getClientInfo/4b506335a4e2732d1e8ff231b4f17f85]
+in APPPATH\Controllers\Client.php on line 263.
+ 1 APPPATH\Controllers\Client.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$UserID', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 263)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('4b506335a4e2732d1e8ff231b4f17f85')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 19:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 19:58:27 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:58:27 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:58:27 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 19:58:32 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 19:58:32 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-04 19:58:32 --> Client found for ApplicationNo: 17
+INFO - 2024-10-04 19:58:33 --> Received ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 19:58:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'ca75ac253c433f45a42a81bd3d57efe1'
+ LIMIT 1
+INFO - 2024-10-04 19:58:33 --> Client found for ApplicationNo: 16
+INFO - 2024-10-04 19:58:35 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 19:58:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 19:58:35 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 20:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:20:45 --> ErrorException: Undefined array key "ContactNo"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 215.
+ 1 APPPATH\Controllers\User.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContactNo"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:21:16 --> ErrorException: Undefined array key "ContactNo"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 215.
+ 1 APPPATH\Controllers\User.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContactNo"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:22:10 --> ErrorException: Undefined variable $contactNo
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 173.
+ 1 APPPATH\Views\user\dashboard.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 173)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(206): view('user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:22:25 --> ErrorException: Undefined variable $contactNo
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 173.
+ 1 APPPATH\Views\user\dashboard.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 173)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(206): view('user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:23:16 --> ErrorException: Undefined array key "ContactNo"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 215.
+ 1 APPPATH\Controllers\User.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ContactNo"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 215)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\User.php(200): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:31:30 --> ErrorException: Undefined variable $contactNo
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 173.
+ 1 APPPATH\Views\user\dashboard.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 173)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(193): view('user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:32:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\User.php(194): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:33:37 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 20:33:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 20:33:37 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 20:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 20:37:57 --> Validation failed: {"ProfOwnShip":"ProfOwnShip is too large of a file."}
+INFO - 2024-10-04 20:38:09 --> Client data to be inserted: {"FullName":"Christian James Paclarin","ContactNo":"09153045318","Barangay":"Makisig","Municipality":"Palimbang","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306c","EngineCapacity":"080","SerialNo":"HGDSIDSA126","DateOfAcquisition":"2003-03-30","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728045489_479d1bb60c8a59427c48.jpg","ProfOwnShip":"1728045489_40bafea980ce8e71cd6f.pdf","ProfOwnShipFilePath":"uploads\/files\/1728045489_40bafea980ce8e71cd6f.pdf","CertBrgy":"1728045489_c3e9caa68835b6e95079.pdf","CertBrgyFilePath":"uploads\/files\/1728045489_c3e9caa68835b6e95079.pdf","CertRegs":"1728045489_74d945147cc2da56c213.pdf","CertRegsFilePath":"uploads\/files\/1728045489_74d945147cc2da56c213.pdf"}
+DEBUG - 2024-10-04 20:38:09 --> Prepared client data for insertion: {"FullName":"Christian James Paclarin","ContactNo":"09153045318","Barangay":"Makisig","Municipality":"Palimbang","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306c","EngineCapacity":"080","SerialNo":"HGDSIDSA126","DateOfAcquisition":"2003-03-30","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728045489_479d1bb60c8a59427c48.jpg","ProfOwnShip":"1728045489_40bafea980ce8e71cd6f.pdf","ProfOwnShipFilePath":"uploads\/files\/1728045489_40bafea980ce8e71cd6f.pdf","CertBrgy":"1728045489_c3e9caa68835b6e95079.pdf","CertBrgyFilePath":"uploads\/files\/1728045489_c3e9caa68835b6e95079.pdf","CertRegs":"1728045489_74d945147cc2da56c213.pdf","CertRegsFilePath":"uploads\/files\/1728045489_74d945147cc2da56c213.pdf"}
+INFO - 2024-10-04 20:38:09 --> Data inserted successfully.
+INFO - 2024-10-04 20:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:45:05 --> Client data to be inserted: {"FullName":"Gabriel Lopez","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306d","EngineCapacity":"080","SerialNo":"HGDSIDSA127","DateOfAcquisition":"2020-09-24","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728045905_73f6405c43c101bec4ba.png","ProfOwnShip":"1728045905_ea8bf21ebc39571889d1.pdf","ProfOwnShipFilePath":"uploads\/files\/1728045905_ea8bf21ebc39571889d1.pdf","CertBrgy":"1728045905_e4f0a1329e30d95c1dda.pdf","CertBrgyFilePath":"uploads\/files\/1728045905_e4f0a1329e30d95c1dda.pdf","CertRegs":"1728045905_93c250760829eab35ae1.pdf","CertRegsFilePath":"uploads\/files\/1728045905_93c250760829eab35ae1.pdf"}
+DEBUG - 2024-10-04 20:45:05 --> Prepared client data for insertion: {"FullName":"Gabriel Lopez","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306d","EngineCapacity":"080","SerialNo":"HGDSIDSA127","DateOfAcquisition":"2020-09-24","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728045905_73f6405c43c101bec4ba.png","ProfOwnShip":"1728045905_ea8bf21ebc39571889d1.pdf","ProfOwnShipFilePath":"uploads\/files\/1728045905_ea8bf21ebc39571889d1.pdf","CertBrgy":"1728045905_e4f0a1329e30d95c1dda.pdf","CertBrgyFilePath":"uploads\/files\/1728045905_e4f0a1329e30d95c1dda.pdf","CertRegs":"1728045905_93c250760829eab35ae1.pdf","CertRegsFilePath":"uploads\/files\/1728045905_93c250760829eab35ae1.pdf"}
+INFO - 2024-10-04 20:45:05 --> Data inserted successfully.
+INFO - 2024-10-04 20:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:46:45 --> Client data to be inserted: {"FullName":"Maria Makiling","ContactNo":"09153045318","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA129","DateOfAcquisition":"2020-03-03","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728046005_42ca2a7de28d038ddbbf.png","ProfOwnShip":"1728046005_8fedeee448caf78202d5.pdf","ProfOwnShipFilePath":"uploads\/files\/1728046005_8fedeee448caf78202d5.pdf","CertBrgy":"1728046005_7d75b2f015f21e41e581.pdf","CertBrgyFilePath":"uploads\/files\/1728046005_7d75b2f015f21e41e581.pdf","CertRegs":"1728046005_8e0a7877a549a44a178c.jpg","CertRegsFilePath":"uploads\/files\/1728046005_8e0a7877a549a44a178c.jpg"}
+DEBUG - 2024-10-04 20:46:45 --> Prepared client data for insertion: {"FullName":"Maria Makiling","ContactNo":"09153045318","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA129","DateOfAcquisition":"2020-03-03","MaxLengthGuideBar":"30","Purpose":"Tree cutting","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728046005_42ca2a7de28d038ddbbf.png","ProfOwnShip":"1728046005_8fedeee448caf78202d5.pdf","ProfOwnShipFilePath":"uploads\/files\/1728046005_8fedeee448caf78202d5.pdf","CertBrgy":"1728046005_7d75b2f015f21e41e581.pdf","CertBrgyFilePath":"uploads\/files\/1728046005_7d75b2f015f21e41e581.pdf","CertRegs":"1728046005_8e0a7877a549a44a178c.jpg","CertRegsFilePath":"uploads\/files\/1728046005_8e0a7877a549a44a178c.jpg"}
+INFO - 2024-10-04 20:46:45 --> Data inserted successfully.
+INFO - 2024-10-04 20:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:48:49 --> Received ApplicationNo: c2f895c7ac8f43ae4ce2a5f4184cf23f
+INFO - 2024-10-04 20:48:49 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'c2f895c7ac8f43ae4ce2a5f4184cf23f'
+ LIMIT 1
+INFO - 2024-10-04 20:48:49 --> Client found for ApplicationNo: 20
+INFO - 2024-10-04 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 20:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 20:50:09 --> ErrorException: Undefined variable $ContactNo
+[Method: GET, Route: dashboard]
+in APPPATH\Views\user\dashboard.php on line 175.
+ 1 APPPATH\Views\user\dashboard.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ContactNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php', 175)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('user/dashboard', [], true)
+ 5 APPPATH\Controllers\User.php(194): view('user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 20:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-04 21:01:43 --> Validation failed: {"ProfOwnShip":"ProfOwnShip is too large of a file."}
+INFO - 2024-10-04 21:01:54 --> Client data to be inserted: {"FullName":"Jose Manalo","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA110","DateOfAcquisition":"2018-03-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728046914_499162530e4df7d37fa3.png","ProfOwnShip":"1728046914_8862248e4ccbcde83a11.pdf","ProfOwnShipFilePath":"uploads\/files\/1728046914_8862248e4ccbcde83a11.pdf","CertBrgy":"1728046914_a6ff8d22b011cfa9b4bf.pdf","CertBrgyFilePath":"uploads\/files\/1728046914_a6ff8d22b011cfa9b4bf.pdf","CertRegs":"1728046914_c564ef37f092a693d9ec.pdf","CertRegsFilePath":"uploads\/files\/1728046914_c564ef37f092a693d9ec.pdf"}
+DEBUG - 2024-10-04 21:01:54 --> Prepared client data for insertion: {"FullName":"Jose Manalo","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA110","DateOfAcquisition":"2018-03-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728046914_499162530e4df7d37fa3.png","ProfOwnShip":"1728046914_8862248e4ccbcde83a11.pdf","ProfOwnShipFilePath":"uploads\/files\/1728046914_8862248e4ccbcde83a11.pdf","CertBrgy":"1728046914_a6ff8d22b011cfa9b4bf.pdf","CertBrgyFilePath":"uploads\/files\/1728046914_a6ff8d22b011cfa9b4bf.pdf","CertRegs":"1728046914_c564ef37f092a693d9ec.pdf","CertRegsFilePath":"uploads\/files\/1728046914_c564ef37f092a693d9ec.pdf"}
+INFO - 2024-10-04 21:01:54 --> Data inserted successfully.
+INFO - 2024-10-04 21:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:07:57 --> Client data to be inserted: {"FullName":"Rodin Suniga","ContactNo":"09153045318","Barangay":"Kalawag III","Municipality":"Isulan","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA195","DateOfAcquisition":"2023-06-20","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728047277_6207cfb17eb980fe95ab.png","ProfOwnShip":"1728047277_793ff3005a42c05f7770.pdf","ProfOwnShipFilePath":"uploads\/files\/1728047277_793ff3005a42c05f7770.pdf","CertBrgy":"1728047277_265a71ac6aa969bbbf16.pdf","CertBrgyFilePath":"uploads\/files\/1728047277_265a71ac6aa969bbbf16.pdf","CertRegs":"1728047277_8fc73100304184619fa5.pdf","CertRegsFilePath":"uploads\/files\/1728047277_8fc73100304184619fa5.pdf"}
+DEBUG - 2024-10-04 21:07:57 --> Prepared client data for insertion: {"FullName":"Rodin Suniga","ContactNo":"09153045318","Barangay":"Kalawag III","Municipality":"Isulan","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA195","DateOfAcquisition":"2023-06-20","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728047277_6207cfb17eb980fe95ab.png","ProfOwnShip":"1728047277_793ff3005a42c05f7770.pdf","ProfOwnShipFilePath":"uploads\/files\/1728047277_793ff3005a42c05f7770.pdf","CertBrgy":"1728047277_265a71ac6aa969bbbf16.pdf","CertBrgyFilePath":"uploads\/files\/1728047277_265a71ac6aa969bbbf16.pdf","CertRegs":"1728047277_8fc73100304184619fa5.pdf","CertRegsFilePath":"uploads\/files\/1728047277_8fc73100304184619fa5.pdf"}
+INFO - 2024-10-04 21:07:57 --> Data inserted successfully.
+INFO - 2024-10-04 21:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:12:57 --> Client data to be inserted: {"FullName":"Armando Victoria","ContactNo":"09153045318","Barangay":"Kayupo","Municipality":"Esperanza","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA100","DateOfAcquisition":"2023-04-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728047577_7f0b9c898875d9d68141.png","ProfOwnShip":"1728047577_34fdc7c8b142470c0dc8.pdf","ProfOwnShipFilePath":"uploads\/files\/1728047577_34fdc7c8b142470c0dc8.pdf","CertBrgy":"1728047577_5a53b075424ecd6c1a57.pdf","CertBrgyFilePath":"uploads\/files\/1728047577_5a53b075424ecd6c1a57.pdf","CertRegs":"1728047577_6b24796426f57f5a4338.pdf","CertRegsFilePath":"uploads\/files\/1728047577_6b24796426f57f5a4338.pdf"}
+DEBUG - 2024-10-04 21:12:57 --> Prepared client data for insertion: {"FullName":"Armando Victoria","ContactNo":"09153045318","Barangay":"Kayupo","Municipality":"Esperanza","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA100","DateOfAcquisition":"2023-04-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728047577_7f0b9c898875d9d68141.png","ProfOwnShip":"1728047577_34fdc7c8b142470c0dc8.pdf","ProfOwnShipFilePath":"uploads\/files\/1728047577_34fdc7c8b142470c0dc8.pdf","CertBrgy":"1728047577_5a53b075424ecd6c1a57.pdf","CertBrgyFilePath":"uploads\/files\/1728047577_5a53b075424ecd6c1a57.pdf","CertRegs":"1728047577_6b24796426f57f5a4338.pdf","CertRegsFilePath":"uploads\/files\/1728047577_6b24796426f57f5a4338.pdf"}
+INFO - 2024-10-04 21:12:57 --> Data inserted successfully.
+INFO - 2024-10-04 21:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:13:17 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 21:13:17 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 21:13:17 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 21:13:29 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-04 21:13:29 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-04 21:13:29 --> Client found for ApplicationNo: 22
+INFO - 2024-10-04 21:13:33 --> Received ApplicationNo: f82be2381136750d35f4672c3f0d583d
+INFO - 2024-10-04 21:13:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'f82be2381136750d35f4672c3f0d583d'
+ LIMIT 1
+INFO - 2024-10-04 21:13:33 --> Client found for ApplicationNo: 21
+INFO - 2024-10-04 21:13:35 --> Received ApplicationNo: c2f895c7ac8f43ae4ce2a5f4184cf23f
+INFO - 2024-10-04 21:13:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'c2f895c7ac8f43ae4ce2a5f4184cf23f'
+ LIMIT 1
+INFO - 2024-10-04 21:13:35 --> Client found for ApplicationNo: 20
+INFO - 2024-10-04 21:26:30 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 21:26:30 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 21:26:30 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 21:26:46 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 21:26:46 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 21:26:46 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 21:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-04 21:27:22 --> ErrorException: Undefined property: stdClass::$MiddleName
+[Method: GET, Route: user/edit]
+in APPPATH\Controllers\User.php on line 449.
+ 1 APPPATH\Controllers\User.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$MiddleName', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 449)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-04 21:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:28:52 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 21:28:52 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 21:28:52 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 21:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:51:21 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 21:51:21 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 21:51:21 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 21:51:24 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 21:51:24 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 21:51:24 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 21:51:26 --> Received ApplicationNo: c2f895c7ac8f43ae4ce2a5f4184cf23f
+INFO - 2024-10-04 21:51:26 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'c2f895c7ac8f43ae4ce2a5f4184cf23f'
+ LIMIT 1
+INFO - 2024-10-04 21:51:26 --> Client found for ApplicationNo: 20
+INFO - 2024-10-04 21:51:29 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 21:51:29 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-04 21:51:29 --> Client found for ApplicationNo: 17
+INFO - 2024-10-04 21:51:43 --> Received ApplicationNo: ca75ac253c433f45a42a81bd3d57efe1
+INFO - 2024-10-04 21:51:43 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'ca75ac253c433f45a42a81bd3d57efe1'
+ LIMIT 1
+INFO - 2024-10-04 21:51:43 --> Client found for ApplicationNo: 16
+INFO - 2024-10-04 21:51:57 --> Received ApplicationNo: 4a655e420cf3814e4b0c16e2040c4e5a
+INFO - 2024-10-04 21:51:57 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4a655e420cf3814e4b0c16e2040c4e5a'
+ LIMIT 1
+INFO - 2024-10-04 21:51:57 --> Client found for ApplicationNo: 18
+INFO - 2024-10-04 21:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 21:54:14 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 21:54:14 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 21:54:14 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 21:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 22:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 22:00:24 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 22:00:24 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 22:00:24 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 22:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 22:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 22:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 22:59:36 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 22:59:36 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 22:59:36 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 22:59:38 --> Received ApplicationNo: f82be2381136750d35f4672c3f0d583d
+INFO - 2024-10-04 22:59:38 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'f82be2381136750d35f4672c3f0d583d'
+ LIMIT 1
+INFO - 2024-10-04 22:59:38 --> Client found for ApplicationNo: 21
+INFO - 2024-10-04 23:00:08 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:00:09 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:00:09 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:01:50 --> Received ApplicationNo: d18b4daed73da0cf12ac7d7da9e713ed
+INFO - 2024-10-04 23:01:50 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'd18b4daed73da0cf12ac7d7da9e713ed'
+ LIMIT 1
+INFO - 2024-10-04 23:01:50 --> Client found for ApplicationNo: 17
+INFO - 2024-10-04 23:02:09 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 23:02:09 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 23:02:09 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 23:02:43 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:02:43 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:02:43 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:03:20 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:03:20 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:03:20 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:03:25 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:03:25 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:03:25 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:11 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:04:11 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:04:11 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:01 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:05:01 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:05:01 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:05:37 --> Received ApplicationNo: 4b506335a4e2732d1e8ff231b4f17f85
+INFO - 2024-10-04 23:05:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4b506335a4e2732d1e8ff231b4f17f85'
+ LIMIT 1
+INFO - 2024-10-04 23:05:37 --> Client found for ApplicationNo: 15
+INFO - 2024-10-04 23:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:08:18 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-04 23:08:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-04 23:08:18 --> Client found for ApplicationNo: 23
+INFO - 2024-10-04 23:08:30 --> Received ApplicationNo: f82be2381136750d35f4672c3f0d583d
+INFO - 2024-10-04 23:08:30 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'f82be2381136750d35f4672c3f0d583d'
+ LIMIT 1
+INFO - 2024-10-04 23:08:30 --> Client found for ApplicationNo: 21
+INFO - 2024-10-04 23:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-04 23:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

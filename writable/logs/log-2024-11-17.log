@@ -1,0 +1,150 @@
+INFO - 2024-11-17 09:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 09:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 09:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 09:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-17 10:21:24 --> Client not found or not confirmed for UserID: 2024USID000000001
+INFO - 2024-11-17 10:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-17 10:22:23 --> Client not found or not confirmed for UserID: 2024USID000000001
+INFO - 2024-11-17 10:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-17 10:53:09 --> Client not found or not confirmed for UserID: 2024USID000000001
+INFO - 2024-11-17 10:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:53:54 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-17 10:53:54 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-11-17 10:53:54 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-17 10:56:47 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-17 10:56:47 --> Received Status: Confirmed
+INFO - 2024-11-17 10:56:47 --> Received Remarks: Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.
+INFO - 2024-11-17 10:56:47 --> Generated UpdatedDate: 2024-11-17 10:56:47
+INFO - 2024-11-17 10:56:47 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-17 10:56:47 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000001
+INFO - 2024-11-17 10:56:47 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-11-17 10:56:47","Remarks":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000001"}
+INFO - 2024-11-17 10:56:47 --> User status updated successfully for UserID: 2024USID000000001
+INFO - 2024-11-17 10:56:53 --> Semaphore API response: [{"message_id":235343461,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-11-17 10:56:55","updated_at":"2024-11-17 10:56:55"}]
+INFO - 2024-11-17 10:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 10:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:28:43 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-17 11:28:43 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-11-17 11:28:43 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-17 11:29:07 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-17 11:29:07 --> Received Status: Confirmed
+INFO - 2024-11-17 11:29:07 --> Received Remarks: Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.
+INFO - 2024-11-17 11:29:07 --> Generated UpdatedDate: 2024-11-17 11:29:07
+INFO - 2024-11-17 11:29:07 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-17 11:29:07 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000001
+INFO - 2024-11-17 11:29:07 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-11-17 11:29:07","Remarks":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000001"}
+INFO - 2024-11-17 11:29:07 --> User status updated successfully for UserID: 2024USID000000001
+INFO - 2024-11-17 11:29:08 --> Semaphore API response: [{"message_id":235344490,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-11-17 11:29:10","updated_at":"2024-11-17 11:29:10"}]
+INFO - 2024-11-17 11:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:32:53 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-11-17 11:32:53 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-11-17 11:32:53 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-11-17 11:33:08 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-11-17 11:33:08 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-11-17 11:33:08 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-11-17 11:33:15 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-11-17 11:33:15 --> Received Status: Confirmed
+INFO - 2024-11-17 11:33:15 --> Received Remarks: Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.
+INFO - 2024-11-17 11:33:15 --> Generated UpdatedDate: 2024-11-17 11:33:15
+INFO - 2024-11-17 11:33:15 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-11-17 11:33:15 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000002
+INFO - 2024-11-17 11:33:15 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-11-17 11:33:15","Remarks":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000002"}
+INFO - 2024-11-17 11:33:15 --> User status updated successfully for UserID: 2024USID000000001
+INFO - 2024-11-17 11:33:17 --> Semaphore API response: [{"message_id":235344702,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! This is DENR XII - CENRO Kalamansig. You may now proceed with the payment transaction for your Chainsaw Registration. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-11-17 11:33:18","updated_at":"2024-11-17 11:33:18"}]
+INFO - 2024-11-17 11:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-17 11:40:40 --> Client not found or not confirmed for UserID: 2024USID000000003
+INFO - 2024-11-17 11:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 11:59:22 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-17 12:00:06 --> Office details fetched: {"OfficeID":"2","OfficeName":"CENRO Kalamansig","HeadOfOffice":"ROGIE H. HAGORILES","Position":"OIC-CENR Officer","Address":"Poblacion, Kalamansig, Sultan Kudarat","Telefax":"(064)-204-6051","EmailAdd":"cernrokalamansig@denr.gov.ph","CreatedDate":"2024-10-15 10:13:18"}
+INFO - 2024-11-17 12:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:00:20 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-17 12:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 13:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-17 13:53:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$userId"
+[Method: GET, Route: getUserRoleByUserId/$userId]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('getUserRoleByUserId/$userId')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('getUserRoleByUserId/$userId')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-17 13:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 14:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 14:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

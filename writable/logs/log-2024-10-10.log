@@ -1,0 +1,947 @@
+INFO - 2024-10-10 08:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:16:35 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-10 14:16:35 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-10 14:16:35 --> Client found for ApplicationNo: 23
+INFO - 2024-10-10 14:17:15 --> Semaphore API response: [{"message_id":232741175,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-10 14:17:24","updated_at":"2024-10-10 14:17:24"}]
+INFO - 2024-10-10 14:18:29 --> Semaphore API response: [{"message_id":232741223,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-10 14:18:38","updated_at":"2024-10-10 14:18:38"}]
+INFO - 2024-10-10 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 14:19:08 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 14:19:08 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 14:19:08 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:06:41 --> Received ApplicationNo: f82be2381136750d35f4672c3f0d583d
+INFO - 2024-10-10 15:06:41 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'f82be2381136750d35f4672c3f0d583d'
+ LIMIT 1
+INFO - 2024-10-10 15:06:41 --> Client found for ApplicationNo: 21
+INFO - 2024-10-10 15:06:44 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-10 15:06:44 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-10 15:06:44 --> Client found for ApplicationNo: 24
+INFO - 2024-10-10 15:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:07:25 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-10 15:07:25 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-10 15:07:25 --> Client found for ApplicationNo: 23
+INFO - 2024-10-10 15:08:55 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:08:55 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:08:55 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:09:18 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:09:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:09:18 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:14:22 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:14:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:14:22 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:22:30 --> Received ApplicationNo: 08cec5a55d070a659aa1500d07ec55d4
+INFO - 2024-10-10 15:22:30 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cec5a55d070a659aa1500d07ec55d4'
+ LIMIT 1
+INFO - 2024-10-10 15:22:30 --> Client found for ApplicationNo: 23
+INFO - 2024-10-10 15:23:01 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:23:01 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:23:01 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:23:08 --> Received ApplicationNo: f82be2381136750d35f4672c3f0d583d
+INFO - 2024-10-10 15:23:08 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'f82be2381136750d35f4672c3f0d583d'
+ LIMIT 1
+INFO - 2024-10-10 15:23:08 --> Client found for ApplicationNo: 21
+INFO - 2024-10-10 15:23:13 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-10 15:23:13 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-10 15:23:13 --> Client found for ApplicationNo: 24
+INFO - 2024-10-10 15:23:20 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:23:20 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:23:20 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:23:27 --> Received ApplicationNo: cc9d3f9b2f971254220530037cb6f260
+INFO - 2024-10-10 15:23:27 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = 'cc9d3f9b2f971254220530037cb6f260'
+ LIMIT 1
+INFO - 2024-10-10 15:23:27 --> Client found for ApplicationNo: 19
+INFO - 2024-10-10 15:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:24:22 --> Received ApplicationNo: 4cdc7b58f63570dc0a9a6e0b94e4684d
+INFO - 2024-10-10 15:24:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '4cdc7b58f63570dc0a9a6e0b94e4684d'
+ LIMIT 1
+INFO - 2024-10-10 15:24:22 --> Client found for ApplicationNo: 24
+INFO - 2024-10-10 15:25:08 --> Semaphore API response: [{"message_id":232751719,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day! Please proceed to the Payment Transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-10 15:25:17","updated_at":"2024-10-10 15:25:17"}]
+INFO - 2024-10-10 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:25:27 --> Received ApplicationNo: 08cd86fbdef51f62c8927f113d7f9e96
+INFO - 2024-10-10 15:25:27 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(ApplicationNo), "Confirm")) = '08cd86fbdef51f62c8927f113d7f9e96'
+ LIMIT 1
+INFO - 2024-10-10 15:25:27 --> Client found for ApplicationNo: 22
+INFO - 2024-10-10 15:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 15:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 15:56:06 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-10 15:56:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'order clause'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 15:56:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 15:56:06 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 16:03:15 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-10-10 16:03:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'order clause'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:03:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:03:15 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblregistration`
+ORDER BY `id` DESC
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Client.php(211): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:20:01 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-02-05","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728548401_647ec226746a458c8408.png","ProfOwnShip":"1728548401_069e13b3612b59fe38b3.jpg","ProfOwnShipFilePath":"uploads\/files\/1728548401_069e13b3612b59fe38b3.jpg","CertBrgy":"1728548401_8fa7fc9d9cf20b51b5a8.pdf","CertBrgyFilePath":"uploads\/files\/1728548401_8fa7fc9d9cf20b51b5a8.pdf","CertRegs":"1728548401_bcc7cb4d9cb6179a0ae1.pdf","CertRegsFilePath":"uploads\/files\/1728548401_bcc7cb4d9cb6179a0ae1.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:20:01","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:20:01 --> Database insertion failed: []
+INFO - 2024-10-10 16:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:24:19 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728548659_249ec6d80d8ff5108cc7.png","ProfOwnShip":"1728548659_94bcac2348e9b634d4d0.pdf","ProfOwnShipFilePath":"uploads\/files\/1728548659_94bcac2348e9b634d4d0.pdf","CertBrgy":"1728548659_e02fd2bd7904f2e0880e.pdf","CertBrgyFilePath":"uploads\/files\/1728548659_e02fd2bd7904f2e0880e.pdf","CertRegs":"1728548659_77a10d0b1f812213e7d0.pdf","CertRegsFilePath":"uploads\/files\/1728548659_77a10d0b1f812213e7d0.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:24:19","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:24:19 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(260): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-10 16:24:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:24:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728548659_249ec6d80d8ff5108cc7.png\', \'1728548659_94bcac2348e9b634d4d0.pdf\', \'uploads/files/1728548659_94bcac2348e9b634d4d0.pdf\', \'1728548659_e02fd2bd7904f2e0880e.pdf\', \'uploads/files/1728548659_e02fd2bd7904f2e0880e.pdf\', \'1728548659_77a10d0b1f812213e7d0.pdf\', \'uploads/files/1728548659_77a10d0b1f812213e7d0.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:24:19\', \'2024-10-10 16:24:19\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728548659_249ec6d80d8ff5108cc7.png\', \'1728548659_94bcac2348e9b634d4d0.pdf\', \'uploads/files/1728548659_94bcac2348e9b634d4d0.pdf\', \'1728548659_e02fd2bd7904f2e0880e.pdf\', \'uploads/files/1728548659_e02fd2bd7904f2e0880e.pdf\', \'1728548659_77a10d0b1f812213e7d0.pdf\', \'uploads/files/1728548659_77a10d0b1f812213e7d0.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:24:19\', \'2024-10-10 16:24:19\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:24:19 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728548659_249ec6d80d8ff5108cc7.png\', \'1728548659_94bcac2348e9b634d4d0.pdf\', \'uploads/files/1728548659_94bcac2348e9b634d4d0.pdf\', \'1728548659_e02fd2bd7904f2e0880e.pdf\', \'uploads/files/1728548659_e02fd2bd7904f2e0880e.pdf\', \'1728548659_77a10d0b1f812213e7d0.pdf\', \'uploads/files/1728548659_77a10d0b1f812213e7d0.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:24:19\', \'2024-10-10 16:24:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728548659_249ec6d80d8ff5108cc7.png\', \'1728548659_94bcac2348e9b634d4d0.pdf\', \'uploads/files/1728548659_94bcac2348e9b634d4d0.pdf\', \'1728548659_e02fd2bd7904f2e0880e.pdf\', \'uploads/files/1728548659_e02fd2bd7904f2e0880e.pdf\', \'1728548659_77a10d0b1f812213e7d0.pdf\', \'uploads/files/1728548659_77a10d0b1f812213e7d0.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:24:19\', \'2024-10-10 16:24:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728548659_249ec6d80d8ff5108cc7.png\', \'1728548659_94bcac2348e9b634d4d0.pdf\', \'uploads/files/1728548659_94bcac2348e9b634d4d0.pdf\', \'1728548659_e02fd2bd7904f2e0880e.pdf\', \'uploads/files/1728548659_e02fd2bd7904f2e0880e.pdf\', \'1728548659_77a10d0b1f812213e7d0.pdf\', \'uploads/files/1728548659_77a10d0b1f812213e7d0.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:24:19\', \'2024-10-10 16:24:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:25:38 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728548738_4bfc87d85bb26b1fe5a3.png","ProfOwnShip":"1728548738_68f6f3f7ab4e69700f2b.pdf","ProfOwnShipFilePath":"uploads\/files\/1728548738_68f6f3f7ab4e69700f2b.pdf","CertBrgy":"1728548738_eaa20fd729a115ec5c34.pdf","CertBrgyFilePath":"uploads\/files\/1728548738_eaa20fd729a115ec5c34.pdf","CertRegs":"1728548738_7d5e916d730ba58aa771.pdf","CertRegsFilePath":"uploads\/files\/1728548738_7d5e916d730ba58aa771.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:25:38","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:25:38 --> Database insertion failed: []
+INFO - 2024-10-10 16:30:33 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728549033_8d88d26103d74734e879.png","ProfOwnShip":"1728549033_591ae9faf9235fd86dac.pdf","ProfOwnShipFilePath":"uploads\/files\/1728549033_591ae9faf9235fd86dac.pdf","CertBrgy":"1728549033_01cb021d5270b311dd26.pdf","CertBrgyFilePath":"uploads\/files\/1728549033_01cb021d5270b311dd26.pdf","CertRegs":"1728549033_669964d7eb4e2c45d582.pdf","CertRegsFilePath":"uploads\/files\/1728549033_669964d7eb4e2c45d582.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:30:33","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:30:33 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(260): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-10 16:30:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:30:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549033_8d88d26103d74734e879.png\', \'1728549033_591ae9faf9235fd86dac.pdf\', \'uploads/files/1728549033_591ae9faf9235fd86dac.pdf\', \'1728549033_01cb021d5270b311dd26.pdf\', \'uploads/files/1728549033_01cb021d5270b311dd26.pdf\', \'1728549033_669964d7eb4e2c45d582.pdf\', \'uploads/files/1728549033_669964d7eb4e2c45d582.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:30:33\', \'2024-10-10 16:30:33\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549033_8d88d26103d74734e879.png\', \'1728549033_591ae9faf9235fd86dac.pdf\', \'uploads/files/1728549033_591ae9faf9235fd86dac.pdf\', \'1728549033_01cb021d5270b311dd26.pdf\', \'uploads/files/1728549033_01cb021d5270b311dd26.pdf\', \'1728549033_669964d7eb4e2c45d582.pdf\', \'uploads/files/1728549033_669964d7eb4e2c45d582.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:30:33\', \'2024-10-10 16:30:33\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:30:33 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549033_8d88d26103d74734e879.png\', \'1728549033_591ae9faf9235fd86dac.pdf\', \'uploads/files/1728549033_591ae9faf9235fd86dac.pdf\', \'1728549033_01cb021d5270b311dd26.pdf\', \'uploads/files/1728549033_01cb021d5270b311dd26.pdf\', \'1728549033_669964d7eb4e2c45d582.pdf\', \'uploads/files/1728549033_669964d7eb4e2c45d582.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:30:33\', \'2024-10-10 16:30:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549033_8d88d26103d74734e879.png\', \'1728549033_591ae9faf9235fd86dac.pdf\', \'uploads/files/1728549033_591ae9faf9235fd86dac.pdf\', \'1728549033_01cb021d5270b311dd26.pdf\', \'uploads/files/1728549033_01cb021d5270b311dd26.pdf\', \'1728549033_669964d7eb4e2c45d582.pdf\', \'uploads/files/1728549033_669964d7eb4e2c45d582.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:30:33\', \'2024-10-10 16:30:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549033_8d88d26103d74734e879.png\', \'1728549033_591ae9faf9235fd86dac.pdf\', \'uploads/files/1728549033_591ae9faf9235fd86dac.pdf\', \'1728549033_01cb021d5270b311dd26.pdf\', \'uploads/files/1728549033_01cb021d5270b311dd26.pdf\', \'1728549033_669964d7eb4e2c45d582.pdf\', \'uploads/files/1728549033_669964d7eb4e2c45d582.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:30:33\', \'2024-10-10 16:30:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:31:02 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728549062_e37d14f11fb506cda9e7.png","ProfOwnShip":"1728549062_a4178ca4e5c2edc04a22.pdf","ProfOwnShipFilePath":"uploads\/files\/1728549062_a4178ca4e5c2edc04a22.pdf","CertBrgy":"1728549062_41638c8c656cdf015975.pdf","CertBrgyFilePath":"uploads\/files\/1728549062_41638c8c656cdf015975.pdf","CertRegs":"1728549062_33235d854ef87bca8f4a.pdf","CertRegsFilePath":"uploads\/files\/1728549062_33235d854ef87bca8f4a.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:31:02","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:31:02 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(260): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-10 16:31:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:31:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549062_e37d14f11fb506cda9e7.png\', \'1728549062_a4178ca4e5c2edc04a22.pdf\', \'uploads/files/1728549062_a4178ca4e5c2edc04a22.pdf\', \'1728549062_41638c8c656cdf015975.pdf\', \'uploads/files/1728549062_41638c8c656cdf015975.pdf\', \'1728549062_33235d854ef87bca8f4a.pdf\', \'uploads/files/1728549062_33235d854ef87bca8f4a.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:31:02\', \'2024-10-10 16:31:02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549062_e37d14f11fb506cda9e7.png\', \'1728549062_a4178ca4e5c2edc04a22.pdf\', \'uploads/files/1728549062_a4178ca4e5c2edc04a22.pdf\', \'1728549062_41638c8c656cdf015975.pdf\', \'uploads/files/1728549062_41638c8c656cdf015975.pdf\', \'1728549062_33235d854ef87bca8f4a.pdf\', \'uploads/files/1728549062_33235d854ef87bca8f4a.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:31:02\', \'2024-10-10 16:31:02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:31:02 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549062_e37d14f11fb506cda9e7.png\', \'1728549062_a4178ca4e5c2edc04a22.pdf\', \'uploads/files/1728549062_a4178ca4e5c2edc04a22.pdf\', \'1728549062_41638c8c656cdf015975.pdf\', \'uploads/files/1728549062_41638c8c656cdf015975.pdf\', \'1728549062_33235d854ef87bca8f4a.pdf\', \'uploads/files/1728549062_33235d854ef87bca8f4a.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:31:02\', \'2024-10-10 16:31:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549062_e37d14f11fb506cda9e7.png\', \'1728549062_a4178ca4e5c2edc04a22.pdf\', \'uploads/files/1728549062_a4178ca4e5c2edc04a22.pdf\', \'1728549062_41638c8c656cdf015975.pdf\', \'uploads/files/1728549062_41638c8c656cdf015975.pdf\', \'1728549062_33235d854ef87bca8f4a.pdf\', \'uploads/files/1728549062_33235d854ef87bca8f4a.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:31:02\', \'2024-10-10 16:31:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2000-04-04\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549062_e37d14f11fb506cda9e7.png\', \'1728549062_a4178ca4e5c2edc04a22.pdf\', \'uploads/files/1728549062_a4178ca4e5c2edc04a22.pdf\', \'1728549062_41638c8c656cdf015975.pdf\', \'uploads/files/1728549062_41638c8c656cdf015975.pdf\', \'1728549062_33235d854ef87bca8f4a.pdf\', \'uploads/files/1728549062_33235d854ef87bca8f4a.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:31:02\', \'2024-10-10 16:31:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:43:07 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-04-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728549787_2aea53e992980e577344.png","ProfOwnShip":"1728549787_f7b49c73b208d8dad9e9.png","ProfOwnShipFilePath":"uploads\/files\/1728549787_f7b49c73b208d8dad9e9.png","CertBrgy":"1728549787_d09763bd9f54d0339eb2.pdf","CertBrgyFilePath":"uploads\/files\/1728549787_d09763bd9f54d0339eb2.pdf","CertRegs":"1728549787_44c50afcadb26455d52d.pdf","CertRegsFilePath":"uploads\/files\/1728549787_44c50afcadb26455d52d.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:43:07","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:43:07 --> mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\cris\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(260): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->register()
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-10-10 16:43:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:43:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2023-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549787_2aea53e992980e577344.png\', \'1728549787_f7b49c73b208d8dad9e9.png\', \'uploads/files/1728549787_f7b49c73b208d8dad9e9.png\', \'1728549787_d09763bd9f54d0339eb2.pdf\', \'uploads/files/1728549787_d09763bd9f54d0339eb2.pdf\', \'1728549787_44c50afcadb26455d52d.pdf\', \'uploads/files/1728549787_44c50afcadb26455d52d.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:43:07\', \'2024-10-10 16:43:07\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2023-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549787_2aea53e992980e577344.png\', \'1728549787_f7b49c73b208d8dad9e9.png\', \'uploads/files/1728549787_f7b49c73b208d8dad9e9.png\', \'1728549787_d09763bd9f54d0339eb2.pdf\', \'uploads/files/1728549787_d09763bd9f54d0339eb2.pdf\', \'1728549787_44c50afcadb26455d52d.pdf\', \'uploads/files/1728549787_44c50afcadb26455d52d.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:43:07\', \'2024-10-10 16:43:07\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-10 16:43:07 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'tblregistration.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2023-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549787_2aea53e992980e577344.png\', \'1728549787_f7b49c73b208d8dad9e9.png\', \'uploads/files/1728549787_f7b49c73b208d8dad9e9.png\', \'1728549787_d09763bd9f54d0339eb2.pdf\', \'uploads/files/1728549787_d09763bd9f54d0339eb2.pdf\', \'1728549787_44c50afcadb26455d52d.pdf\', \'uploads/files/1728549787_44c50afcadb26455d52d.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:43:07\', \'2024-10-10 16:43:07\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2023-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549787_2aea53e992980e577344.png\', \'1728549787_f7b49c73b208d8dad9e9.png\', \'uploads/files/1728549787_f7b49c73b208d8dad9e9.png\', \'1728549787_d09763bd9f54d0339eb2.pdf\', \'uploads/files/1728549787_d09763bd9f54d0339eb2.pdf\', \'1728549787_44c50afcadb26455d52d.pdf\', \'uploads/files/1728549787_44c50afcadb26455d52d.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:43:07\', \'2024-10-10 16:43:07\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (\'Sharawi S. Sangcopan\', \'09153045318\', \'Poblacion\', \'Tacurong City\', \'Sultan Kudarat\', \'Stihl\', \'Poulan 306a\', \'070\', \'HGDSIDSA123\', \'2023-04-02\', \'30\', \'pruning\', \'CENRO Tacurong\', \'Pending\', \'For Payment\', \'New\', \'1728549787_2aea53e992980e577344.png\', \'1728549787_f7b49c73b208d8dad9e9.png\', \'uploads/files/1728549787_f7b49c73b208d8dad9e9.png\', \'1728549787_d09763bd9f54d0339eb2.pdf\', \'uploads/files/1728549787_d09763bd9f54d0339eb2.pdf\', \'1728549787_44c50afcadb26455d52d.pdf\', \'uploads/files/1728549787_44c50afcadb26455d52d.pdf\', \'October\', \'2024\', \'2026-10-10\', \'2026-10-10 16:43:07\', \'2024-10-10 16:43:07\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblregistration` (`FullName`, `ContactNo`, `Barangay`, `Municipality`, `Province`, `Brand`, `Model`, `EngineCapacity`, `SerialNo`, `DateOfAcquisition`, `MaxLengthGuideBar`, `Purpose`, `OfficeName`, `Status`, `PaymentStatus`, `RegsType`, `Image`, `ProfOwnShip`, `ProfOwnShipFilePath`, `CertBrgy`, `CertBrgyFilePath`, `CertRegs`, `CertRegsFilePath`, `Month`, `Year`, `ExpiryDate`, `CreatedDate`, `UpdatedDate`) VALUES (:FullName:, :ContactNo:, :Barangay:, :Municipality:, :Province:, :Brand:, :Model:, :EngineCapacity:, :SerialNo:, :DateOfAcquisition:, :MaxLengthGuideBar:, :Purpose:, :OfficeName:, :Status:, :PaymentStatus:, :RegsType:, :Image:, :ProfOwnShip:, :ProfOwnShipFilePath:, :CertBrgy:, :CertBrgyFilePath:, :CertRegs:, :CertRegsFilePath:, :Month:, :Year:, :ExpiryDate:, :CreatedDate:, :UpdatedDate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Client.php(260): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:44:52 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2023-04-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728549892_43c2ddb75bb25c9bd558.jpg","ProfOwnShip":"1728549892_590e3fd146db2aab8f11.pdf","ProfOwnShipFilePath":"uploads\/files\/1728549892_590e3fd146db2aab8f11.pdf","CertBrgy":"1728549892_3f8a5a3294f9f32f7824.png","CertBrgyFilePath":"uploads\/files\/1728549892_3f8a5a3294f9f32f7824.png","CertRegs":"1728549892_e0264c6a786a8070c63e.pdf","CertRegsFilePath":"uploads\/files\/1728549892_e0264c6a786a8070c63e.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:44:52","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:44:52 --> Database insertion failed: []
+INFO - 2024-10-10 16:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:49:01 --> Last client data: null
+INFO - 2024-10-10 16:49:01 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 16:49:01 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-04-02","MaxLengthGuideBar":"20","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728550141_1a9e96e0cbaa31bf137d.jpg","ProfOwnShip":"1728550141_6374c9f3f7a19120095d.pdf","ProfOwnShipFilePath":"uploads\/files\/1728550141_6374c9f3f7a19120095d.pdf","CertBrgy":"1728550141_7e83c03e551089c5a4fb.pdf","CertBrgyFilePath":"uploads\/files\/1728550141_7e83c03e551089c5a4fb.pdf","CertRegs":"1728550141_b8b1c310a84390ab5018.pdf","CertRegsFilePath":"uploads\/files\/1728550141_b8b1c310a84390ab5018.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:49:01","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:49:01 --> Database insertion failed: []
+INFO - 2024-10-10 16:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:17 --> Last client data: null
+INFO - 2024-10-10 16:55:17 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 16:55:17 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-03-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728550517_086bfcee98cf5d1a1102.png","ProfOwnShip":"1728550517_1711a0251f29cb76bc81.pdf","ProfOwnShipFilePath":"uploads\/files\/1728550517_1711a0251f29cb76bc81.pdf","CertBrgy":"1728550517_894e722dd98cd7008cce.png","CertBrgyFilePath":"uploads\/files\/1728550517_894e722dd98cd7008cce.png","CertRegs":"1728550517_d012b58f0338890cab24.pdf","CertRegsFilePath":"uploads\/files\/1728550517_d012b58f0338890cab24.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 16:55:17","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 16:55:17 --> Database insertion failed: []
+INFO - 2024-10-10 16:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 16:55:44 --> ErrorException: Undefined property: stdClass::$ApplicationNo
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 136.
+ 1 APPPATH\Views\client\confirmation.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ApplicationNo', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 136)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(349): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:56:37 --> Received RegistrationNo: 70d9be9b139893aa6c69b5e77e614311
+INFO - 2024-10-10 16:56:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '70d9be9b139893aa6c69b5e77e614311'
+ LIMIT 1
+CRITICAL - 2024-10-10 16:56:37 --> ErrorException: Undefined property: stdClass::$ApplicationNo
+[Method: GET, Route: client/getClientInfo/70d9be9b139893aa6c69b5e77e614311]
+in APPPATH\Controllers\Client.php on line 403.
+ 1 APPPATH\Controllers\Client.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ApplicationNo', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 403)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('70d9be9b139893aa6c69b5e77e614311')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 16:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 16:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:15:19 --> Last client data: null
+INFO - 2024-10-10 18:15:19 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 18:15:19 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-03-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728555319_f1da98bec7efaf7b0448.png","ProfOwnShip":"1728555319_5b98ff610cebbf57f0b3.pdf","ProfOwnShipFilePath":"uploads\/files\/1728555319_5b98ff610cebbf57f0b3.pdf","CertBrgy":"1728555319_b426eb79190c6f806747.pdf","CertBrgyFilePath":"uploads\/files\/1728555319_b426eb79190c6f806747.pdf","CertRegs":"1728555319_a40a10e710153868b9eb.pdf","CertRegsFilePath":"uploads\/files\/1728555319_a40a10e710153868b9eb.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 18:15:19","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 18:15:19 --> Database insertion failed: []
+INFO - 2024-10-10 18:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:17:18 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 18:17:18 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+CRITICAL - 2024-10-10 18:17:18 --> ErrorException: Undefined property: stdClass::$ApplicationNo
+[Method: GET, Route: client/getClientInfo/32e5cb32edb8eb44b9ea93c907e28ae5]
+in APPPATH\Controllers\Client.php on line 403.
+ 1 APPPATH\Controllers\Client.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ApplicationNo', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 403)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('32e5cb32edb8eb44b9ea93c907e28ae5')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 18:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 18:21:26 --> Validation failed: {"Image":"Image is too large of a file."}
+INFO - 2024-10-10 18:21:38 --> Last client data: {"RegistrationNo":"2024REGS0000000001","Fullname":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-03-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728555319_f1da98bec7efaf7b0448.png","ProfOwnShip":"1728555319_5b98ff610cebbf57f0b3.pdf","ProfOwnShipFilePath":"uploads\/files\/1728555319_5b98ff610cebbf57f0b3.pdf","CertBrgy":"1728555319_b426eb79190c6f806747.pdf","CertBrgyFilePath":"uploads\/files\/1728555319_b426eb79190c6f806747.pdf","CertRegs":"1728555319_a40a10e710153868b9eb.pdf","CertRegsFilePath":"uploads\/files\/1728555319_a40a10e710153868b9eb.pdf","Month":"October","Year":"2024","CreatedDate":"2026-10-10 18:15:19","UpdatedDate":"2024-10-10 18:15:19","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 18:21:38 --> Generated RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 18:21:38 --> Client data to be inserted: {"RegistrationNo":"2024REGS0000000002","FullName":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Basak","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"070","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-09-21","MaxLengthGuideBar":"20","Purpose":"Tree cutting","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728555698_44b37aa1f019d9ba7871.png","ProfOwnShip":"1728555698_74394ea83589f5f3a72c.pdf","ProfOwnShipFilePath":"uploads\/files\/1728555698_74394ea83589f5f3a72c.pdf","CertBrgy":"1728555698_d867fb779760d3b851b9.jpg","CertBrgyFilePath":"uploads\/files\/1728555698_d867fb779760d3b851b9.jpg","CertRegs":"1728555698_a2e9890de753b22347dc.jpg","CertRegsFilePath":"uploads\/files\/1728555698_a2e9890de753b22347dc.jpg","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 18:21:38"}
+ERROR - 2024-10-10 18:21:38 --> Database insertion failed: []
+INFO - 2024-10-10 18:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:23:52 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-10 18:23:52 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+CRITICAL - 2024-10-10 18:23:52 --> ErrorException: Undefined property: stdClass::$ApplicationNo
+[Method: GET, Route: client/getClientInfo/f297594d72e5a48d067d15390f1c6e53]
+in APPPATH\Controllers\Client.php on line 404.
+ 1 APPPATH\Controllers\Client.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ApplicationNo', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\Client.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientInfo('f297594d72e5a48d067d15390f1c6e53')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 18:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:26:33 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 18:26:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 18:26:33 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 18:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:36:22 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 18:36:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 18:36:22 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 18:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 18:39:40 --> Validation failed: {"RegistrationNo":"The RegistrationNo field is required."}
+CRITICAL - 2024-10-10 18:39:57 --> CodeIgniter\Validation\Exceptions\ValidationException: "" is not a valid rule.
+[Method: POST, Route: client/register]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('RegistrationNo', 'RegistrationNo', null, [...], [...], 'RegistrationNo')
+ 3 APPPATH\Controllers\Client.php(173): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 18:40:06 --> Last client data: {"RegistrationNo":"2024REGS0000000002","Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Basak","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"070","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-09-21","MaxLengthGuideBar":"20","Purpose":"Tree cutting","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728555698_44b37aa1f019d9ba7871.png","ProfOwnShip":"1728555698_74394ea83589f5f3a72c.pdf","ProfOwnShipFilePath":"uploads\/files\/1728555698_74394ea83589f5f3a72c.pdf","CertBrgy":"1728555698_d867fb779760d3b851b9.jpg","CertBrgyFilePath":"uploads\/files\/1728555698_d867fb779760d3b851b9.jpg","CertRegs":"1728555698_a2e9890de753b22347dc.jpg","CertRegsFilePath":"uploads\/files\/1728555698_a2e9890de753b22347dc.jpg","Month":"October","Year":"2024","CreatedDate":"2026-10-10 18:21:38","UpdatedDate":"2024-10-10 18:21:38","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 18:40:06 --> Generated RegistrationNo: 2024REGS0000000003
+INFO - 2024-10-10 18:40:06 --> Client data to be inserted: {"RegistrationNo":"2024REGS0000000003","FullName":"Faisal Sampal","ContactNo":"09488913013","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"080","SerialNo":"HGDSIDSA125","DateOfAcquisition":"2020-02-02","MaxLengthGuideBar":"20","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728556806_c4e285f28021ebf4dc7b.png","ProfOwnShip":"1728556806_1ad4dac44f3d5c9e4902.pdf","ProfOwnShipFilePath":"uploads\/files\/1728556806_1ad4dac44f3d5c9e4902.pdf","CertBrgy":"1728556806_0cd0b04d7db53f9d48ae.pdf","CertBrgyFilePath":"uploads\/files\/1728556806_0cd0b04d7db53f9d48ae.pdf","CertRegs":"1728556806_8062c8836631b96ea5e3.pdf","CertRegsFilePath":"uploads\/files\/1728556806_8062c8836631b96ea5e3.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 18:40:06"}
+ERROR - 2024-10-10 18:40:06 --> Database insertion failed: []
+INFO - 2024-10-10 18:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:42:27 --> Last client data: null
+INFO - 2024-10-10 18:42:27 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 18:42:27 --> Client data to be inserted: {"FullName":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-02-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728556947_3efd0f2edba3ef3a8ca5.png","ProfOwnShip":"1728556947_02a52c127a436d28c8a0.pdf","ProfOwnShipFilePath":"uploads\/files\/1728556947_02a52c127a436d28c8a0.pdf","CertBrgy":"1728556947_2e03715c4489fc7c3452.pdf","CertBrgyFilePath":"uploads\/files\/1728556947_2e03715c4489fc7c3452.pdf","CertRegs":"1728556947_34dd734a5f6517df5321.pdf","CertRegsFilePath":"uploads\/files\/1728556947_34dd734a5f6517df5321.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 18:42:27","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 18:42:27 --> Database insertion failed: []
+INFO - 2024-10-10 18:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:57:58 --> Last client data: {"RegistrationNo":"2024REGS0000000001","Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-02-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728556947_3efd0f2edba3ef3a8ca5.png","ProfOwnShip":"1728556947_02a52c127a436d28c8a0.pdf","ProfOwnShipFilePath":"uploads\/files\/1728556947_02a52c127a436d28c8a0.pdf","CertBrgy":"1728556947_2e03715c4489fc7c3452.pdf","CertBrgyFilePath":"uploads\/files\/1728556947_2e03715c4489fc7c3452.pdf","CertRegs":"1728556947_34dd734a5f6517df5321.pdf","CertRegsFilePath":"uploads\/files\/1728556947_34dd734a5f6517df5321.pdf","Month":"October","Year":"2024","CreatedDate":"2026-10-10 18:42:27","UpdatedDate":"2024-10-10 18:42:27","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 18:57:58 --> Generated RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 18:57:58 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"080","SerialNo":"HGDSIDSA126","DateOfAcquisition":"2020-09-01","MaxLengthGuideBar":"20","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728557878_dcf8dfe94d448b31e575.jpg","ProfOwnShip":"1728557878_633d3825f76583a67725.pdf","ProfOwnShipFilePath":"uploads\/files\/1728557878_633d3825f76583a67725.pdf","CertBrgy":"1728557878_0b6713196097afb5c9bc.pdf","CertBrgyFilePath":"uploads\/files\/1728557878_0b6713196097afb5c9bc.pdf","CertRegs":"1728557878_e898a81a59c07b18904e.pdf","CertRegsFilePath":"uploads\/files\/1728557878_e898a81a59c07b18904e.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 18:57:58","RegistrationNo":"2024REGS0000000002"}
+ERROR - 2024-10-10 18:57:58 --> Database insertion failed: []
+INFO - 2024-10-10 18:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 18:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 19:01:38 --> Last client data: null
+INFO - 2024-10-10 19:01:38 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 19:01:38 --> Client data to be inserted: {"FullName":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-02-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728558098_d3c75e9e8a769950836f.png","ProfOwnShip":"1728558098_356ede3c1993169d32a6.png","ProfOwnShipFilePath":"uploads\/files\/1728558098_356ede3c1993169d32a6.png","CertBrgy":"1728558098_1e390def51cad5ece497.pdf","CertBrgyFilePath":"uploads\/files\/1728558098_1e390def51cad5ece497.pdf","CertRegs":"1728558098_e2c22d044b31bdccd1af.pdf","CertRegsFilePath":"uploads\/files\/1728558098_e2c22d044b31bdccd1af.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 19:01:38","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 19:01:38 --> Database insertion failed: []
+INFO - 2024-10-10 22:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 22:03:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 199.
+ 1 APPPATH\Controllers\User.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-10 22:03:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 199.
+ 1 APPPATH\Controllers\User.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 199)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-10 22:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:03:55 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 22:03:55 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 22:03:55 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 22:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:05:27 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 22:05:27 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 22:05:27 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 22:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:08 --> Last client data: {"RegistrationNo":"2024REGS0000000001","Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-02-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728558098_d3c75e9e8a769950836f.png","ProfOwnShip":"1728558098_356ede3c1993169d32a6.png","ProfOwnShipFilePath":"uploads\/files\/1728558098_356ede3c1993169d32a6.png","CertBrgy":"1728558098_1e390def51cad5ece497.pdf","CertBrgyFilePath":"uploads\/files\/1728558098_1e390def51cad5ece497.pdf","CertRegs":"1728558098_e2c22d044b31bdccd1af.pdf","CertRegsFilePath":"uploads\/files\/1728558098_e2c22d044b31bdccd1af.pdf","Month":"October","Year":"2024","CreatedDate":"2026-10-10 19:01:38","UpdatedDate":"2024-10-10 19:01:38","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 22:17:08 --> Generated RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 22:17:08 --> Client data to be inserted: {"RegistrationNo":"2024REGS0000000002","FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-02-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728569828_53237c43bca0e5ba4a84.png","ProfOwnShip":"1728569828_75f9cb0582fcd128fa37.pdf","ProfOwnShipFilePath":"uploads\/files\/1728569828_75f9cb0582fcd128fa37.pdf","CertBrgy":"1728569828_39390d8a225b4827ed12.pdf","CertBrgyFilePath":"uploads\/files\/1728569828_39390d8a225b4827ed12.pdf","CertRegs":"1728569828_98be095d3705730a5737.pdf","CertRegsFilePath":"uploads\/files\/1728569828_98be095d3705730a5737.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 22:17:08"}
+ERROR - 2024-10-10 22:17:08 --> Database insertion failed: []
+INFO - 2024-10-10 22:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:17:56 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-10 22:17:56 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-10 22:17:56 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 22:18:53 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-10 22:18:53 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-10 22:18:53 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 22:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:28:43 --> Last client data: null
+INFO - 2024-10-10 22:28:43 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 22:28:43 --> Client data to be inserted: {"RegistrationNo":"2024REGS0000000001","FullName":"Faisal Sampal","ContactNo":"09488913013","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"080","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-03-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728570523_dd1e2c1147dabcf713c2.png","ProfOwnShip":"1728570523_3ed0cab4d48be225c487.pdf","ProfOwnShipFilePath":"uploads\/files\/1728570523_3ed0cab4d48be225c487.pdf","CertBrgy":"1728570523_20358a94299c3579e624.png","CertBrgyFilePath":"uploads\/files\/1728570523_20358a94299c3579e624.png","CertRegs":"1728570523_e776f65fda1584906558.pdf","CertRegsFilePath":"uploads\/files\/1728570523_e776f65fda1584906558.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 22:28:43"}
+ERROR - 2024-10-10 22:28:43 --> Database insertion failed: []
+INFO - 2024-10-10 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:09 --> Last client data: {"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal Sampal","ContactNo":"09488913013","Barangay":"Bolebak","Municipality":"Lebak","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"080","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-03-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Kalamansig","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728570523_dd1e2c1147dabcf713c2.png","ProfOwnShip":"1728570523_3ed0cab4d48be225c487.pdf","ProfOwnShipFilePath":"uploads\/files\/1728570523_3ed0cab4d48be225c487.pdf","CertBrgy":"1728570523_20358a94299c3579e624.png","CertBrgyFilePath":"uploads\/files\/1728570523_20358a94299c3579e624.png","CertRegs":"1728570523_e776f65fda1584906558.pdf","CertRegsFilePath":"uploads\/files\/1728570523_e776f65fda1584906558.pdf","Month":"October","Year":"2024","CreatedDate":"2026-10-10 22:28:43","UpdatedDate":"2024-10-10 22:28:43","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 22:40:09 --> Generated RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 22:40:09 --> Client data to be inserted: {"FullName":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-09-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728571209_af8bd2f8b575e6c08954.png","ProfOwnShip":"1728571209_9aa2f4600d4749c2726e.pdf","ProfOwnShipFilePath":"uploads\/files\/1728571209_9aa2f4600d4749c2726e.pdf","CertBrgy":"1728571209_f4ffe85699ba42d23a5f.pdf","CertBrgyFilePath":"uploads\/files\/1728571209_f4ffe85699ba42d23a5f.pdf","CertRegs":"1728571209_df4f431cf4f1a0e1f754.jpg","CertRegsFilePath":"uploads\/files\/1728571209_df4f431cf4f1a0e1f754.jpg","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 22:40:09","RegistrationNo":"2024REGS0000000002"}
+ERROR - 2024-10-10 22:40:09 --> Database insertion failed: []
+INFO - 2024-10-10 22:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:40:58 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 22:40:58 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 22:40:58 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 22:41:01 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-10 22:41:01 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-10 22:41:01 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-10 22:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 22:56:27 --> Last client data: {"RegistrationNo":"2024REGS0000000002","Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-09-01","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728571209_af8bd2f8b575e6c08954.png","ProfOwnShip":"1728571209_9aa2f4600d4749c2726e.pdf","ProfOwnShipFilePath":"uploads\/files\/1728571209_9aa2f4600d4749c2726e.pdf","CertBrgy":"1728571209_f4ffe85699ba42d23a5f.pdf","CertBrgyFilePath":"uploads\/files\/1728571209_f4ffe85699ba42d23a5f.pdf","CertRegs":"1728571209_df4f431cf4f1a0e1f754.jpg","CertRegsFilePath":"uploads\/files\/1728571209_df4f431cf4f1a0e1f754.jpg","Month":"October","Year":"2024","CreatedDate":"2026-10-10 22:40:09","UpdatedDate":"2024-10-10 22:40:09","ExpiryDate":"2026-10-10 00:00:00"}
+INFO - 2024-10-10 22:56:27 --> Generated RegistrationNo: 2024REGS0000000003
+INFO - 2024-10-10 22:56:27 --> Client data to be inserted: {"FullName":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"080","SerialNo":"HGDSIDSA125","DateOfAcquisition":"2020-02-03","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728572187_7c3c483858f86793ec74.png","ProfOwnShip":"1728572187_110b7b53364a92e36463.pdf","ProfOwnShipFilePath":"uploads\/files\/1728572187_110b7b53364a92e36463.pdf","CertBrgy":"1728572187_828db83e647a71edffd5.pdf","CertBrgyFilePath":"uploads\/files\/1728572187_828db83e647a71edffd5.pdf","CertRegs":"1728572187_e3ae26e20d8c0198cb25.pdf","CertRegsFilePath":"uploads\/files\/1728572187_e3ae26e20d8c0198cb25.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 22:56:27","RegistrationNo":"2024REGS0000000003"}
+ERROR - 2024-10-10 22:56:27 --> Exception caught during registration: Database insertion failed.
+INFO - 2024-10-10 23:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 23:01:13 --> Validation failed: {"Fullname":"The Fullname field is required."}
+ERROR - 2024-10-10 23:01:56 --> Validation failed: {"Fullname":"The Fullname field is required."}
+INFO - 2024-10-10 23:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:04:44 --> Last client data: null
+INFO - 2024-10-10 23:04:44 --> Generated RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 23:04:44 --> Client data to be inserted: {"Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Baras","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"080","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2020-03-02","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728572684_1f0695062f4c3cb7a1df.png","ProfOwnShip":"1728572684_a80cba84f26011392bb1.pdf","ProfOwnShipFilePath":"uploads\/files\/1728572684_a80cba84f26011392bb1.pdf","CertBrgy":"1728572684_2e39a040c4d09bcf06c1.pdf","CertBrgyFilePath":"uploads\/files\/1728572684_2e39a040c4d09bcf06c1.pdf","CertRegs":"1728572684_6364cca5381d3fa252ad.pdf","CertRegsFilePath":"uploads\/files\/1728572684_6364cca5381d3fa252ad.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 23:04:44","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 23:04:44 --> Exception caught during registration: Database insertion failed.
+INFO - 2024-10-10 23:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 23:13:36 --> Exception caught during registration: Database insertion failed.
+INFO - 2024-10-10 23:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-10 23:15:08 --> Exception caught during registration: Database insertion failed.
+INFO - 2024-10-10 23:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:26:13 --> Client data to be inserted: {"Fullname":"Shaida P. Saikol","ContactNo":"09450912345","Barangay":"Baras","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306a","EngineCapacity":"070","SerialNo":"HGDSIDSA123","DateOfAcquisition":"2000-05-04","MaxLengthGuideBar":"30","Purpose":"pruning","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728573973_68eda27ba0a4515cfd76.png","ProfOwnShip":"1728573973_02e84aa7b9dcd137c478.pdf","ProfOwnShipFilePath":"uploads\/files\/1728573973_02e84aa7b9dcd137c478.pdf","CertBrgy":"1728573973_a3198ce464e0ef46f10f.pdf","CertBrgyFilePath":"uploads\/files\/1728573973_a3198ce464e0ef46f10f.pdf","CertRegs":"1728573973_04867cd51c8223fa9048.pdf","CertRegsFilePath":"uploads\/files\/1728573973_04867cd51c8223fa9048.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 23:26:13","RegistrationNo":"2024REGS0000000001"}
+ERROR - 2024-10-10 23:26:13 --> Database insertion failed: []
+INFO - 2024-10-10 23:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:27:08 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 23:27:08 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 23:27:08 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 23:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:31:53 --> Client data to be inserted: {"Fullname":"Sharawi S. Sangcopan","ContactNo":"09153045318","Barangay":"Poblacion","Municipality":"Tacurong City","Province":"Sultan Kudarat","Brand":"Stihl","Model":"Poulan 306b","EngineCapacity":"080","SerialNo":"HGDSIDSA987","DateOfAcquisition":"2020-07-03","MaxLengthGuideBar":"20","Purpose":"Tree cutting","OfficeName":"CENRO Tacurong","Status":"Pending","PaymentStatus":"For Payment","RegsType":"New","Image":"1728574313_14503ec1655696de7fc2.png","ProfOwnShip":"1728574313_d3897941fedfd2ed54a7.pdf","ProfOwnShipFilePath":"uploads\/files\/1728574313_d3897941fedfd2ed54a7.pdf","CertBrgy":"1728574313_286b1898e3b5185eb179.pdf","CertBrgyFilePath":"uploads\/files\/1728574313_286b1898e3b5185eb179.pdf","CertRegs":"1728574313_d3e14f879b2c79b797ac.pdf","CertRegsFilePath":"uploads\/files\/1728574313_d3e14f879b2c79b797ac.pdf","Month":"October","Year":"2024","ExpiryDate":"2026-10-10","CreatedDate":"2026-10-10 23:31:53","RegistrationNo":"2024REGS0000000002"}
+ERROR - 2024-10-10 23:31:53 --> Database insertion failed: []
+INFO - 2024-10-10 23:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:41 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-10 23:42:41 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-10 23:42:41 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-10 23:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-10 23:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

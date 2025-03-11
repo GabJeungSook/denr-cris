@@ -1,0 +1,179 @@
+INFO - 2024-11-26 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:32:55 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-26 13:32:55 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-26 13:32:55 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-26 13:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 13:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:38:59 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-26 14:38:59 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-26 14:38:59 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-26 14:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-26 14:39:28 --> mysqli_sql_exception: Unknown column 'CreateDate' in 'field list' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `Image`,...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Image`,...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Image`,...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `Image`,...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\cris\app\Models\ClientModel.php(90): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\cris\app\Controllers\Client.php(1996): App\Models\ClientModel->getClientByRegistrationNo('2024REGS0000000...')
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000...')
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#10 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-26 14:39:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'CreateDate' in 'field list'
+[Method: GET, Route: getClientDetailsQR/2024REGS0000000008]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = :RegistrationNo:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ClientModel.php(90): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Client.php(1996): App\Models\ClientModel->getClientByRegistrationNo('2024REGS0000000008')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 14:39:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'CreateDate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = \'2024REGS0000000008\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = \'2024REGS0000000008\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = :RegistrationNo:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\ClientModel.php(90): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Client.php(1996): App\Models\ClientModel->getClientByRegistrationNo('2024REGS0000000008')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 14:39:28 --> [Caused by] mysqli_sql_exception: Unknown column 'CreateDate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = \'2024REGS0000000008\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = \'2024REGS0000000008\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = \'2024REGS0000000008\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `Image`, `Fullname`, `Brand`, `Model`, `SerialNo`, `Horsepower`, `CreateDate`, `ExpiryDate`
+FROM `tblregistration`
+WHERE `RegistrationNo` = :RegistrationNo:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\ClientModel.php(90): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Client.php(1996): App\Models\ClientModel->getClientByRegistrationNo('2024REGS0000000008')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 14:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 14:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 14:58:28 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}"
+[Method: GET, Route: getClientDetailsQR/%7B%22RegistrationNo%22:%222024REGS0000000001%22,%22Fullname%22:%22Faisal%20P.%20Sampal%22,%22Brand%22:%22Stihl%22,%22Model%22:%22Paulan%22,%22SerialNo%22:%22GJHG123%22,%22ExpiryDate%22:%222026-11-17%22%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('getClientDetailsQR/{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('getClientDetailsQR/{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-26 15:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 15:31:53 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-26 15:31:53 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-26 15:31:53 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-26 15:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 15:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-26 15:44:34 --> Validation Errors: {"Image":"Image is too large of a file."}
+INFO - 2024-11-26 15:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-26 15:47:20 --> Validation Errors: {"Image":"Image is too large of a file."}
+ERROR - 2024-11-26 15:49:46 --> Validation Errors: {"Image":"Image is too large of a file."}
+INFO - 2024-11-26 15:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 15:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 15:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-26 16:00:51 --> Validation Errors: {"Image":"Image is too large of a file."}
+ERROR - 2024-11-26 16:01:13 --> Validation Errors: {"Image":"Image is too large of a file."}
+ERROR - 2024-11-26 16:01:19 --> Validation Errors: {"Image":"Image is too large of a file."}
+INFO - 2024-11-26 16:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:23:43 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-26 16:23:43 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-26 16:23:43 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-26 16:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:33:03 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-26 16:33:03 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-26 16:33:03 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-26 16:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-26 16:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

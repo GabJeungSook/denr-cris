@@ -1,0 +1,94 @@
+INFO - 2024-11-25 00:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:05:39 --> ArgumentCountError: Too few arguments to function App\Controllers\Client::getClientDetailsQR(), 0 passed in D:\xampp\htdocs\cris\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: getClientDetailsQR]
+in APPPATH\Controllers\Client.php on line 1993.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:08:16 --> ArgumentCountError: Too few arguments to function App\Controllers\Client::getClientDetailsQR(), 0 passed in D:\xampp\htdocs\cris\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: getClientDetailsQR]
+in APPPATH\Controllers\Client.php on line 1993.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:09:42 --> ArgumentCountError: Too few arguments to function App\Controllers\Client::getClientDetailsQR(), 0 passed in D:\xampp\htdocs\cris\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: getClientDetailsQR]
+in APPPATH\Controllers\Client.php on line 1993.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 00:09:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Client::getClientDetailsQR(), 0 passed in D:\xampp\htdocs\cris\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: getClientDetailsQR]
+in APPPATH\Controllers\Client.php on line 1993.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:22:34 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getClientDetailsQR/2024REGS0000000008]
+in APPPATH\Controllers\Client.php on line 2000.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:22:54 --> Received RegistrationNo: b9d1591bb52b9140e6aba69235fff5d2
+INFO - 2024-11-25 00:22:54 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'b9d1591bb52b9140e6aba69235fff5d2'
+ LIMIT 1
+INFO - 2024-11-25 00:22:54 --> Client found for RegistrationNo: 2024REGS0000000008
+INFO - 2024-11-25 00:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:27:24 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getClientDetailsQR/2024REGS0000000008]
+in APPPATH\Controllers\Client.php on line 2000.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 00:34:01 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getClientDetailsQR/2024REGS0000000008]
+in APPPATH\Controllers\Client.php on line 1999.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getClientDetailsQR('2024REGS0000000008')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 00:35:27 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}"
+[Method: GET, Route: getClientDetailsQR/%7B%22RegistrationNo%22:%222024REGS0000000001%22,%22Fullname%22:%22Faisal%20P.%20Sampal%22,%22Brand%22:%22Stihl%22,%22Model%22:%22Paulan%22,%22SerialNo%22:%22GJHG123%22,%22ExpiryDate%22:%222026-11-17%22%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('getClientDetailsQR/{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('getClientDetailsQR/{"RegistrationNo":"2024REGS0000000001","Fullname":"Faisal P. Sampal","Brand":"Stihl","Model":"Paulan","SerialNo":"GJHG123","ExpiryDate":"2026-11-17"}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,391 @@
+INFO - 2024-10-12 10:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 10:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 10:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 10:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 10:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:01:24 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:01:24 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:01:24 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:08:42 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:08:42 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:08:42 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:09:33 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:09:33 --> Received Status: 
+INFO - 2024-10-12 11:09:33 --> Received Remarks: 
+INFO - 2024-10-12 11:09:33 --> Generated UpdatedDate: 2024-10-12 11:09:33
+INFO - 2024-10-12 11:09:33 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:09:33 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 11:09:33 --> Update Data: {"Status":"","UpdatedDate":"2024-10-12 11:09:33","Remarks":"","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 11:09:33 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:09:58 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:09:58 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:09:58 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:10:09 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:10:09 --> Received Status: Confirmed
+INFO - 2024-10-12 11:10:09 --> Received Remarks: Good morning.
+INFO - 2024-10-12 11:10:09 --> Generated UpdatedDate: 2024-10-12 11:10:09
+INFO - 2024-10-12 11:10:09 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:10:09 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 11:10:09 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 11:10:09","Remarks":"Good morning.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 11:10:09 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:12:37 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:12:37 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:12:37 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:48:03 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:48:03 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:48:03 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:48:07 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:48:07 --> Received Status: 
+INFO - 2024-10-12 11:48:07 --> Received Remarks: 
+INFO - 2024-10-12 11:48:07 --> Generated UpdatedDate: 2024-10-12 11:48:07
+INFO - 2024-10-12 11:48:07 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:48:07 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 11:48:07 --> Update Data: {"Status":"","UpdatedDate":"2024-10-12 11:48:07","Remarks":"","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 11:48:07 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:49:19 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:49:19 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 11:49:19 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:57:14 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 11:57:14 --> Received Status: Confirmed
+INFO - 2024-10-12 11:57:14 --> Received Remarks: Good day.
+INFO - 2024-10-12 11:57:14 --> Generated UpdatedDate: 2024-10-12 11:57:14
+INFO - 2024-10-12 11:57:14 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:57:14 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 11:57:14 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 11:57:14","Remarks":"Good day.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 11:57:14 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 11:57:16 --> Semaphore API response: [{"message_id":232930279,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 11:57:29","updated_at":"2024-10-12 11:57:29"}]
+INFO - 2024-10-12 11:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 11:57:47 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 11:57:48 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-12 11:57:48 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 11:57:59 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 11:57:59 --> Received Status: 
+INFO - 2024-10-12 11:57:59 --> Received Remarks: 
+INFO - 2024-10-12 11:57:59 --> Generated UpdatedDate: 2024-10-12 11:57:59
+INFO - 2024-10-12 11:57:59 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 11:57:59 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA987
+INFO - 2024-10-12 11:57:59 --> Update Data: {"Status":"","UpdatedDate":"2024-10-12 11:57:59","Remarks":"","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA987"}
+INFO - 2024-10-12 11:57:59 --> Registration updated successfully for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 11:58:02 --> Semaphore API response: {"message":["The message field is required."]}
+INFO - 2024-10-12 12:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:01:31 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:01:31 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-12 12:01:31 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:02:12 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:02:12 --> Received Status: Confirmed
+INFO - 2024-10-12 12:02:12 --> Received Remarks: Good day. Please proceed to the payment transaction.
+INFO - 2024-10-12 12:02:12 --> Generated UpdatedDate: 2024-10-12 12:02:12
+INFO - 2024-10-12 12:02:12 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:02:12 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA987
+INFO - 2024-10-12 12:02:12 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 12:02:12","Remarks":"Good day. Please proceed to the payment transaction.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA987"}
+INFO - 2024-10-12 12:02:12 --> Registration updated successfully for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:02:14 --> Semaphore API response: [{"message_id":232931911,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good day. Please proceed to the payment transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 12:02:27","updated_at":"2024-10-12 12:02:27"}]
+INFO - 2024-10-12 12:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:04:25 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:04:25 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 12:04:25 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:05:49 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:05:49 --> Received Status: Confirmed
+INFO - 2024-10-12 12:05:49 --> Received Remarks: Good morning. This is DENR - CENRO Tacurong. Please process to the payment transaction.
+INFO - 2024-10-12 12:05:49 --> Generated UpdatedDate: 2024-10-12 12:05:49
+INFO - 2024-10-12 12:05:49 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:05:49 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 12:05:49 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 12:05:49","Remarks":"Good morning. This is DENR - CENRO Tacurong. Please process to the payment transaction.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 12:05:49 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:05:52 --> Semaphore API response: [{"message_id":232932725,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good morning. This is DENR - CENRO Tacurong. Please process to the payment transaction.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 12:06:05","updated_at":"2024-10-12 12:06:05"}]
+INFO - 2024-10-12 12:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:12:30 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:12:30 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 12:12:30 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:19:00 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:19:00 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 12:19:00 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:19:45 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:19:45 --> Received Status: Confirmed
+INFO - 2024-10-12 12:19:45 --> Received Remarks: Good day. Please proceed to the payment transaction. Thank you.
+INFO - 2024-10-12 12:19:45 --> Generated UpdatedDate: 2024-10-12 12:19:45
+INFO - 2024-10-12 12:19:46 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:19:46 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 12:19:46 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 12:19:45","Remarks":"Good day. Please proceed to the payment transaction. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 12:19:46 --> Registration updated successfully for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:19:54 --> Semaphore API response: [{"message_id":232934776,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day. Please proceed to the payment transaction. Thank you.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 12:20:08","updated_at":"2024-10-12 12:20:08"}]
+INFO - 2024-10-12 12:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:21:24 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:21:24 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 12:21:24 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:22:06 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 12:22:06 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 12:22:06 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 12:22:16 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:22:16 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-12 12:22:16 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:22:22 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:22:22 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-12 12:22:22 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:22:54 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:22:54 --> Received Status: Confirmed
+INFO - 2024-10-12 12:22:54 --> Received Remarks: Good afternoon. Please proceed to the payment transaction.
+INFO - 2024-10-12 12:22:54 --> Generated UpdatedDate: 2024-10-12 12:22:54
+INFO - 2024-10-12 12:22:54 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:22:54 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA987
+INFO - 2024-10-12 12:22:54 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 12:22:54","Remarks":"Good afternoon. Please proceed to the payment transaction.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA987"}
+INFO - 2024-10-12 12:22:54 --> Registration updated successfully for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:22:56 --> Semaphore API response: [{"message_id":232934832,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good afternoon. Please proceed to the payment transaction.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 12:23:10","updated_at":"2024-10-12 12:23:10"}]
+INFO - 2024-10-12 12:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:27:56 --> Received RegistrationNo: f297594d72e5a48d067d15390f1c6e53
+INFO - 2024-10-12 12:27:56 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = 'f297594d72e5a48d067d15390f1c6e53'
+ LIMIT 1
+INFO - 2024-10-12 12:27:56 --> Client found for RegistrationNo: 2024REGS0000000002
+INFO - 2024-10-12 12:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 12:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 13:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 13:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:42:20 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 14:42:20 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 14:42:20 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 14:43:11 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 14:43:11 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 14:43:11 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 14:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 14:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-12 15:00:41 --> ErrorException: Undefined array key "UserID"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 201.
+ 1 APPPATH\Controllers\User.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserID"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-12 15:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-12 15:04:49 --> ErrorException: Undefined array key "UserID"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 202.
+ 1 APPPATH\Controllers\User.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserID"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-12 15:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-12 15:04:52 --> ErrorException: Undefined array key "UserID"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 202.
+ 1 APPPATH\Controllers\User.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "UserID"', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-12 15:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:12:53 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 15:12:53 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 15:12:53 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:18:50 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 15:18:50 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 15:18:50 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 15:19:44 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 15:19:44 --> User status updated successfully for UserID: 13
+INFO - 2024-10-12 15:19:46 --> Semaphore API response: [{"message_id":232940166,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day! Please proceed to payment transaction. Thank you.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 15:20:00","updated_at":"2024-10-12 15:20:00"}]
+INFO - 2024-10-12 15:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:28:14 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 15:28:14 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 15:28:14 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 15:28:38 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 15:28:38 --> Received Status: Confirmed
+INFO - 2024-10-12 15:28:38 --> Received Remarks: Good day! Please proceed to the payment transaction.
+INFO - 2024-10-12 15:28:38 --> Generated UpdatedDate: 2024-10-12 15:28:38
+INFO - 2024-10-12 15:28:38 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 15:28:38 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=HGDSIDSA123
+INFO - 2024-10-12 15:28:38 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-10-12 15:28:38","Remarks":"Good day! Please proceed to the payment transaction.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=HGDSIDSA123"}
+INFO - 2024-10-12 15:28:38 --> User status updated successfully for UserID: 13
+INFO - 2024-10-12 15:28:40 --> Semaphore API response: [{"message_id":232940420,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639488913013","message":"Good day! Please proceed to the payment transaction.","sender_name":"DENR12","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2024-10-12 15:28:54","updated_at":"2024-10-12 15:28:54"}]
+INFO - 2024-10-12 15:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 15:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:12:27 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 16:12:27 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 16:12:27 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 16:12:33 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 16:12:33 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 16:12:33 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 16:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:15:55 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-10-12 16:15:55 --> Generated Query: SELECT *
+FROM `tblregistration`
+WHERE MD5(CONCAT(TRIM(RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-10-12 16:15:55 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-10-12 16:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-12 16:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

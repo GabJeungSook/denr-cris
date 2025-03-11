@@ -1,0 +1,283 @@
+INFO - 2024-11-11 00:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:12:43 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000004
+            [Fullname] => Juan Tamad
+            [ContactNo] => 09488913013
+            [Barangay] => f
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 070
+            [SerialNo] => asfds12321
+            [DateOfAcquisition] => 2024-11-10
+            [MaxLengthGuideBar] => 40
+            [Horsepower] => 6.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Tacurong
+            [HeadOfOffice] => ISKAK G. DIPATUAN, MPA
+            [Position] => CENR Officer
+            [OfficeAddress] => Prunning
+            [Telefax] => (064)-471-1867
+            [EmailAdd] => cenrotacurong@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731254989_6c65ecf84f79cc239566.png
+            [ProfOwnShip] => 1731254989_3f0cc93178f584afd1a2.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731254989_3f0cc93178f584afd1a2.jpeg
+            [CertBrgy] => 1731254989_e3180faeedcec01c8772.pdf
+            [CertBrgyFilePath] => uploads/files/1731254989_e3180faeedcec01c8772.pdf
+            [CertRegs] => 1731254989_a072d8e52e0c69717f29.pdf
+            [CertRegsFilePath] => uploads/files/1731254989_a072d8e52e0c69717f29.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-11 00:14:56 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000004
+            [Fullname] => Juan Tamad
+            [ContactNo] => 09488913013
+            [Barangay] => f
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 070
+            [SerialNo] => asfds12321
+            [DateOfAcquisition] => 2024-11-10
+            [MaxLengthGuideBar] => 40
+            [Horsepower] => 6.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Tacurong
+            [HeadOfOffice] => ISKAK G. DIPATUAN, MPA
+            [Position] => CENR Officer
+            [OfficeAddress] => Prunning
+            [Telefax] => (064)-471-1867
+            [EmailAdd] => cenrotacurong@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731254989_6c65ecf84f79cc239566.png
+            [ProfOwnShip] => 1731254989_3f0cc93178f584afd1a2.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731254989_3f0cc93178f584afd1a2.jpeg
+            [CertBrgy] => 1731254989_e3180faeedcec01c8772.pdf
+            [CertBrgyFilePath] => uploads/files/1731254989_e3180faeedcec01c8772.pdf
+            [CertRegs] => 1731254989_a072d8e52e0c69717f29.pdf
+            [CertRegsFilePath] => uploads/files/1731254989_a072d8e52e0c69717f29.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-11 00:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 00:18:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 433.
+ 1 APPPATH\Controllers\User.php(433): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 433)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-11 00:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 00:19:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: releasing]
+in APPPATH\Views\client\releasing.php on line 92.
+ 1 APPPATH\Views\client\releasing.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\releasing.php', 92)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\releasing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/releasing', [], true)
+ 5 APPPATH\Controllers\Client.php(545): view('client/releasing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->releasing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-11 00:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 00:19:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: confirmation]
+in APPPATH\Views\client\confirmation.php on line 80.
+ 1 APPPATH\Views\client\confirmation.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php', 80)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\cris\\app\\Views\\client\\confirmation.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('client/confirmation', [], true)
+ 5 APPPATH\Controllers\Client.php(498): view('client/confirmation', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->confirmation()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-11 00:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-11 00:19:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\User.php on line 433.
+ 1 APPPATH\Controllers\User.php(433): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\cris\\app\\Controllers\\User.php', 433)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-11 00:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:13 --> Received RegistrationNo: baf7c6763f81d938954cc7eeb84a19bd
+INFO - 2024-11-11 00:20:13 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = 'baf7c6763f81d938954cc7eeb84a19bd'
+ LIMIT 1
+INFO - 2024-11-11 00:20:13 --> Client found for RegistrationNo: 2024REGS0000000003
+INFO - 2024-11-11 00:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 00:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 20:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 20:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 21:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 22:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 22:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 22:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:33:50 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 40
+            [Horsepower] => 6.5
+            [Purpose] => Tree Cutting
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731332224_d30b8ef4e19ccd737394.jpg
+            [ProfOwnShip] => 1731332224_aa5dc2bb72828075c6e1.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731332224_aa5dc2bb72828075c6e1.pdf
+            [CertBrgy] => 1731332224_66b61490b3652191f399.jpeg
+            [CertBrgyFilePath] => uploads/files/1731332224_66b61490b3652191f399.jpeg
+            [CertRegs] => 1731332224_49d2602e9ce994b8770f.pdf
+            [CertRegsFilePath] => uploads/files/1731332224_49d2602e9ce994b8770f.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => ff
+            [Model] => qr
+            [EngineCapacity] => 30
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 6.5
+            [Purpose] => Prunning
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731339130_d7b45f0968fe66ffe064.png
+            [ProfOwnShip] => 1731339130_b2f97cd039121e6252a3.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731339130_b2f97cd039121e6252a3.pdf
+            [CertBrgy] => 1731339130_8e219e8b101076fb716f.jpeg
+            [CertBrgyFilePath] => uploads/files/1731339130_8e219e8b101076fb716f.jpeg
+            [CertRegs] => 1731339130_05787f51e335da726be4.pdf
+            [CertRegsFilePath] => uploads/files/1731339130_05787f51e335da726be4.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-11 23:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-11 23:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

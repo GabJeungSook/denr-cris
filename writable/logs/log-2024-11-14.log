@@ -1,0 +1,1031 @@
+INFO - 2024-11-14 20:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:37 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-14 20:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 20:55:54 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Bolebak
+            [Municipality] => Lebak
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340657_979edb0aac52502347e1.jpg
+            [ProfOwnShip] => 1731340657_31e034c35fc85944ddb8.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340657_31e034c35fc85944ddb8.pdf
+            [CertBrgy] => 1731340657_569ab1ca94e243a146bf.jpeg
+            [CertBrgyFilePath] => uploads/files/1731340657_569ab1ca94e243a146bf.jpeg
+            [CertRegs] => 1731340657_bc57f5adc781a8ee0c71.pdf
+            [CertRegsFilePath] => uploads/files/1731340657_bc57f5adc781a8ee0c71.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:57:37
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Pailan2
+            [EngineCapacity] => 40
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340392_73e558cf87f7671db4e5.jpg
+            [ProfOwnShip] => 1731340392_f43d09e758e2a5bdf48d.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340392_f43d09e758e2a5bdf48d.pdf
+            [CertBrgy] => 1731340392_71dd6e9f8baf7037786b.pdf
+            [CertBrgyFilePath] => uploads/files/1731340392_71dd6e9f8baf7037786b.pdf
+            [CertRegs] => 1731340392_4a1a783b58d584673f3f.jpeg
+            [CertRegsFilePath] => uploads/files/1731340392_4a1a783b58d584673f3f.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:53:12
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [2] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihjl
+            [Model] => Paoulan3
+            [EngineCapacity] => 090
+            [SerialNo] => GFD435
+            [DateOfAcquisition] => 2022-11-07
+            [MaxLengthGuideBar] => 50
+            [Horsepower] => 9.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731340815_4e13fff7046ad23742bf.png
+            [ProfOwnShip] => 1731340815_a5c3e86aac6397738b11.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731340815_a5c3e86aac6397738b11.jpeg
+            [CertBrgy] => 1731340815_35c5422da14531bf64f8.pdf
+            [CertBrgyFilePath] => uploads/files/1731340815_35c5422da14531bf64f8.pdf
+            [CertRegs] => 1731340815_82056e68c7b6d01df463.pdf
+            [CertRegsFilePath] => uploads/files/1731340815_82056e68c7b6d01df463.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+    [3] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000004
+            [UserID] => 2024USID000000001
+            [Fullname] => czff
+            [ContactNo] => 09153045318
+            [Barangay] => sfssdf
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 080
+            [SerialNo] => ASED143
+            [DateOfAcquisition] => 2024-11-11
+            [MaxLengthGuideBar] => 60
+            [Horsepower] => 7.8
+            [Purpose] => DGD
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731341221_9c76ba5652ca7ca60bdd.jpg
+            [ProfOwnShip] => 1731341221_1473ecb4fd1a2bff248f.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731341221_1473ecb4fd1a2bff248f.pdf
+            [CertBrgy] => 1731341221_cd6658318ccea9358e14.jpeg
+            [CertBrgyFilePath] => uploads/files/1731341221_cd6658318ccea9358e14.jpeg
+            [CertRegs] => 1731341221_237cdaa482584c52dfa7.pdf
+            [CertRegsFilePath] => uploads/files/1731341221_237cdaa482584c52dfa7.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-14 21:17:50 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Bolebak
+            [Municipality] => Lebak
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340657_979edb0aac52502347e1.jpg
+            [ProfOwnShip] => 1731340657_31e034c35fc85944ddb8.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340657_31e034c35fc85944ddb8.pdf
+            [CertBrgy] => 1731340657_569ab1ca94e243a146bf.jpeg
+            [CertBrgyFilePath] => uploads/files/1731340657_569ab1ca94e243a146bf.jpeg
+            [CertRegs] => 1731340657_bc57f5adc781a8ee0c71.pdf
+            [CertRegsFilePath] => uploads/files/1731340657_bc57f5adc781a8ee0c71.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:57:37
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Pailan2
+            [EngineCapacity] => 40
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340392_73e558cf87f7671db4e5.jpg
+            [ProfOwnShip] => 1731340392_f43d09e758e2a5bdf48d.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340392_f43d09e758e2a5bdf48d.pdf
+            [CertBrgy] => 1731340392_71dd6e9f8baf7037786b.pdf
+            [CertBrgyFilePath] => uploads/files/1731340392_71dd6e9f8baf7037786b.pdf
+            [CertRegs] => 1731340392_4a1a783b58d584673f3f.jpeg
+            [CertRegsFilePath] => uploads/files/1731340392_4a1a783b58d584673f3f.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:53:12
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [2] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihjl
+            [Model] => Paoulan3
+            [EngineCapacity] => 090
+            [SerialNo] => GFD435
+            [DateOfAcquisition] => 2022-11-07
+            [MaxLengthGuideBar] => 50
+            [Horsepower] => 9.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731340815_4e13fff7046ad23742bf.png
+            [ProfOwnShip] => 1731340815_a5c3e86aac6397738b11.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731340815_a5c3e86aac6397738b11.jpeg
+            [CertBrgy] => 1731340815_35c5422da14531bf64f8.pdf
+            [CertBrgyFilePath] => uploads/files/1731340815_35c5422da14531bf64f8.pdf
+            [CertRegs] => 1731340815_82056e68c7b6d01df463.pdf
+            [CertRegsFilePath] => uploads/files/1731340815_82056e68c7b6d01df463.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+    [3] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000004
+            [UserID] => 2024USID000000001
+            [Fullname] => czff
+            [ContactNo] => 09153045318
+            [Barangay] => sfssdf
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 080
+            [SerialNo] => ASED143
+            [DateOfAcquisition] => 2024-11-11
+            [MaxLengthGuideBar] => 60
+            [Horsepower] => 7.8
+            [Purpose] => DGD
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731341221_9c76ba5652ca7ca60bdd.jpg
+            [ProfOwnShip] => 1731341221_1473ecb4fd1a2bff248f.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731341221_1473ecb4fd1a2bff248f.pdf
+            [CertBrgy] => 1731341221_cd6658318ccea9358e14.jpeg
+            [CertBrgyFilePath] => uploads/files/1731341221_cd6658318ccea9358e14.jpeg
+            [CertRegs] => 1731341221_237cdaa482584c52dfa7.pdf
+            [CertRegsFilePath] => uploads/files/1731341221_237cdaa482584c52dfa7.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-14 21:18:23 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Bolebak
+            [Municipality] => Lebak
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340657_979edb0aac52502347e1.jpg
+            [ProfOwnShip] => 1731340657_31e034c35fc85944ddb8.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340657_31e034c35fc85944ddb8.pdf
+            [CertBrgy] => 1731340657_569ab1ca94e243a146bf.jpeg
+            [CertBrgyFilePath] => uploads/files/1731340657_569ab1ca94e243a146bf.jpeg
+            [CertRegs] => 1731340657_bc57f5adc781a8ee0c71.pdf
+            [CertRegsFilePath] => uploads/files/1731340657_bc57f5adc781a8ee0c71.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:57:37
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Pailan2
+            [EngineCapacity] => 40
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340392_73e558cf87f7671db4e5.jpg
+            [ProfOwnShip] => 1731340392_f43d09e758e2a5bdf48d.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340392_f43d09e758e2a5bdf48d.pdf
+            [CertBrgy] => 1731340392_71dd6e9f8baf7037786b.pdf
+            [CertBrgyFilePath] => uploads/files/1731340392_71dd6e9f8baf7037786b.pdf
+            [CertRegs] => 1731340392_4a1a783b58d584673f3f.jpeg
+            [CertRegsFilePath] => uploads/files/1731340392_4a1a783b58d584673f3f.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:53:12
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [2] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihjl
+            [Model] => Paoulan3
+            [EngineCapacity] => 090
+            [SerialNo] => GFD435
+            [DateOfAcquisition] => 2022-11-07
+            [MaxLengthGuideBar] => 50
+            [Horsepower] => 9.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731340815_4e13fff7046ad23742bf.png
+            [ProfOwnShip] => 1731340815_a5c3e86aac6397738b11.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731340815_a5c3e86aac6397738b11.jpeg
+            [CertBrgy] => 1731340815_35c5422da14531bf64f8.pdf
+            [CertBrgyFilePath] => uploads/files/1731340815_35c5422da14531bf64f8.pdf
+            [CertRegs] => 1731340815_82056e68c7b6d01df463.pdf
+            [CertRegsFilePath] => uploads/files/1731340815_82056e68c7b6d01df463.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+    [3] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000004
+            [UserID] => 2024USID000000001
+            [Fullname] => czff
+            [ContactNo] => 09153045318
+            [Barangay] => sfssdf
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 080
+            [SerialNo] => ASED143
+            [DateOfAcquisition] => 2024-11-11
+            [MaxLengthGuideBar] => 60
+            [Horsepower] => 7.8
+            [Purpose] => DGD
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731341221_9c76ba5652ca7ca60bdd.jpg
+            [ProfOwnShip] => 1731341221_1473ecb4fd1a2bff248f.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731341221_1473ecb4fd1a2bff248f.pdf
+            [CertBrgy] => 1731341221_cd6658318ccea9358e14.jpeg
+            [CertBrgyFilePath] => uploads/files/1731341221_cd6658318ccea9358e14.jpeg
+            [CertRegs] => 1731341221_237cdaa482584c52dfa7.pdf
+            [CertRegsFilePath] => uploads/files/1731341221_237cdaa482584c52dfa7.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-14 21:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:26:28 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Bolebak
+            [Municipality] => Lebak
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340657_979edb0aac52502347e1.jpg
+            [ProfOwnShip] => 1731340657_31e034c35fc85944ddb8.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340657_31e034c35fc85944ddb8.pdf
+            [CertBrgy] => 1731340657_569ab1ca94e243a146bf.jpeg
+            [CertBrgyFilePath] => uploads/files/1731340657_569ab1ca94e243a146bf.jpeg
+            [CertRegs] => 1731340657_bc57f5adc781a8ee0c71.pdf
+            [CertRegsFilePath] => uploads/files/1731340657_bc57f5adc781a8ee0c71.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:57:37
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Pailan2
+            [EngineCapacity] => 40
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340392_73e558cf87f7671db4e5.jpg
+            [ProfOwnShip] => 1731340392_f43d09e758e2a5bdf48d.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340392_f43d09e758e2a5bdf48d.pdf
+            [CertBrgy] => 1731340392_71dd6e9f8baf7037786b.pdf
+            [CertBrgyFilePath] => uploads/files/1731340392_71dd6e9f8baf7037786b.pdf
+            [CertRegs] => 1731340392_4a1a783b58d584673f3f.jpeg
+            [CertRegsFilePath] => uploads/files/1731340392_4a1a783b58d584673f3f.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:53:12
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [2] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihjl
+            [Model] => Paoulan3
+            [EngineCapacity] => 090
+            [SerialNo] => GFD435
+            [DateOfAcquisition] => 2022-11-07
+            [MaxLengthGuideBar] => 50
+            [Horsepower] => 9.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731340815_4e13fff7046ad23742bf.png
+            [ProfOwnShip] => 1731340815_a5c3e86aac6397738b11.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731340815_a5c3e86aac6397738b11.jpeg
+            [CertBrgy] => 1731340815_35c5422da14531bf64f8.pdf
+            [CertBrgyFilePath] => uploads/files/1731340815_35c5422da14531bf64f8.pdf
+            [CertRegs] => 1731340815_82056e68c7b6d01df463.pdf
+            [CertRegsFilePath] => uploads/files/1731340815_82056e68c7b6d01df463.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+    [3] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000004
+            [UserID] => 2024USID000000001
+            [Fullname] => czff
+            [ContactNo] => 09153045318
+            [Barangay] => sfssdf
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 080
+            [SerialNo] => ASED143
+            [DateOfAcquisition] => 2024-11-11
+            [MaxLengthGuideBar] => 60
+            [Horsepower] => 7.8
+            [Purpose] => DGD
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731341221_9c76ba5652ca7ca60bdd.jpg
+            [ProfOwnShip] => 1731341221_1473ecb4fd1a2bff248f.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731341221_1473ecb4fd1a2bff248f.pdf
+            [CertBrgy] => 1731341221_cd6658318ccea9358e14.jpeg
+            [CertBrgyFilePath] => uploads/files/1731341221_cd6658318ccea9358e14.jpeg
+            [CertRegs] => 1731341221_237cdaa482584c52dfa7.pdf
+            [CertRegsFilePath] => uploads/files/1731341221_237cdaa482584c52dfa7.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+)
+
+CRITICAL - 2024-11-14 21:26:28 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in APPPATH\Controllers\Client.php on line 1381.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-14 21:26:39 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000001
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Bolebak
+            [Municipality] => Lebak
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => ASDF1234
+            [DateOfAcquisition] => 2023-11-08
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.5
+            [Purpose] => Prunning
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340657_979edb0aac52502347e1.jpg
+            [ProfOwnShip] => 1731340657_31e034c35fc85944ddb8.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340657_31e034c35fc85944ddb8.pdf
+            [CertBrgy] => 1731340657_569ab1ca94e243a146bf.jpeg
+            [CertBrgyFilePath] => uploads/files/1731340657_569ab1ca94e243a146bf.jpeg
+            [CertRegs] => 1731340657_bc57f5adc781a8ee0c71.pdf
+            [CertRegsFilePath] => uploads/files/1731340657_bc57f5adc781a8ee0c71.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:57:37
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [1] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal P. Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Pailan2
+            [EngineCapacity] => 40
+            [SerialNo] => FER321
+            [DateOfAcquisition] => 2024-11-03
+            [MaxLengthGuideBar] => 080
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => Renewal
+            [Image] => 1731340392_73e558cf87f7671db4e5.jpg
+            [ProfOwnShip] => 1731340392_f43d09e758e2a5bdf48d.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731340392_f43d09e758e2a5bdf48d.pdf
+            [CertBrgy] => 1731340392_71dd6e9f8baf7037786b.pdf
+            [CertBrgyFilePath] => uploads/files/1731340392_71dd6e9f8baf7037786b.pdf
+            [CertRegs] => 1731340392_4a1a783b58d584673f3f.jpeg
+            [CertRegsFilePath] => uploads/files/1731340392_4a1a783b58d584673f3f.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-11
+            [UpdatedDate] => 2024-11-11 23:53:12
+            [ExpiryDate] => 2026-11-11
+            [Remarks] => For re-evaluation
+        )
+
+    [2] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000003
+            [UserID] => 2024USID000000001
+            [Fullname] => Faisal Sampal
+            [ContactNo] => 09153045318
+            [Barangay] => Poblacion
+            [Municipality] => Kalamansig
+            [Province] => Sultan Kudarat
+            [Brand] => Stihjl
+            [Model] => Paoulan3
+            [EngineCapacity] => 090
+            [SerialNo] => GFD435
+            [DateOfAcquisition] => 2022-11-07
+            [MaxLengthGuideBar] => 50
+            [Horsepower] => 9.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731340815_4e13fff7046ad23742bf.png
+            [ProfOwnShip] => 1731340815_a5c3e86aac6397738b11.jpeg
+            [ProfOwnShipFilePath] => uploads/files/1731340815_a5c3e86aac6397738b11.jpeg
+            [CertBrgy] => 1731340815_35c5422da14531bf64f8.pdf
+            [CertBrgyFilePath] => uploads/files/1731340815_35c5422da14531bf64f8.pdf
+            [CertRegs] => 1731340815_82056e68c7b6d01df463.pdf
+            [CertRegsFilePath] => uploads/files/1731340815_82056e68c7b6d01df463.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+    [3] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000004
+            [UserID] => 2024USID000000001
+            [Fullname] => czff
+            [ContactNo] => 09153045318
+            [Barangay] => sfssdf
+            [Municipality] => sdf
+            [Province] => Sultan Kudarat
+            [Brand] => sdf
+            [Model] => sdf
+            [EngineCapacity] => 080
+            [SerialNo] => ASED143
+            [DateOfAcquisition] => 2024-11-11
+            [MaxLengthGuideBar] => 60
+            [Horsepower] => 7.8
+            [Purpose] => DGD
+            [OfficeName] => CENRO Kalamansig
+            [HeadOfOffice] => ROGIE H. HAGORILES
+            [Position] => OIC-CENR Officer
+            [OfficeAddress] => Poblacion, Kalamansig, Sultan Kudarat
+            [Telefax] => (064)-204-6051
+            [EmailAdd] => cernrokalamansig@denr.gov.ph
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731341221_9c76ba5652ca7ca60bdd.jpg
+            [ProfOwnShip] => 1731341221_1473ecb4fd1a2bff248f.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731341221_1473ecb4fd1a2bff248f.pdf
+            [CertBrgy] => 1731341221_cd6658318ccea9358e14.jpeg
+            [CertBrgyFilePath] => uploads/files/1731341221_cd6658318ccea9358e14.jpeg
+            [CertRegs] => 1731341221_237cdaa482584c52dfa7.pdf
+            [CertRegsFilePath] => uploads/files/1731341221_237cdaa482584c52dfa7.pdf
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-12
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-12
+            [Remarks] => For evaluation
+        )
+
+)
+
+CRITICAL - 2024-11-14 21:26:39 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in APPPATH\Controllers\Client.php on line 1381.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-14 21:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:32:59 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-14 21:33:31 --> Office details fetched: {"OfficeID":"2","OfficeName":"CENRO Kalamansig","HeadOfOffice":"ROGIE H. HAGORILES","Position":"OIC-CENR Officer","Address":"Poblacion, Kalamansig, Sultan Kudarat","Telefax":"(064)-204-6051","EmailAdd":"cernrokalamansig@denr.gov.ph","CreatedDate":"2024-10-15 10:13:18"}
+INFO - 2024-11-14 21:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 21:33:53 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+ERROR - 2024-11-14 21:51:15 --> mysqli_sql_exception: Unknown column 'Office' in 'where clause' in D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\xampp\htdocs\cris\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cris\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cris\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cris\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cris\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\cris\app\Controllers\Client.php(1442): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\cris\system\CodeIgniter.php(933): App\Controllers\Client->getUserRolesByOffice('CENRO Kalamansi...')
+#8 D:\xampp\htdocs\cris\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 D:\xampp\htdocs\cris\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cris\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\cris\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\cris\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-14 21:51:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Office' in 'where clause'
+[Method: GET, Route: getUserRolesByOffice/CENRO%20Kalamansig]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Office` = :Office:
+AND `UserRole` IN :UserRole:
+AND `tblusers`.`DeletedDate` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client.php(1442): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getUserRolesByOffice('CENRO Kalamansig')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 21:51:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Office' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblusers`
+WHERE `Office` = \'CENRO Kalamansig\'
+AND `UserRole` IN (\'RPSChief\',\'Cashier\')
+AND `tblusers`.`DeletedDate` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblusers`
+WHERE `Office` = \'CENRO Kalamansig\'
+AND `UserRole` IN (\'RPSChief\',\'Cashier\')
+AND `tblusers`.`DeletedDate` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Office` = :Office:
+AND `UserRole` IN :UserRole:
+AND `tblusers`.`DeletedDate` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client.php(1442): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getUserRolesByOffice('CENRO Kalamansig')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 21:51:16 --> [Caused by] mysqli_sql_exception: Unknown column 'Office' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tblusers`
+WHERE `Office` = \'CENRO Kalamansig\'
+AND `UserRole` IN (\'RPSChief\',\'Cashier\')
+AND `tblusers`.`DeletedDate` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblusers`
+WHERE `Office` = \'CENRO Kalamansig\'
+AND `UserRole` IN (\'RPSChief\',\'Cashier\')
+AND `tblusers`.`DeletedDate` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblusers`
+WHERE `Office` = \'CENRO Kalamansig\'
+AND `UserRole` IN (\'RPSChief\',\'Cashier\')
+AND `tblusers`.`DeletedDate` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblusers`
+WHERE `Office` = :Office:
+AND `UserRole` IN :UserRole:
+AND `tblusers`.`DeletedDate` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client.php(1442): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getUserRolesByOffice('CENRO Kalamansig')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-14 21:51:58 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: getUserRolesByOffice/CENRO%20Kalamansig]
+in APPPATH\Controllers\Client.php on line 1458.
+ 1 [internal function]: App\Controllers\Client->App\Controllers\{closure}(Object(stdClass))
+ 2 APPPATH\Controllers\Client.php(1456): array_map(Object(Closure), [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getUserRolesByOffice('CENRO Kalamansig')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-14 22:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-14 22:18:01 --> Client not found or not confirmed for UserID: 2024USID000000003
+INFO - 2024-11-14 22:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-14 22:18:19 --> Client not found or not confirmed for UserID: 2024USID000000001
+INFO - 2024-11-14 22:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:25:10 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-14 22:26:23 --> Office details fetched: {"OfficeID":"1","OfficeName":"CENRO Tacurong","HeadOfOffice":"ISKAK G. DIPATUAN, MPA","Position":"CENR Officer","Address":"EJC Montilla, Tacurong, Sultan KudaratEJC Montilla, Tacurong, Sultan Kudarat","Telefax":"(064)-471-1867","EmailAdd":"cenrotacurong@denr.gov.ph","CreatedDate":"2024-10-15 10:13:18"}
+INFO - 2024-11-14 22:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:26:44 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-14 22:27:42 --> Office details fetched: {"OfficeID":"1","OfficeName":"CENRO Tacurong","HeadOfOffice":"ISKAK G. DIPATUAN, MPA","Position":"CENR Officer","Address":"EJC Montilla, Tacurong, Sultan KudaratEJC Montilla, Tacurong, Sultan Kudarat","Telefax":"(064)-471-1867","EmailAdd":"cenrotacurong@denr.gov.ph","CreatedDate":"2024-10-15 10:13:18"}
+INFO - 2024-11-14 22:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:28:16 --> Offices fetched: [{"OfficeName":"CENRO Tacurong"},{"OfficeName":"CENRO Kalamansig"}]
+INFO - 2024-11-14 22:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-14 22:52:13 --> Client not found or not confirmed for UserID: 2024USID000000002
+INFO - 2024-11-14 22:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-14 22:52:30 --> Client not found or not confirmed for UserID: 2024USID000000002
+ERROR - 2024-11-14 22:57:08 --> Client not found or not confirmed for UserID: 2024USID000000002
+INFO - 2024-11-14 22:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 22:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-14 23:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

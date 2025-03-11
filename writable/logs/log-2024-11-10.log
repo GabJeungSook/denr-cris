@@ -1,0 +1,224 @@
+INFO - 2024-11-10 14:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 14:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 15:23:36 --> BadMethodCallException: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Client.php(1180): CodeIgniter\Model->__call('getPendingRegistrationNo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 15:23:55 --> BadMethodCallException: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Client.php(1180): CodeIgniter\Model->__call('getPendingRegistrationNo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 21:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 21:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 21:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 22:10:15 --> BadMethodCallException: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Client.php(1177): CodeIgniter\Model->__call('getPendingRegistrationNo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 22:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:11:38 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-10 22:11:38 --> Generated Query: SELECT `tblregistration`.*, `tblusers`.`ContactNo`
+FROM `tblregistration`
+JOIN `tblusers` ON `tblusers`.`UserID` = `tblregistration`.`UserID`
+WHERE MD5(CONCAT(TRIM(tblregistration.RegistrationNo), "Confirm")) = '32e5cb32edb8eb44b9ea93c907e28ae5'
+ LIMIT 1
+INFO - 2024-11-10 22:11:38 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-10 22:11:52 --> Received RegistrationNo: 32e5cb32edb8eb44b9ea93c907e28ae5
+INFO - 2024-11-10 22:11:52 --> Received Status: Confirmed
+INFO - 2024-11-10 22:11:52 --> Received Remarks: Good evening, please proceed to the payment transaction. Thank you.
+INFO - 2024-11-10 22:11:52 --> Generated UpdatedDate: 2024-11-10 22:11:52
+INFO - 2024-11-10 22:11:52 --> Client found for RegistrationNo: 2024REGS0000000001
+INFO - 2024-11-10 22:11:52 --> Generated QR Code URL: https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=2024REGS0000000001
+INFO - 2024-11-10 22:11:52 --> Update Data: {"Status":"Confirmed","UpdatedDate":"2024-11-10 22:11:52","Remarks":"Good evening, please proceed to the payment transaction. Thank you.","QRCodeUrl":"https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=200x200&data=2024REGS0000000001"}
+INFO - 2024-11-10 22:11:52 --> User status updated successfully for UserID: 2024USID000000001
+INFO - 2024-11-10 22:11:55 --> Semaphore API response: [{"message_id":234748849,"user_id":40035,"user":"SamBoy09082018@gmail.com","account_id":39896,"account":"DENR-XII, PENRO Sultan Kudarat","recipient":"639153045318","message":"Good evening, please proceed to the payment transaction. Thank you.","sender_name":"DENR12","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2024-11-10 22:11:58","updated_at":"2024-11-10 22:11:58"}]
+INFO - 2024-11-10 22:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 22:12:18 --> BadMethodCallException: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Client.php(1177): CodeIgniter\Model->__call('getPendingRegistrationNo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 22:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 22:12:35 --> BadMethodCallException: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+[Method: GET, Route: getPendingRegistrationNo/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Client.php(1177): CodeIgniter\Model->__call('getPendingRegistrationNo', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client->getPendingRegistrationNo('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-10 22:14:10 --> Exception: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+ERROR - 2024-11-10 22:14:21 --> Exception: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+ERROR - 2024-11-10 22:14:25 --> Exception: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+ERROR - 2024-11-10 22:15:45 --> Exception: Call to undefined method App\Models\ClientModel::getPendingRegistrationNo
+INFO - 2024-11-10 22:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:24:17 --> getPendingRegistrationNo result: Array
+(
+)
+
+INFO - 2024-11-10 22:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 22:47:06 --> getPendingRegistrationNo result: Array
+(
+)
+
+INFO - 2024-11-10 22:48:49 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000002
+            [Fullname] => Shaida P. Saikol
+            [ContactNo] => 
+            [Barangay] => Baras
+            [Municipality] => Tacurong
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => SFSWEE123
+            [DateOfAcquisition] => 2024-11-10
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731250124_9dc28f3cc220e6f7d7ab.jpg
+            [ProfOwnShip] => 1731250124_658ac890aebc20ffdb0b.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731250124_658ac890aebc20ffdb0b.pdf
+            [CertBrgy] => 1731250124_95e0307817b616de1747.pdf
+            [CertBrgyFilePath] => uploads/files/1731250124_95e0307817b616de1747.pdf
+            [CertRegs] => 1731250124_5d28ea958b91d194c799.jpeg
+            [CertRegsFilePath] => uploads/files/1731250124_5d28ea958b91d194c799.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-10
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-10
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-10 23:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:11:07 --> getPendingRegistrationNo result: Array
+(
+    [0] => stdClass Object
+        (
+            [RegistrationNo] => 2024REGS0000000002
+            [UserID] => 2024USID000000002
+            [Fullname] => Shaida P. Saikol
+            [ContactNo] => 
+            [Barangay] => Baras
+            [Municipality] => Tacurong
+            [Province] => Sultan Kudarat
+            [Brand] => Stihl
+            [Model] => Paoulan
+            [EngineCapacity] => 080
+            [SerialNo] => SFSWEE123
+            [DateOfAcquisition] => 2024-11-10
+            [MaxLengthGuideBar] => 30
+            [Horsepower] => 7.0
+            [Purpose] => Tree Cutting
+            [OfficeName] => 
+            [HeadOfOffice] => 
+            [Position] => 
+            [OfficeAddress] => 
+            [Telefax] => 
+            [EmailAdd] => 
+            [Status] => Pending
+            [PaymentStatus] => For Payment
+            [RegsType] => New
+            [Image] => 1731250124_9dc28f3cc220e6f7d7ab.jpg
+            [ProfOwnShip] => 1731250124_658ac890aebc20ffdb0b.pdf
+            [ProfOwnShipFilePath] => uploads/files/1731250124_658ac890aebc20ffdb0b.pdf
+            [CertBrgy] => 1731250124_95e0307817b616de1747.pdf
+            [CertBrgyFilePath] => uploads/files/1731250124_95e0307817b616de1747.pdf
+            [CertRegs] => 1731250124_5d28ea958b91d194c799.jpeg
+            [CertRegsFilePath] => uploads/files/1731250124_5d28ea958b91d194c799.jpeg
+            [Month] => November
+            [Year] => 2024
+            [CreatedDate] => 2024-11-10
+            [UpdatedDate] => 
+            [ExpiryDate] => 2026-11-10
+            [Remarks] => For evaluation
+        )
+
+)
+
+INFO - 2024-11-10 23:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:11:25 --> getPendingRegistrationNo result: Array
+(
+)
+
+INFO - 2024-11-10 23:11:59 --> getPendingRegistrationNo result: Array
+(
+)
+
+INFO - 2024-11-10 23:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-10 23:39:41 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getUserDetails
+[Method: GET, Route: getUserDetailsF/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\User.php(968): CodeIgniter\Model->__call('getUserDetails', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->getUserDetailsF('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-10 23:39:53 --> BadMethodCallException: Call to undefined method App\Models\UserModel::getUserDetails
+[Method: GET, Route: getUserDetailsF/2024USID000000001]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\User.php(968): CodeIgniter\Model->__call('getUserDetails', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->getUserDetailsF('2024USID000000001')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-10 23:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-10 23:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
