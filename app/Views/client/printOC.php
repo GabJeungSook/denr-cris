@@ -169,7 +169,7 @@
     <!-- Header Section -->
     <div class="header">
         <div class="left-content">
-            <img src="<?= base_url('public/assets/images/logo.png') ?>" alt="Office Logo">
+            <img src="<?= base_url('assets/images/logo.png') ?>" alt="Office Logo">
         </div>
 
         <div class="text-content">

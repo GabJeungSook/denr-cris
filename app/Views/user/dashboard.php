@@ -9,7 +9,7 @@
             <div class="position-sticky pt-3">
                 <!-- Logo -->
                 <div class="text-center mb-6">
-                    <img src="<?= base_url('public/assets/images/logo3.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
+                    <img src="<?= base_url('assets/images/logo3.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
                 </div>
 
                 <!-- Retrieve UserRole -->
@@ -427,7 +427,7 @@
                         <div class="mb-3 text-center">
                             <label for="QRCode" class="form-label">Please Scan the QR Code</label>
                             <div>
-                                <img src="<?= base_url('public/assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
+                                <img src="<?= base_url('assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
                             </div>
                         </div>
 
@@ -716,11 +716,11 @@
 
                 // Set the QR code image based on OfficeName value
                 if (officeName === 'CENRO Tacurong') {
-                    qrCodeImage.src = '<?= base_url("public/assets/images/TacQRCOde.png") ?>'; // Tacurong QR code
+                    qrCodeImage.src = '<?= base_url("assets/images/TacQRCOde.png") ?>'; // Tacurong QR code
                 } else if (officeName === 'CENRO Kalamansig') {
-                    qrCodeImage.src = '<?= base_url("public/assets/images/KalQRCode.jpg") ?>'; // Kalamansig QR code
+                    qrCodeImage.src = '<?= base_url("assets/images/KalQRCode.jpg") ?>'; // Kalamansig QR code
                 } else {
-                    qrCodeImage.src = '<?= base_url("public/assets/images/defaultQR.jpg") ?>'; // Default QR code if no match
+                    qrCodeImage.src = '<?= base_url("assets/images/defaultQR.jpg") ?>'; // Default QR code if no match
                 }
             });
         });

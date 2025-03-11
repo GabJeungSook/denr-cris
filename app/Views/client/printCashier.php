@@ -8,7 +8,7 @@
             <div class="position-sticky pt-3">
                 <!-- Logo -->
                 <div class="text-center mb-6">
-                    <img src="<?= base_url('public/assets/images/logo.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
+                    <img src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
                 </div>
 
                 <!-- Change the hidden inputs to text inputs for debugging -->
@@ -312,7 +312,7 @@
                     <div class="mb-3 text-center">
                         <label for="QRCode" class="form-label">Please Scan the QR Code</label>
                         <div>
-                            <img src="<?= base_url('public/assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
+                            <img src="<?= base_url('assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
                         </div>
                     </div>
 

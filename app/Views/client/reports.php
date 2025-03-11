@@ -8,7 +8,7 @@
             <div class="position-sticky pt-3">
                 <!-- Logo -->
                 <div class="text-center mb-6">
-                    <img src="<?= base_url('public/assets/images/logo.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
+                    <img src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" class="img-fluid" style="width: 200px;">
                 </div>
 
                 <!-- Change the hidden inputs to text inputs for debugging -->
@@ -318,7 +318,7 @@
                     <div class="mb-3 text-center">
                         <label for="QRCode" class="form-label">Please Scan the QR Code</label>
                         <div>
-                            <img src="<?= base_url('public/assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
+                            <img src="<?= base_url('assets/images/GCashQR.jpg') ?>" alt="QR Code" id="QRCodeImage" class="img-fluid" style="max-width: 250px;">
                         </div>
                     </div>
 
@@ -608,7 +608,7 @@
         const headerContent = `
         <div class="header d-flex justify-content-between align-items-center" style="margin-bottom: 10px; border-bottom: 2px solid black; padding-bottom: 10px;">
             <div class="left-content" style="display: flex; align-items: center;">
-                <img src="<?= base_url('public/assets/images/logo.png') ?>" alt="Office Logo" style="width: 120px; height: 120px; margin-right: 15px;">
+                <img src="<?= base_url('assets/images/logo.png') ?>" alt="Office Logo" style="width: 120px; height: 120px; margin-right: 15px;">
             </div>
             <div class="text-content" style="text-align: center;">
                 <p style="margin: 0;">Republic of the Philippines</p>
@@ -619,7 +619,7 @@
                 <p style="margin: 0;">Email Address: cenrokalamansig@denr.gov.ph</p>
             </div>
             <div class="right-content" style="display: flex; align-items: center;">
-                <img src="<?= base_url('public/assets/images/BPlogo1.png') ?>" alt="BP Logo" style="width: 120px; height: 120px; margin-right: 15px;">
+                <img src="<?= base_url('assets/images/BPlogo1.png') ?>" alt="BP Logo" style="width: 120px; height: 120px; margin-right: 15px;">
             </div>
         </div>
     `;
